@@ -12,18 +12,6 @@ from langchain.embeddings import LlamaCppEmbeddings
 
 list_of_models = [
     {
-        "model": "hadongz/falcon-7b-instruct-gguf",
-        "model_file": "falcon-7b-instruct-q4_0.gguf"
-    },
-    {
-        "model": "NikolayKozloff/falcon-7b-GGUF",
-        "model_file": "falcon-7b-Q4_0-GGUF.gguf"
-    },
-    {
-        "model": "NikolayKozloff/falcon-7b-GGUF",
-        "model_file": "falcon-7b-Q8_0-GGUF.gguf"
-    },
-    {
         "model": "TheBloke/Llama-2-7B-GGUF",
         "model_file": "llama-2-7b.Q5_K_M.gguf"
     },
@@ -62,6 +50,18 @@ list_of_models = [
     {
         "model": "TheBloke/zephyr-7B-beta-GGUF",
         "model_file": "zephyr-7b-beta.Q5_K_S.gguf"
+    },
+    {
+        "model": "TheBloke/ANIMA-Phi-Neptune-Mistral-7B-GGUF",
+        "model_file": "anima-phi-neptune-mistral-7b.Q5_K_M.gguf"
+    },
+    {
+        "model": "TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF",
+        "model_file": "collectivecognition-v1.1-mistral-7b.Q5_K_M.gguf"
+    },
+    {
+        "model": "TheBloke/SlimOpenOrca-Mistral-7B-GGUF",
+        "model_file": "slimopenorca-mistral-7b.Q5_K_M.gguf"
     }
 ]
 
@@ -76,8 +76,8 @@ Helpful answer:
 
 
 llm = CTransformers(
-    model="TheBloke/zephyr-7B-alpha-GGUF",
-    model_file="zephyr-7b-alpha.Q5_K_M.gguf",
+    model="TheBloke/SlimOpenOrca-Mistral-7B-GGUF",
+    model_file="slimopenorca-mistral-7b.Q5_K_M.gguf",
     model_type="llama",
     config={'max_new_tokens': 256, 'temperature': 0.01}
 )
@@ -105,17 +105,19 @@ qa = RetrievalQA.from_chain_type(llm=llm,
 
 with open("questions_for_testing.json", "r", encoding='utf-8') as f:
     questions = json.load(f)
+cnt_ = 1
 
 for question in questions.values():
     time_start = time.time()
     output = qa.run(question)
     time_end = time.time()
-    print("#Question#:\n")
+    print(f"#Question {cnt_}#:\n")
     print(question)
 
     print("\n\n#Answer#:\n")
     print(output)
-    print(f"\n#Time taken#: {time_end - time_start}:.1f")
+    print(f"\n#Time taken#: {(time_end - time_start):.1f}")
     print()
     print("-"*30)
     print()
+    cnt_ += 1
