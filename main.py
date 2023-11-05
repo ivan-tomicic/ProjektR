@@ -50,18 +50,6 @@ list_of_models = [
     {
         "model": "TheBloke/zephyr-7B-beta-GGUF",
         "model_file": "zephyr-7b-beta.Q5_K_S.gguf"
-    },
-    {
-        "model": "TheBloke/ANIMA-Phi-Neptune-Mistral-7B-GGUF",
-        "model_file": "anima-phi-neptune-mistral-7b.Q5_K_M.gguf"
-    },
-    {
-        "model": "TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF",
-        "model_file": "collectivecognition-v1.1-mistral-7b.Q5_K_M.gguf"
-    },
-    {
-        "model": "TheBloke/SlimOpenOrca-Mistral-7B-GGUF",
-        "model_file": "slimopenorca-mistral-7b.Q5_K_M.gguf"
     }
 ]
 
@@ -76,8 +64,8 @@ Helpful answer:
 
 
 llm = CTransformers(
-    model="TheBloke/SlimOpenOrca-Mistral-7B-GGUF",
-    model_file="slimopenorca-mistral-7b.Q5_K_M.gguf",
+    model="TheBloke/zephyr-7B-alpha-GGUF",
+    model_file="zephyr-7b-alpha.Q5_K_M.gguf",
     model_type="llama",
     config={'max_new_tokens': 256, 'temperature': 0.01}
 )
@@ -95,7 +83,6 @@ db = FAISS.load_local("faiss", embeddings)
 retriever = db.as_retriever(search_kwargs={'k': 2})
 
 
-time_start = time.time()
 qa = RetrievalQA.from_chain_type(llm=llm,
                                  chain_type="stuff",
                                  retriever=retriever,
