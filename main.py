@@ -90,7 +90,7 @@ qa = RetrievalQA.from_chain_type(llm=llm,
                                  )
 
 
-with open("questions_for_testing.json", "r", encoding='utf-8') as f:
+with open("test_results_old/questions_for_testing_old.json", "r", encoding='utf-8') as f:
     questions = json.load(f)
 cnt_ = 1
 

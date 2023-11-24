@@ -1,0 +1,106 @@
+1. What does a compiler do? What does a linker do? **
+2. What is MinGw?
+3. How do I install the MinGW package? **
+4. How to install MinGw on MacOs?
+5. What are all the ways I can set the System variable Path?
+6. How do I translate and execute a simple program using shell commands? **
+7. How to compile a file in command prompt?
+8. What are the possible problems whem compiling or executing the program? **
+9. How do I setup the Visual Studio Code environment? ***
+10. Explain me how to setup Visual Studio Code for Linux operating system.
+11. Give me the basics of using a debugger in Visual Studio Code. **
+12. What is step out action?
+13. When should I use step in action in vscode?
+14. How can I tell if my program file is executable or not?
+15. How can I create a universal Makefile?
+16. Is creating a universal Makefile really needed?
+17. Which is better to use Vsc or Notepad?
+18. How do I enable the VSC extension for C/C++ code formatting? **
+19. How do i format my code?
+20. Give me an example well formatted C code.
+21. Which code looks better:
+#include <stdio.h>
+int main(void) { if
+(1) { printf ("1"); } else { 
+printf ("2"); }} 
+
+ or
+
+#include <stdio.h>
+
+int main(void) {
+   if (1) {
+      printf("1");
+   } else {
+      printf("2");
+   }
+}
+22. Which platform is used for performing laboratory exercises and exams? *
+23. What do I use to log in into Edgar? *
+24. Can I use official reminders on exams and laboratory exercises? *
+25. How to take the exam from last year at edgar?
+26. If there are multiple test cases for a task, will every test case be worth the same amount of points?
+27. Explain to me, in detail, how the checks with program tasks work in Edgar.
+28. Is there a support system in Edgar? *
+29. How does the support system in Edgar work? **
+30. Is asking for solutions with the ticketing system ok?
+31. What is the official course web-address? *
+32. What is a lecture cycle?
+33. Which time period is the 1st cycle of lectures? *
+34. What is the duration of the second cycle in weeks?
+35. Are there prerequisites for enrollment into subject?
+36. How much independent work is expected from the student in this course? *
+37. What will happen if i dont work continuously?
+38. How is the total estimated engagement of the student for this course divided? **
+39. How should i study outside of the lectures if I want to get a good grade?
+40. Why do i need to solve a large number of tasks if I want a good grade?
+41. Which competences are expected to be acquired after completing the subject?
+42. How do laboratory exercises work? **
+43. What is the duration of one laboratory exercise?  *
+44. Are there negative points on laboratory exercises? *
+45. What should i do with my code before running it in edgar?
+46. Where can I find the schedule of the laboratory exercises? *
+47. How many parts does the laboratory excercise have and list them.
+48. If I have 0 points from lab excercises, can I pass with a grade of 5?
+49. What are my options for consultations? **
+50. During consultations, I ask the teacher to teach me through the material? *
+51. Can employees of another university hold consultations?
+52. How many tests does the continuous monitoring of classes require? *
+53. Give me information about how the knowledge tests work. **
+54. What happens if I do not pass the course during the continuous monitoring of classes? *
+55. What are the conditions of passing the course during the continuous monitoring of classes? **
+56. Can I bring my personalized reminder to the exam?
+57. What will happen if I do not submit the exam on time?
+58. Can I call a friend during the exam?
+59. Who do I contact if I have questions during the exam?
+60. What questions will be on this year's midterm exam?
+61. Does the meduispit (MI) have a points threshold?
+62. How many points do i need in midterm exam if i want to obtain a passing grade?
+63. When is the midterm exam?
+64. Does the zavrsni ispit (ZI) have a points threshold?
+65. If I got 23 points on my laboratory exercises, 7 points on my lectures, 35 points on my midterm exam, and 23 points on my final exam, will I pass?
+66. What happens if i get 10 points on the final exam?
+67. How many programming tasks will be on this year's final exam?
+68. Can teachers organize an extraordinary exam?
+69. How many points to lab exercises carry? Do they have a points threshold?
+70. Give me the points scale for determining grades. **
+71. List me the recommended literature. **
+72. Does Marko Horvat author recommended literature? **
+73. Am I allowed to print out an official reminder and bring it with me? *
+74. List me the course lecturers and their respective time slots. **
+75. Does Boris Vrdoljak give lectures? If so, where? **
+76. Give me the email of one of the lecturers.
+77. If i have a question for the lecturers, what should my email consist of?
+78. What is the course official email address? *
+79. Give me the link to the official guide for students. ** {moze bit promijenjeno ovisno o fileovima koje koristimo}
+80. Is there a joint points threshold for the meduispit and zavrsni ispit exams? **
+81. 11. Can you list me names of lectures that go throughout semester?
+82. Give me a list of assistants who conduct laboratory exercises.
+83. Send me a link to a similar subject at Cambridge University.
+84. What is subject's ID on FER intranet page?
+85. What subjects can I enroll in when I finish the introduction to programming?
+86. Which programming language will we learn in this course?
+87. Approximately how many slides does each presentation has?
+88. How to get a grade of 6?
+89. Can you send me link to official reminder for Python language?
+90. How do I check my program good?
