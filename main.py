@@ -12,16 +12,8 @@ from langchain.embeddings import LlamaCppEmbeddings
 
 list_of_models = [
     {
-        "model": "TheBloke/Llama-2-7B-GGUF",
-        "model_file": "llama-2-7b.Q5_K_M.gguf"
-    },
-    {
         "model": "TheBloke/Llama-2-7b-Chat-GGUF",
         "model_file": "llama-2-7b-chat.Q5_K_M.gguf"
-    },
-    {
-        "model": "TheBloke/Mistral-7B-Claude-Chat-GGUF",
-        "model_file": "Mistral-7B-claude-chat.q5_k_m.gguf"
     },
     {
         "model": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
@@ -30,14 +22,6 @@ list_of_models = [
     {
         "model": "TheBloke/Mistral-7B-OpenOrca-GGUF",
         "model_file": "mistral-7b-openorca.Q4_0.gguf"
-    },
-    {
-        "model": "TheBloke/Mistral-7B-v0.1-GGUF",
-        "model_file": "mistral-7b-v0.1.Q5_K_M.gguf"
-    },
-    {
-        "model": "Undi95/Mistral-ClaudeLimaRP-v3-7B-GGUF",
-        "model_file": "Mistral-ClaudeLimaRP-v3-7B.q5_k_m.gguf"
     },
     {
         "model": "TheBloke/zephyr-7B-alpha-GGUF",
@@ -75,8 +59,26 @@ db = FAISS.load_local("faiss", embeddings)
 # prepare a version of the llm pre-loaded with the local content
 retriever = db.as_retriever(search_kwargs={'k': 2})"""
 
+human_eval_metrics = {
+    "fluency": 0,
+    "coherence": 0,
+    "relevance": 0,
+    "context_understanding": 0,
+    "overall_quality": 0
+}
 
-
+eval_dict = {
+    "bleu_score": -100_000,
+    "rouge_score": {
+        "precision": -100_000,
+        "recall": -100_000,
+        "f1": -100_000
+    },
+    "diversity": -100_000,
+    "human_eval": {
+        f"reviewer_{i}": human_eval_metrics for i in range(1, 16)
+    },
+}
 
 with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
     questions = json.load(f)
@@ -84,7 +86,7 @@ cnt_ = 1
 
 for model in list_of_models:
     # create a file where we will store models answers
-    answer_file = open(f"test_results_new/answers/{model['model'].replace('/', '__')}.json", "w+", encoding='utf-8')
+    answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
     print(answer_file)
     """llm = CTransformers(
         model=model['model'],
@@ -109,8 +111,7 @@ for model in list_of_models:
             "question_number": question_number,
             "question": question,
             "answer": output,
-            "time": time_end - time_start,
-            "reviews": []
+            "time": round(time_end - time_start, 2),
+            "evaluation": eval_dict,
         })
     answer_file.write(json.dumps(answers, indent=4))
-
