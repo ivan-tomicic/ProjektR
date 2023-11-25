@@ -63,14 +63,7 @@ Helpful answer:
 """
 
 
-llm = CTransformers(
-    model="TheBloke/zephyr-7B-alpha-GGUF",
-    model_file="zephyr-7b-alpha.Q5_K_M.gguf",
-    model_type="llama",
-    config={'max_new_tokens': 256, 'temperature': 0.01}
-)
-
-prompt = PromptTemplate(template=template, input_variables=["context", "question"])
+"""prompt = PromptTemplate(template=template, input_variables=["context", "question"])
 
 
 embeddings = HuggingFaceEmbeddings(
@@ -80,31 +73,44 @@ embeddings = HuggingFaceEmbeddings(
 db = FAISS.load_local("faiss", embeddings)
 
 # prepare a version of the llm pre-loaded with the local content
-retriever = db.as_retriever(search_kwargs={'k': 2})
+retriever = db.as_retriever(search_kwargs={'k': 2})"""
 
 
-qa = RetrievalQA.from_chain_type(llm=llm,
-                                 chain_type="stuff",
-                                 retriever=retriever,
-                                 chain_type_kwargs={'prompt': prompt}
-                                 )
 
 
-with open("test_results_old/questions_for_testing_old.json", "r", encoding='utf-8') as f:
+with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
     questions = json.load(f)
 cnt_ = 1
 
-for question in questions.values():
-    time_start = time.time()
-    output = qa.run(question)
-    time_end = time.time()
-    print(f"#Question {cnt_}#:\n")
-    print(question)
+for model in list_of_models:
+    # create a file where we will store models answers
+    answer_file = open(f"test_results_new/answers/{model['model'].replace('/', '__')}.json", "w+", encoding='utf-8')
+    print(answer_file)
+    """llm = CTransformers(
+        model=model['model'],
+        model_file=model['model_file'],
+        model_type="llama",
+        config={'max_new_tokens': 256, 'temperature': 0.01}
+    )
+    qa = RetrievalQA.from_chain_type(
+        llm=llm,
+        chain_type="stuff",
+        retriever=retriever,
+        chain_type_kwargs={'prompt': prompt}
+    )"""
+    answers = []
+    for question_dict in questions:
+        question_number = list(question_dict.keys())[0]
+        question = question_dict[question_number]
+        time_start = time.time()
+        output = "dssdsd" #qa.run(question_text)
+        time_end = time.time()
+        answers.append({
+            "question_number": question_number,
+            "question": question,
+            "answer": output,
+            "time": time_end - time_start,
+            "reviews": []
+        })
+    answer_file.write(json.dumps(answers, indent=4))
 
-    print("\n\n#Answer#:\n")
-    print(output)
-    print(f"\n#Time taken#: {(time_end - time_start):.1f}")
-    print()
-    print("-"*30)
-    print()
-    cnt_ += 1
