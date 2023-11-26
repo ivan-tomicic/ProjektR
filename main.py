@@ -19,6 +19,10 @@ list_of_models = [
         "model": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
         "model_file": "mistral-7b-instruct-v0.1.Q5_K_M.gguf"
     },
+
+]
+
+list_of_models_tomorrow = [
     {
         "model": "TheBloke/Mistral-7B-OpenOrca-GGUF",
         "model_file": "mistral-7b-openorca.Q4_0.gguf"
@@ -34,6 +38,7 @@ list_of_models = [
 ]
 
 
+
 template = """Use the following pieces of information to answer the user's question.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 Context: {context}
@@ -43,7 +48,7 @@ Helpful answer:
 """
 
 
-"""prompt = PromptTemplate(template=template, input_variables=["context", "question"])
+prompt = PromptTemplate(template=template, input_variables=["context", "question"])
 
 
 embeddings = HuggingFaceEmbeddings(
@@ -53,7 +58,7 @@ embeddings = HuggingFaceEmbeddings(
 db = FAISS.load_local("faiss", embeddings)
 
 # prepare a version of the llm pre-loaded with the local content
-retriever = db.as_retriever(search_kwargs={'k': 2})"""
+retriever = db.as_retriever(search_kwargs={'k': 2})
 
 def get_human_eval_metric(reviewer_from, reviewer_to):
     human_eval_metrics = {
@@ -88,13 +93,12 @@ eval_dict = {
 
 with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
     questions = json.load(f)
-cnt_ = 1
 
 for i, model in enumerate(list_of_models):
+    print("Starting model: ", model["model_file"])
     # create a file where we will store models answers
     answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
-    print(answer_file)
-    """llm = CTransformers(
+    llm = CTransformers(
         model=model['model'],
         model_file=model['model_file'],
         model_type="llama",
@@ -105,13 +109,16 @@ for i, model in enumerate(list_of_models):
         chain_type="stuff",
         retriever=retriever,
         chain_type_kwargs={'prompt': prompt}
-    )"""
+    )
     answers = []
+    cnt_ = 1
     for question_dict in questions:
+        print(f"Question {cnt_} out of {len(questions)}")
+        cnt_ += 1
         question_number = list(question_dict.keys())[0]
         question = question_dict[question_number]
         time_start = time.time()
-        output = "<answer>" #qa.run(question_text)
+        output = qa.run(question)
         time_end = time.time()
         eval_dict["human_eval"] = get_human_eval_metric((i*3) + 1, (i+1)*3)
         answers.append({

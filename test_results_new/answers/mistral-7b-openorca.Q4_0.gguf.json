@@ -3277,7 +3277,7 @@
     },
     {
         "question_number": "q_79",
-        "question": "Give me the link to the official guide for students. ** {moze bit promijenjeno ovisno o fileovima koje koristimo}",
+        "question": "Give me the link to the official guide for students.",
         "answer": "<answer>",
         "time": 0.0,
         "evaluation": {
