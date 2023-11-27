@@ -3783,7 +3783,7 @@
         "question_number": "q_91",
         "question": "What final grade do I get if I score 65 points?",
         "answer": "Based on the information provided, you would receive a final grade of 3.",
-        "time": 43.2,
+        "time": 27.0,
         "evaluation": {
             "bleu_score": -100000,
             "rouge_score": {
@@ -3825,7 +3825,7 @@
         "question_number": "q_92",
         "question": "In which time period are there no lectures?",
         "answer": "There are no lectures during the time period of October 2 - November 15, 2023.",
-        "time": 43.2,
+        "time": 29.6,
         "evaluation": {
             "bleu_score": -100000,
             "rouge_score": {
