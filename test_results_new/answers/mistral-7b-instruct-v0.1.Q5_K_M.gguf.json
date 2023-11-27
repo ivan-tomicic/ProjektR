@@ -1345,8 +1345,8 @@
     },
     {
         "question_number": "q_33",
-        "question": "Which time period is the 1st cycle of lectures?",
-        "answer": "The 1st cycle of lectures takes place from October 2 to November 15, 2023.",
+        "question": "How long is the first cycle of lectures?",
+        "answer": "The first cycle of lectures takes place from October 2 to November 15, 2023.",
         "time": 8.27,
         "evaluation": {
             "bleu_score": -100000,
@@ -3775,6 +3775,90 @@
                     "reviewer_4": "_",
                     "reviewer_5": "_",
                     "reviewer_6": "_"
+                }
+            }
+        }
+    },
+    {
+        "question_number": "q_91",
+        "question": "What final grade do I get if I score 65 points?",
+        "answer": "You would receive a grade of 2 on the final exam, which is equivalent to a passing grade based on continuous monitoring of classes.",
+        "time": 43.2,
+        "evaluation": {
+            "bleu_score": -100000,
+            "rouge_score": {
+                "precision": -100000,
+                "recall": -100000,
+                "f1": -100000
+            },
+            "diversity": -100000,
+            "human_eval": {
+                "fluency": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "coherence": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "relevance": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "context_understanding": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "overall_quality": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                }
+            }
+        }
+    },
+    {
+        "question_number": "q_92",
+        "question": "In which time period are there no lectures?",
+        "answer": "There are no lectures during the time period of December 4, 2023 - January 24, 2024.",
+        "time": 43.2,
+        "evaluation": {
+            "bleu_score": -100000,
+            "rouge_score": {
+                "precision": -100000,
+                "recall": -100000,
+                "f1": -100000
+            },
+            "diversity": -100000,
+            "human_eval": {
+                "fluency": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "coherence": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "relevance": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "context_understanding": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
+                },
+                "overall_quality": {
+                    "reviewer_1": "_",
+                    "reviewer_2": "_",
+                    "reviewer_3": "_"
                 }
             }
         }

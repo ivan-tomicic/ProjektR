@@ -96,7 +96,7 @@
       "q_32": "What is a lecture cycle?"
    },
    {
-      "q_33": "Which time period is the 1st cycle of lectures?"
+      "q_33": "How long is the first cycle of lectures?"
    },
    {
       "q_34": "What is the duration of the second cycle in weeks?"
@@ -268,5 +268,11 @@
    },
    {
       "q_90": "How do I check my program good?"
+   },
+   {
+      "q_91": "What final grade do I get if I score 65 points?"
+   },
+   {
+      "q_92": "In which time period are there no lectures?"
    }
 ]
