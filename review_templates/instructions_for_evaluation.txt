@@ -1,0 +1,47 @@
+1. Fluency
+Definition: Fluency refers to the smoothness, naturalness, and grammatical correctness of the language used in the response.
+
+Detailed Evaluation:
+- Check for grammatical errors, including subject-verb agreement, correct tense usage, and sentence structure.
+- Assess punctuation and spelling for accuracy.
+- Evaluate the natural flow of language. Does it sound like something a proficient speaker or writer would produce?
+- Look for any awkward phrasings or unnatural expressions.
+
+
+2. Coherence
+Definition: Coherence assesses how logically and clearly the ideas are connected and presented in the response.
+
+Detailed Evaluation:
+-Determine if there’s a logical flow from one sentence to the next.
+-Evaluate if the answer maintains a consistent theme or topic throughout.
+-Look for clear transitions between points or arguments.
+-Check if the conclusion logically follows from the information presented.
+
+
+3. Relevance
+Definition: Relevance evaluates how directly and appropriately the response addresses the question or topic.
+
+Detailed Evaluation:
+-Assess if the answer directly addresses the core of the question.
+-Check for any tangential or unrelated content.
+-Evaluate if the response stays on topic throughout or diverges into irrelevant areas.
+-Consider if all parts of a multi-part question are answered.
+
+
+4. Context Understanding
+-Definition: This metric measures the model's ability to understand and correctly apply the context or specific details of the question.
+
+Detailed Evaluation:
+-Analyze whether the response demonstrates an understanding of key terms and concepts mentioned in the question.
+-Check if the answer correctly interprets any nuances or specific details in the question.
+-Evaluate if the response appropriately incorporates or references information provided in the question.
+-Consider whether the response shows an understanding of the broader context surrounding the question, if applicable.
+
+
+5. Overall Quality
+Definition: Overall quality is a holistic assessment of the response, considering fluency, coherence, relevance, and context understanding.
+
+Detailed Evaluation:
+-Provide an overall rating that reflects the combined performance in the other four metrics.
+-Consider how well the response functions as a whole, beyond just the sum of its parts.
+-Evaluate if the response would be satisfactory or exemplary from an overall perspective, including readability, informativeness, and accuracy.
