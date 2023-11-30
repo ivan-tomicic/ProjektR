@@ -12,6 +12,14 @@ from langchain.embeddings import LlamaCppEmbeddings
 
 list_of_models = [
     {
+        "model": "TheBloke/Llama-2-7b-Chat-GGUF",
+        "model_file": "llama-2-7b-chat.Q5_K_M.gguf"
+    },
+    {
+        "model": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
+        "model_file": "mistral-7b-instruct-v0.1.Q5_K_M.gguf"
+    },
+    {
         "model": "TheBloke/Mistral-7B-OpenOrca-GGUF",
         "model_file": "mistral-7b-openorca.Q4_0.gguf"
     },
@@ -26,16 +34,6 @@ list_of_models = [
 
 ]
 
-list_of_models_yesterday = [
-    {
-        "model": "TheBloke/Llama-2-7b-Chat-GGUF",
-        "model_file": "llama-2-7b-chat.Q5_K_M.gguf"
-    },
-    {
-        "model": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
-        "model_file": "mistral-7b-instruct-v0.1.Q5_K_M.gguf"
-    }
-]
 
 
 
