@@ -1,0 +1,180 @@
+Ocjena modela llama-2-7b-chat.Q5_K_M
+---------------------------------------
+1.Who gives lectures to group P1 and in which period?
+Prof. Ph.D. Igor Mekterović gives lectures to group P1 in hall D1 on Monday 11-13 and Wednesday 10-12.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 4/5
+Recenzija: Odgovor nije u potpuno točan, nije spomenut još jedan profesor
+---------------------------------------
+2.How do I login into Edgar?
+To log in to Edgar, you will need to enter your username and password in the designated fields on the login page. Once you have entered your credentials, click the "Login" button to access your account. If you have forgotten your username or password, you can use the "Forgot Username" or "Forgot Password" links provided on the login page to reset them.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 4/5
+Recenzija: Odgovor je točan, ali nisu spomenuti detalji vezani za username i password te zbog izostanka tih podataka može doći do konfuzije
+---------------------------------------
+3.What happens if I score 27 points on written knowledge test on exam dates?
+If you score 27 points on the written knowledge test during the exam period, you will not have achieved a passing grade. To pass the exam, you need to obtain at least 35 points out of a maximum of 70 points. Since you scored 27 points, you are short by 9 points.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 4.5/5
+Recenzija: U odgovoru je jedina greška što su dva broja krivo oduzeta. Ako zanemarimo matematičku pogrešku odgovor je točan i opširan.
+---------------------------------------
+4.Do I have to do laboratory exercises?
+Yes, you must complete the laboratory exercises as they are an essential part of your coursework and contribute significantly to your overall grade.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor sadrži sve potrebne informacije.
+---------------------------------------
+5.What are the possible options for consultations?
+Consultations are possible for individual students or groups of several students, and can be requested at any time during the course.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 2/5
+Recenzija: Odgovor je suviše kratak. Nije dana praktički niti jedna korisna informacija.
+---------------------------------------
+6.How much time should I spend on this subject in order to master it?
+To master this subject, you should spend approximately 210 hours of independent work.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 3.5/5
+Recenzija: Odgovor je točan, ali prema podacima iz file-ova je prekratak. Trebalo je napomenuti kako se sati rada mogu rasporediti te nije istina da se svih 210 sati radi samostalno.
+---------------------------------------
+7.In which time period are there no lectures?
+There are no lectures during the period from November 16, 2023 to January 25, 2024.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 1/5
+Recenzija: Odgovor je kriv. Informacije su krive te odgovor može negativno utjecati na korisnika.
+---------------------------------------
+8.How do I install the MinGW package?
+You can install the MinGW package by following the steps outlined in the alternative installation method provided earlier. This involves creating a folder where the MinGW files will be placed, downloading the MinGW.zip archive from the file repository, and setting the Path system variable according to the instructions above.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 1/5
+Recenzija: Odgovor ne pruža korisne informacije te su infomacije polovične.
+---------------------------------------
+9.I don't have AAI-Edu user account so what should I do?
+If you do not have an AAI-Edu user account, please contact the Faculty Information Center support (CIP) for assistance.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je kratak i potpuno točan.
+---------------------------------------
+10.Can I solve the tasks directly on Edgar and compile them there?
+You cannot directly solve the tasks on Edgar and compile them there. You will need to use a separate text editor, such as Notepad++ or your preferred development environment, to write and compile your code before transferring it to Edgar for assessment.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor tehnički nije točan, ali je iz file-a ne moguće iščitati da korisnik tehnički može direktno riješavati zadatke u egdaru no u file-u se takva praksa zabranjuje.
+---------------------------------------
+11.Give me a small snippet of code which I can use to test Edgar.
+You can try using the following code in Notepad++ or any other text editor:
+```c
+#include <stdio.h>
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+This code will print "Hello, World!" to the console when run through Edgar.
+I hope this helps! Let me know if you have any other questions.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je kratak i potpuno točan.
+---------------------------------------
+12.How exactly is my solution tested on Edgar?
+Your solutions are tested on Edgar using a combination of static analysis and dynamic analysis. Static analysis involves analyzing your code without running it, while dynamic analysis involves running your code and evaluating its behavior. The specific techniques used by Edgar depend on the type of task you are completing, but they may include:
+* Syntax checking: Edgar checks that your code is written in a valid programming language syntax.
+* Type checking: Edgar checks that your code has the correct types for variables and expressions.
+* Semantic analysis: Edgar checks that your code makes sense and follows the rules of the programming language.
+* Behavioral analysis: Edgar checks how your code behaves when it is run, including whether it produces the expected output for a given input.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je točan. U file-ovima nije točno navedeno kako se provjerava točnost zadatka te je ovime model pokazao zavidnu razinu logičkog zaključivanja.
+---------------------------------------
+13.What if during the exam in Edgar I have an urgent question or have found a mistake in a task?
+If you have an urgent question or find a mistake in a task during the exam in Edgar, you should inform your assistant immediately. They will help you resolve the issue as soon as possible.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je kratak i potpuno točan.
+---------------------------------------
+14.When does the 2nd cycle of lectures start?
+The 2nd cycle of lectures starts on December 4, 2023.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je kratak i potpuno točan.
+---------------------------------------
+15.How long is the first cycle of lectures?
+The first cycle of lectures lasts from October 2 to November 15, 2023, which means it is approximately 45 days long.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je kratak i potpuno točan.
+---------------------------------------
+16.What if I fall asleep during the laboratory exercises?
+If you fall asleep during a laboratory exercise, you will not be able to complete it within the allotted time and may receive a zero for that exercise. It is important to stay awake and focused throughout the exercises in order to receive full credit.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je kratak i potpuno točan.
+---------------------------------------
+17.What final grade do I get if I score 65 points?
+Based on the information provided, you would receive a final grade of 3.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je kratak i potpuno točan.
+---------------------------------------
+18.Who are the authors of recommended literature?
+The authors of recommended literature are Prof. Ph.D. Igor Mekterović, Izv. prof. Ph.D. Ljiljana Brkić, Assoc. prof. Ph.D. Marina Bagić Babac, and Prof. Ph.D. Gordan Gledec.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 1/5
+Recenzija: u odgovoru su navedeni predavači, a ne autori preporučene literature.
+---------------------------------------
+19.Can I use any official reminders during the exam or laboratory exercises?
+No, you cannot use any official reminders during the exam or laboratory exercises. According to the information provided, official reminders are only meant to be used for knowledge checks and not for exams or laboratory exercises. It is important to follow the instructions provided by your teacher or professor regarding the use of reminders during exams or laboratory 
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 1/5
+Recenzija: Odgovor je potupuno kriv i kontradiktoran s onime što piše u file-u: Službeni podsjetnici se mogu otisnuti na pisaču i slobodno koristiti na predavanjima i svakoj provjeri
+znanja: laboratorijskim vježbama, međuispitu, završnom ispitu i ispitnim rokovima
+---------------------------------------
+20.When does Boris Vrdoljak give lectures?
+Boris Vrdoljak gives lectures on Monday 13-15 and Wednesday 14-16 in hall B3.
+
+REVIEW
+Gramatika: 5/5
+Ispravnost: 5/5
+Recenzija: Odgovor je točan
+---------------------------------------
+Konačna ocjena modela:
+Llama-2-7b-chat.Q5_K_M daje pretežno točne i precizne odgovore. Odgovori ne sadrže informacije koje nisu bitne ili nisu logički vezane za pitanje. U nekoliko odgovora model je prezentirao krive podatke te činjenično krivo odgovorio na korisnikovo pitanje. Ipak treba naglasiti da je model u većini slučajeva ponudio točne odgovore i to vrlo jasno i precizno.
+
+	

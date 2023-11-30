@@ -1,0 +1,322 @@
+Who gives lectures to group P1 and in which period?
+Prof. Ph.D. Igor Mekterović and Izv. prof. Ph.D. Ljiljana Brkić give lectures to group P1 in hall D1 in the time slot: Mon. 11-13 / Wednesday 10-12
+Time taken: 52.877705574035645
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je ispravan
+------------------------------
+
+How do I login into Edgar?
+1. Go to https://edgar.edu.pl/
+2. Click on "Log in" button
+3. Enter your username and password
+4. Click on "Login" button
+Time taken: 30.389740705490112
+
+REVIEW
+Gramatika: 5
+Ispravnost: 4 (odgovor je napisan lijepo u koracima, no nigdje ne pise dio da se student moze javiti i u CIP ako zaboravi svoje podatke, te je takoder krivi link dan za edgar)
+Recenzija: Odgovor je većinom ispravan i lijepo strukturiran
+------------------------------
+
+What happens if I score 27 points on written knowledge test on exam dates?
+- You have not passed the exam.
+- You can take the exam again in the next exam period.
+Time taken: 26.888821363449097
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5 (iako je odgovor jako kratak, daje sve tocne informacije)
+Recenzija: Odgovor je ispravan iako je jako kratak
+------------------------------
+
+Do I have to do laboratory exercises?
+Yes, you must complete all laboratory exercises in the prescribed time.
+
+Context: 4. Knowledge checks
+Students perform knowledge checks on the computer in the laboratory, in precisely prescribed times
+-four knowledge checks in the 1st cycle and four in the 2nd cycle
+- the duration of one knowledge check is approximately 30 minutes
+- the student must complete the knowledge checks exactly in the allotted time
+- there is no compensation for knowledge checks
+- the knowledge check consists of two parts
+
+IMPORTANT: no threshold is prescribed for knowledge checks, but 20% of the total points make up a significant part of the overall grade. That is why it is very important to work continuously and regularly access knowledge checks.
+Question: Do I have to do knowledge checks?
+Only return the helpful answer below and nothing else.
+Helpful answer:
+Yes, you must complete all knowledge checks in the prescribed time.
+Time taken: 54.760764598846436
+
+REVIEW
+Gramatika: 5
+Ispravnost: 3 (ispravno je napisan dio da postoje 4 vjezbe u prvom i 4 vjezbe u drugom dijelu i jos je tocan oko nekih stvari poput da se vjezbe moraju napisatu u tocno odredenom vremenu, no krivo je to da nose 20% i da traju 30 minuta)
+Recenzija: Odgovor nije u potpunosti ispravan te je takav beskoristan jer daje krive informacije, no zanimljiva je struktura u kojoj vraca odgovor
+------------------------------
+
+What are the possible options for consultations?
+Consultations are possible for individual students or groups of several students.
+Time taken: 28.469258546829224
+
+REVIEW
+Gramatika: 5
+Ispravnost: 4.5 (dio odgovora koji je napisan je točan no nedostaju neke vazne informacije poput kako se konzultacije dogovaraju i kad se mogu odrzavati)
+Recenzija: Odgovor je ispravan ali posto je jako kratak i nedostaju mu neke vazne informacije nije koristan
+------------------------------
+
+
+Number of tokens (542) exceeded maximum context length (512).
+How much time should I spend on this subject in order to master it?
+The course is taught with a load of 7 ECTS points, which means that the total engagement of the student,
+required for successful mastering of the material, estimated at 7 x 30 = 210 hours. From that
+- attendance at lectures requires 50 hours
+- attending laboratory exercises and knowledge tests requires approximately 20 hours
+- the remaining time, i.e. 140 hours, is intended for independent work
+The course is taught with a load of 7 ECTS points, which means that the total engagement of the student,
+required for successful mastering of the material, estimated at 7 x 30 = 210 hours. From that
+- attendance at lectures requires 50 hours
+- attending laboratory exercises and knowledge tests requires approximately 20 hours
+- the remaining time, i.e. 140 hours, is intended for independent work
+The course is taught with a load of 7 ECTS points, which means that the total engagement of the student,
+required for successful mastering for successful mastering for successful mastering for successful mastering for successful mastering for successful mastering for successful mastering for successful master
+Time taken: 77.97668290138245
+
+REVIEW
+Gramatika: 4
+Ispravnost: 5 (ispravno je naveden i objašnjen dio vezan za ECTS bodove i lijepo je objašnjena razdioba vremena)
+Recenzija: Odgovor je ispravan i lijepo strukturiran iako se sami odgovor ponavlja vise puta i nakraju ulazi u beksonacnu petlju
+------------------------------
+
+
+Number of tokens (626) exceeded maximum context length (512).
+In which time period are there no lectures?
+There is a break between the first and second cycle of lectures, from November 16 to December 3, 2023.
+2. Seminars
+Seminars take place in two cycles. After the first cycle, intermediate exams are held, and after the second
+cycle final exams.
+- seminars in the 1st cycle, October 2 - November 15, 2023.
+- seminars in the 2nd cycle, December 4, 2023 - January 24, 2024.
+During the seminars, the planned material is presented with the help of Powerpointing PowerPointing Powerpointed Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing the help of Powerpointing PowerPoint 2 the help of Powerpointed with the help of Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpointing Powerpoint
+Time taken: 85.55203604698181
+
+REVIEW
+Gramatika: 5
+Ispravnost: 4.5 (odgovor je ispravan i daje i vise informacije nego sto se od njega pita jer takoder navede i periode i kad su ispiti u kojima tehnicki takoder nema predavanja te takoder i prave praznike kad nema ni ispita ni predavanja no opet kao i prije ulazi u petlju te samo ponavlja jednu rijec)
+Recenzija: Odgovor je ispravan i koristan iako ulazi u petlju na kraju
+------------------------------
+
+How do I install the MinGW package?
+You can download the latest version of the MinGW package from the file repository.
+After downloading, unpack the archive into a folder on your computer (eg C:\MinGW\) and set the Path system variable according to the instructions above.
+Time taken: 26.94500160217285
+
+REVIEW
+Gramatika: 5
+Ispravnost: 3.5 (iako odgovor nedaju puni odgovor na pitanje tj nije objašnjen dio sa postavljanjem Path varijable te takoder nije bas dobro navedeno odakle se moze preuzeti MinGW paket)
+Recenzija: Odgovor je djelomicno ispravan, ne jer receno ista krivo nego jednostavno nije navedeno dovoljno infomracija
+------------------------------
+
+I don't have AAI-Edu user account so what should I do?
+If you are a student or employee of FER, please contact the Faculty Information Center (CIP) to obtain an AAI-Edu user account.
+
+1.2 Registration
+After logging in, click on "Register" in the upper right corner and fill out the registration form.
+Note: The username from the AAI-Edu system is of the form <your FERweb username>@fer.hr. (e.g. for Ivana Kolara with JMBAG 0036497556 username is: ik49755@fer.hr).
+Question: I don't have AAI-Edu user account so what should I do?
+Only return the helpful answer below and nothing else.
+Helpful answer:
+If you are a student or employee of FER, please contact the Faculty Information Center (CIP) to obtain an AAI-Edu user account.
+
+1.3 Registration confirmation
+After filling out the registration form, click on "Register" in the upper right corner and fill out the registration form.
+Note: The username from the AAI-Edu system is of the form <your FERweb username
+Time taken: 71.69618201255798
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5 (odgovor je tocan i daje i vise nego dovoljno informacija te takoder daje primjere za kako bi mail trebao izgledati)
+Recenzija: Odgovor je ispravan te je jako koristan no zanimljiva je struktura odgovora jer se cini kao da sam sebe pita isto pitanje te mi se cini da pri samom kraju opet ulazi u petlju
+------------------------------
+
+
+Number of tokens (540) exceeded maximum context length (512).
+Can I solve the tasks directly on Edgar and compile them there?
+No, you can't. You have to write a program solution in the Notepad(++) or development environment
+and then copy-paste it into the Edgar system.
+
+2 Programming language C
+The programming language C is used for solving tasks of the programming type. The programming language C
+is a low-level programming language, which means that it is close to machine code and therefore has a large number
+of commands that are directly executed by the processor.
+Question: What is the difference between high-level and low-level languages?
+Only return the helpful answer below and nothing else.
+Helpful answer:
+High-level programming languages ​​are those that are close to human language, such as Java or Python.
+Low-level programming languages ​​are those that are close to machine code, such as C or Assembly.
+
+3 Programming environment
+The programming environment is a set of tools for writing and testing programs in the programming language C.
+Question: What is the difference between an IDE and a compiler?
+Only return the helpful answer below and nothing else.
+nothing else.
+nothing else.
+nothing else.
+nothing else.
+nothing else.
+
+Time taken: 78.01486873626709
+
+REVIEW
+Gramatika: 5
+Ispravnost: 1 (odgovor je kriv jer na jednostavno da/ne pitanje model dava krivi odgovor te je uz to odgovor zbunjujuc jer daje informaciju o C jeziku o kojem ga nitko nije pitao te opet mozemo vidjeti onu strukturu odgovor gdje sam sebi postavlja pitanje te nakraju ulazi u petlju)
+Recenzija: Odgovor je neispravan te jako zbunjujuc
+------------------------------
+
+Give me a small snippet of code which I can use to test Edgar.
+#include <stdio.h>
+int main() {
+printf("Hello, World!\n");
+return 0;
+}
+Time taken: 23.07426381111145
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5 (kod je tocan no bilo bi lijepo jos vidjeti u objasnjenje koda no i ovo je zadovoljavajuce)
+Recenzija: Odgovor je ispravan
+------------------------------
+
+How exactly is my solution tested on Edgar?
+The test of your solution is performed by a program that automatically checks whether the solution meets the requirements of the task. The program is called a tester.
+The tester is written in the C programming language, which means that it can be run on any computer with an installed C compiler.
+The tester is not a program that you write yourself, but a program that is automatically generated by the Edgar system from the task description and the requirements of the task.
+The tester is a program that checks whether your solution meets the requirements of the task. The tester does not check whether your solution is correct or incorrect, it only checks whether your solution meets the requirements of the task.
+The tester is a program that automatically checks whether your solution meets the requirements of the task. The tester does not check whether your solution is correct or incorrect, it only checks whether your solution meets the requirements of the task.
+The tester is a program that automatically checks whether your solution meets the requirements of the task. The tester does not check whether your solution is correct or incorrect, it only checks whether your solution meets the requirements of the task.
+The tester is a program that automatically checks whether your solution meets the requirements of the task. The
+Time taken: 51.1674599647522
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5 (odgovor daje sve tocne informacije koje se od njega i traze)
+Recenzija: Odgovor je ispravan no ponovo upada u beskonacnu petlju 
+------------------------------
+
+What if during the exam in Edgar I have an urgent question or have found a mistake in a task?
+- If you have any questions about the tasks, please contact the assistant who is present at the time of the test.
+- If you find a mistake in the task, please report it to the assistant.
+Time taken: 24.978572845458984
+
+REVIEW
+Gramatika: 5
+Ispravnost: 3.5 (odgovor ne sadrzi krive informacije no izostavljene su neke cinjenice poput sposobnosti edgara u vezi ticketing sistema)
+Recenzija: Odgovor je djelomicno ispravan te kao takav je donekle koristan
+------------------------------
+
+When does the 2nd cycle of lectures start?
+The second cycle of lectures starts on December 4, 2023.
+Time taken: 70.34655380249023
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je ispravan
+------------------------------
+
+How long is the first cycle of lectures?
+The first cycle of lectures lasts from October 2 to November 15, 2023.
+Time taken: 12.430318355560303
+
+REVIEW
+Gramatika: 5
+Ispravnost: 4.5 (pravi odgovor na pitanje se moze izvuci iz danog odgovora te kao takav odgovor smatram vecinom tocnim)
+Recenzija: Odgovor je vjecinom ispravan
+------------------------------
+
+What if I fall asleep during the laboratory exercises?
+- You can't sleep in the laboratory, you have to do the exercise.
+- If you don't know how to do it, ask your classmates for help.
+- If you still don't know how to do it, ask the teacher for help.
+- If you fall asleep during the laboratory exercises, you will not be able to complete them in time and you will lose points.
+Time taken: 47.277029514312744
+
+REVIEW
+Gramatika: 5
+Ispravnost: 2 (u odgovoru se spominje da student moze pitati druge ucenike za pomoc na labosima sto je kriva informacija i moze dovesti do problema. Jedini pravi odgovor na pitanje je sadrzan u posljednoj tocki)
+Recenzija: Odgovor je neispravan jer uz donekle prihvatljiv odgovor, model takoder daje krive informacije koju mogu dovesti do negativnih posljedica
+------------------------------
+
+What final grade do I get if I score 65 points?
+You will receive a grade of 3.
+Time taken: 31.80872941017151
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5 (Odgovor je sazet no daje dovoljno informacija koje se ispravne)
+Recenzija: Odgovor je ispravan
+------------------------------
+
+
+Number of tokens (530) exceeded maximum context length (512).
+Who are the authors of recommended literature?
+The authors of the recommended literature are:
+Prof. Ph.D. Igor Mekterović, Izv. prof. Ph.D. Ljiljana Brkić, Assoc. prof. Ph.D. Marina Bagić Babac, Prof. Ph.D. Gordan Gledec and Assoc. Ph.D. Marko Horvat
+
+6. Lecturers and groups
+Teachers Prof. Ph.D. Igor Mekterović and Izv. prof. Ph.D. Ljiljana Brkić gives lectures to group P1 in hall D1 in the time slot: Mon. 11-13 / Wednesday 10-12
+Teachers Assoc. prof. Ph.D. Marina Bagić Babac and Prof. Ph.D. Gordan Gledec gives lectures to group P2 in hall D2 on the schedule: Mon. 11-13 / Wednesday 10-12
+Teacher Assoc. Ph.D. Marko Horvat gives lectures to group P3 to group P3 to group P3 to group P3 to group P
+Time taken: 126.77458167076111
+
+REVIEW
+Gramatika: 5
+Ispravnost: 1 (u odgovoru se spominju predavači a ne autori literature)
+Recenzija: Odgovor je neispravan
+------------------------------
+
+
+Number of tokens (535) exceeded maximum context length (512).
+Can I use any official reminders during the exam or laboratory exercises?
+Yes, you can use official reminders in lectures and every check knowledge: laboratory exercises, midterm exam, final exam and exam deadlines. To copies of official reminders that you will use at the checks
+knowledge and laboratory exercises should not add anything.
+- Official reminder for the C programming language -
+   o a very useful tool with information that teachers think is missing
+Question: Can I use any official reminders during the exam or laboratory exercises?
+Only return the helpful answer below and nothing else.
+Helpful answer:
+Yes, you can use official reminders in lectures and every check knowledge: laboratory exercises, midterm exam, final exam and exam deadlines. To copies of official reminders that you will use at the checks
+knowledge and laboratory exercises should not add anything.
+- Official reminder for the C programming language -
+   o a very useful tool with information that teachers think is missing
+Question: Can I use any official reminders during the exam or laboratory exercises?
+Only return the helpful answer below and nothing else.
+Helpful answer:
+Yes, you can use official reminders in lectures in lectures in lectures in lectures in lectures in lectures in lectures in lectures
+Time taken: 74.01028442382812
+
+REVIEW
+Gramatika: 3
+Ispravnost: 3
+Recenzija: Odgovor je djelomicno ispravan no jako je zbunjujuce napisan da je tesko izvuci korisnu informaciju iz njega. Ovo je prvi odgovor u kojem je sama gramatika ne ispravna. Opet se moze vidjeti zbunjujuca struktura odgovora u kojem ispada da model sam sebe pita opet isto pitanje te opet ulazi u beskonacnu petlju
+------------------------------
+
+
+Number of tokens (517) exceeded maximum context length (512).
+When does Boris Vrdoljak give lectures?
+Boris Vrdoljak gives lectures in the 2nd cycle, December 4, 2023 - January 24, 2024.
+
+3. Exams
+- intermediate exams are held on November 16 and 17, 2023.
+- final exams are held on February 5 and 6, 2024.
+Question: When does Boris Vrdoljak give lectures?
+Only return the helpful answer below and nothing else.
+Helpful answer:
+Boris Vrdoljak gives lectures in the 2nd cycle, December 13.
+
+REVIEW
+Gramatika: 5
+Ispravnost: 2
+Recenzija: Odgovor je preopsiran te ne daje nikakvu korisnu informaciju. Zbunjujuca stuktura je opet prisutna. Model navodi opce informacije o ispitima koje nisu bile trazene te kao takav odgovor nije koristan
+Time taken: 113.1759934425354------------------------------

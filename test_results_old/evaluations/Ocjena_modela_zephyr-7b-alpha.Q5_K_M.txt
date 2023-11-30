@@ -1,0 +1,215 @@
+Ocjena modela zephyr-7b-alpha.Q5_K_M
+
+Gramatika: 5
+Ispravnost: 4.2
+Recenzija: Model uglavnom daje ispravne odgovore i pronalazi točne informacije, no često ne shvaća kontekst te dodaje informacije kojih nema u tekstu i neispravno odgovara na složenija pitanja. Svi odgovori su smisleni.
+
+------------------------------
+
+Who gives lectures to group P1 and in which period?
+Teachers Prof. Ph.D. Igor Mekterović and Izv. prof. Ph.D. Ljiljana Brkić give lectures to group P1 in hall D1 on the schedule: Mon. 11-13 / Wednesday 10-12.
+Time taken: 50.7493622303009
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je ispravan i dobro strukturiran.
+------------------------------
+
+How do I login into Edgar?
+To log in to Edgar, go to https://edgar.edu.rs/ and enter your username and password. If you don't have an account yet, you can register for free at https://edgar.edu.rs/register/.
+Time taken: 34.98021721839905
+
+REVIEW
+Gramatika: 5
+Ispravnost: 1
+Recenzija: Odgovor je smislen, ali gotovo u potpunosti netočan(pogrešni linkovi i koraci registracije).
+------------------------------
+
+What happens if I score 27 points on written knowledge test on exam dates?
+Unfortunately, you did not meet the point threshold of 35 points required to pass the written knowledge test. Therefore, you will need to retake the exam during the next scheduled exam period or seek academic assistance from your instructor to improve your performance on future assessments.
+Time taken: 30.837707042694092
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan i opsežan.
+------------------------------
+
+Do I have to do laboratory exercises?
+Yes, you have to do laboratory exercises as they make up a significant part of your overall grade.
+Time taken: 22.90033769607544
+
+REVIEW
+Gramatika: 5
+Ispravnost: 3
+Recenzija: Odgovor je nije u potpunosti točan, iako vježbe nose 30% ocjene one nemaju prag te stoga nisu obavezne.
+------------------------------
+
+What are the possible options for consultations?
+Students who regularly attend lectures have the option of consulting in an unlimited number and duration. Consultations can be requested individually or as a group, and it is recommended to use them whenever necessary. The lecturer will explain the material during the consultation but will not teach it again. It is best to request consultations as soon as ambiguities arise that cannot be resolved on your own or with the help of colleagues. Delaying consultations until just before midterm or final exams may be too late. Each lecturer will present their method for agreeing on consultations in their group, and individual short consultations can also be held during lecture breaks or immediately after the lecture.
+Time taken: 49.961164474487305
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan i vrlo opsežan.
+------------------------------
+
+How much time should I spend on this subject in order to master it?
+To successfully master this subject with a load of 7 ECTS points, you need to invest approximately 210 hours of engagement. This includes 50 hours for attending lectures, 20 hours for attending laboratory exercises and knowledge tests, and 140 hours for independent work.
+Time taken: 36.30781960487366
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan i detaljan.
+------------------------------
+
+In which time period are there no lectures?
+There are no lectures during the intermediate exams, which take place after the first cycle of lectures (October 2 - November 15, 2023).
+Time taken: 45.30659317970276
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan i dobro strukturiran.
+------------------------------
+
+How do I install the MinGW package?
+To install the MinGW package, create a folder where the files will be placed (eg C:\MinGW\), download the MinGW.zip archive from the file repository, unpack it into the folder created above, and set the Path system variable according to the instructions above.
+Time taken: 26.075132846832275
+
+REVIEW
+Gramatika: 5
+Ispravnost: 3
+Recenzija: Kao odgovor je dan opis alternativnog načina preuzimanja za studente koji imaju problema s preuzimanjem najnivije verzije umjesto detaljnijeg opisa koji je dan u tekstu. 
+------------------------------
+
+I don't have AAI-Edu user account so what should I do?
+If you don't have an AAI-Edu user account, please contact the Faculty Information Center (CIP) for assistance.
+Time taken: 26.116899013519287
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan i dobro strukturiran.
+------------------------------
+
+Can I solve the tasks directly on Edgar and compile them there?
+No, you cannot solve the tasks directly on Edgar and compile them there. You will write your solutions in a text editor (such as Notepad or a development editor) and then copy-paste them into the Edgar system for assessment. The program code uploaded to Edgar can be run using the "Run" option or by pressing Ctrl + Enter while the field with the program code is in focus.
+Time taken: 37.16300368309021
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je u skladu s tekstom.
+------------------------------
+
+Give me a small snippet of code which I can use to test Edgar.
+Here's an example C program that you can use to test Edgar:
+```c
+#include <stdio.h>
+int main() {
+    int x = 5;
+    printf("The value of x is %d\n", x);
+    return 0;
+}
+```
+Time taken: 26.45862126350403
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan.
+------------------------------
+
+How exactly is my solution tested on Edgar?
+Your solution is tested by running it in a virtual environment with predefined input data. The output of your program is compared to the expected output, which is also predefined. If there are any discrepancies between the actual output and the expected output, your solution will be marked as incorrect.
+Time taken: 13.271864414215088
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan.
+------------------------------
+
+What if during the exam in Edgar I have an urgent question or have found a mistake in a task?
+During the exam in Edgar, you should contact your assistant for any questions or clarifications related to the tasks. If you find a mistake in a task, you can report it to your assistant who will notify the teacher. However, if you have found an error that affects the correctness of the solution, you should immediately stop working on that task and inform your assistant. The teacher will then review the task and decide whether to re-score or adjust the points for that task.
+Time taken: 30.866961240768433
+
+REVIEW
+Gramatika: 5
+Ispravnost: 2
+Recenzija: Odgovor je samo djelomično točan, dodani su detalji kojih nema u tekstu i ne spominje se ticketing sustav koji se treba koristiti.
+------------------------------
+
+When does the 2nd cycle of lectures start?
+The 2nd cycle of lectures starts on December 4, 2023.
+Time taken: 45.59800386428833
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je kratak i točan.
+------------------------------
+
+How long is the first cycle of lectures?
+The first cycle of lectures takes place from October 2 to November 15, 2023.
+Time taken: 7.604417085647583
+
+REVIEW
+Gramatika: 5
+Ispravnost: 4  
+Recenzija: Odgovor je istinit, no pitanje podrazumjeva duljinu trajanja, a ne razdoblje.
+------------------------------
+
+What if I fall asleep during the laboratory exercises?
+If you fall asleep during the laboratory exercises, unfortunately, there is no compensation for lost time. You must complete the laboratory exercises exactly in the allotted time, and there is no possibility of extending the deadline or making up for missed time. It's essential to stay focused and alert throughout the exercise to ensure that you can complete it within the given time frame.
+Time taken: 32.93309211730957
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je smislen i točan.
+------------------------------
+
+What final grade do I get if I score 65 points?
+Based on the given scale, you would receive a grade of 3 for scoring between 62.5 and 75 points.
+Time taken: 34.73479509353638
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan.
+------------------------------
+
+Who are the authors of recommended literature?
+The information provided does not include details about the authors of recommended literature.
+Time taken: 29.851202726364136
+
+REVIEW
+Gramatika: 5
+Ispravnost: 1
+Recenzija: Odgovor nije točan.
+------------------------------
+
+Can I use any official reminders during the exam or laboratory exercises?
+Yes, you can use official reminders during the exam or laboratory exercises. However, you should not add anything to them for the laboratory exercises or midterm exams. The official reminder for C programming language is a very useful tool with information that teachers think is missing. You can print it on a printer and use it freely in lectures and every check.
+Time taken : 42.48369073867798
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan i detaljan.
+------------------------------
+
+When does Boris Vrdoljak give lectures?
+Boris Vrdoljak gives lectures to group P6 in hall B3 on Mondays from 13-15 and Wednesdays from 14-16.
+Time taken: 45.94900894165039
+
+REVIEW
+Gramatika: 5
+Ispravnost: 5
+Recenzija: Odgovor je točan.
+------------------------------

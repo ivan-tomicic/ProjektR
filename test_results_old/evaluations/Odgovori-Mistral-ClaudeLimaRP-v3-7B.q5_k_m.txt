@@ -1,0 +1,203 @@
+Mistral-ClaudeLimaRP-v3-7B.q5_k_m
+
+<<< About >>>
+Ocjene su od 1-10
+Gramatika: !(Greške u pisanju)
+Ispravnost: Ispravnost danih informacija
+Sažetost: Duljina teksta
+Usmjerenost: !(Ima li dodatnih informacija koje nisu povezane s pitanjem)
+Potpunost: Jel dane informacije odgovaraju na pitanje
+Strukturiranost: Koliko je dobro odgovor složen
+Recenzija: Doatni komentari
+
+<<< Statistics >>>
+Gramatika: 10 +- 0
+Ispravnost: 7.05 +- 3.16978
+Sažetost: 3.95 +- 2.4995
+Usmjerenost: 6.35 +- 2.72534
+Potpunost: 7.2 +- 3.55809
+Strukturiranost: 6.75 +- 1.97167
+
+<<< Conclusion >>>
+Model se jako loše nosi s pitanjima kod kojih odgovori nisu dani u dokumentu gdje onda samo izmisli uvjerljiv odgovor.
+Model voli izmišljati odgovore i toliko je dobar u tome da može uvjeriti osobu koja se ne razumije u UPRO i Edgar. Također obožavati unutar odgovaranja pitati sam sebe pitanje koje onda odgovori. Ponekad se dogodi da izgubi razum i počne samo ponavljati istu rečenicu.
+
+<<< Question 1 >>>
+Gramatika: 10
+Ispravnost: 10
+Sažetost: 2
+Usmjerenost: 4
+Potpunost: 10
+Strukturiranost: 5
+Recenzija: Odgovor je egzaktna kopija odgovora iz dokumenta. Započeo je savršeno, ali onda daje dodatne informacije koje su nepotrebne za traženo pitanje. Ponavlja iste riječi. Napisao je ime fakulteta iako nigdje u dokumentu nije naveden (možda je informacija bila u pretrained skupu podataka).
+
+<<< Question 2 >>>
+Gramatika: 10
+Ispravnost: 8
+Sažetost: 2
+Usmjerenost: 4
+Potpunost: 4
+Strukturiranost: 4
+Recenzija: Odgovor je započeo na temu pitanja ali odgovoru nedostaju dodatni detalji iz dokumenta. Odgovarao je na pitanja koja nisu postavljena(Kako uploadat kod na Edgar). Na kraju je počeo davati opis predmeta koji je pogrešan(UPRO uči jednostavne programe u C-u, a ne složene programe u Python-u).
+
+<<< Question 3 >>>
+Gramatika: 10
+Ispravnost: 2
+Sažetost: 2
+Usmjerenost: 8
+Potpunost: 10
+Strukturiranost: 3
+Recenzija: Dan je točan odgovor da za 27/70 bodova na ispitnom roku će past ispit, ali onda nastavlja strašiti studenta da će trebati ponovo upisivati semestar i ispočetka labose napraviti. LLM nije uzeo u obzir da piše u dokumentu da maksimalni broj bodova na labosu je 30. Točno izračuna ali umjesto da računa 50 - 27 = 23, on računa 70 - 27 = 43 za prolaz predmeta.
+
+<<< Question 4 >>>
+Gramatika: 10
+Ispravnost: 7
+Sažetost: 2
+Usmjerenost: 8
+Potpunost: 10
+Strukturiranost: 6
+Recenzija: Pogrešan odgovor da su labosi obavezni. Ostatak odgovora daje dobre informacije i savjete. Na kraju nastavlja pričati iako je rekao "Good luck with your studies!"(završnu riječ).
+
+<<< Question 5 >>>
+Gramatika: 10
+Ispravnost: 10
+Sažetost: 2
+Usmjerenost: 10
+Potpunost: 5
+Strukturiranost: 8
+Recenzija: Odgovor nije potpun ali sve dane informacije su ispravne. Također izgleda kao da LLM postavlja sebi ista pitanja i onda odgovara na njih.
+
+<<< Question 6 >>>
+Gramatika: 10
+Ispravnost: 8
+Sažetost: 7
+Usmjerenost: 8
+Potpunost: 10
+Strukturiranost: 8
+Recenzija: Sve dane informacije su ispravne osim na kraju odgovora gdje LLM kaže da učenje više of 140 sati daje negativne rezultate.
+
+<<< Question 7 >>>
+Gramatika: 10
+Ispravnost: 10
+Sažetost: 4
+Usmjerenost: 5
+Potpunost: 3
+Strukturiranost: 7
+Recenzija: Dani odgovori su točni ali ne odgovaraju dano pitanje.
+
+<<< Question 8 >>>
+Gramatika: 10
+Ispravnost: 10
+Sažetost: 2
+Usmjerenost: 3
+Potpunost: 3
+Strukturiranost: 7
+Recenzija: Odgovor objašnjava samo alternativnu metoda instalacije MinGW koja je značajno kraća. Također LLM koristi čudnu metodu objašnjavanja koraka tako da nas kao studenta postavi u osobu koja obavlja određene radnje.
+
+<<< Question 9 >>>
+Gramatika: 10
+Ispravnost: 1
+Sažetost: 2
+Usmjerenost: 3
+Potpunost: 1
+Strukturiranost: 5
+Recenzija: Model daje potpuno pogrešan odgovor, čak i izmisli link (koji ne radi) kako bi student napravio AAI-Edu identitet. Odgovori se ne odnose na UPRO već na generički predmet.
+
+<<< Question 10 >>>
+Gramatika: 10
+Ispravnost: 10
+Sažetost: 3
+Usmjerenost: 8
+Potpunost: 10
+Strukturiranost: 8
+Recenzija: Odgovor je točan s obzirom na dokument, ali mislim da upute u dokumentu nisu točne. LLM ponavlja pitanje i daje slične odgovore.
+
+<<< Question 11 >>>
+Gramatika: 10
+Ispravnost: 10
+Sažetost: 3
+Usmjerenost: 1
+Potpunost: 1
+Strukturiranost: 8
+Recenzija: LLM nije sposoban dati kod u C-u.
+
+<<< Question 12 >>>
+Gramatika: 10
+Ispravnost: 5
+Sažetost: 5
+Usmjerenost: 8
+Potpunost: 5
+Strukturiranost: 8
+Recenzija: Dan odgovor je najvjerojatnije točan ali se ne nalazi u dokumentu. Također dan odgovor nije potpun.
+
+<<< Question 13 >>>
+Gramatika: 10
+Ispravnost: 2
+Sažetost: 3
+Usmjerenost: 8
+Potpunost: 2
+Strukturiranost: 7
+Recenzija: Odgovor daje krivu informaciju na uvjerljiv način. Na kraju počne opisivati Edgar što nije bilo pitanje.
+
+<<< Question 14 >>>
+Gramatika: 10
+Ispravnost: 8
+Sažetost: 3
+Usmjerenost: 7
+Potpunost: 10
+Strukturiranost: 5
+Recenzija: Odgovor na zadano pitanje je u potpunosti točno ali onda postavlja sebi nova pitanja koja pogrešno odgovori. Također na kraju počne ponavljati istu rečenicu.
+
+<<< Question 15 >>>
+Gramatika: 10
+Ispravnost: 9
+Sažetost: 10
+Usmjerenost: 10
+Potpunost: 10
+Strukturiranost: 10
+Recenzija: Pitanje je odgovoreno na kratak i jasan način. Također su dane dodatne informacije koje su povezane s pitanjem. Na kraju LLM kaže navede datum završnog ispita koji je uglavnom točan ali nije naveden u dokumentu.
+
+<<< Question 16 >>>
+Gramatika: 10
+Ispravnost: 5
+Sažetost: 7
+Usmjerenost: 8
+Potpunost: 10
+Strukturiranost: 8
+Recenzija: LLM daje odgovor na glavno pitanje koje nije navedeno u dokumentu. Drugi dani savjeti su sažeti i korisni.
+
+<<< Question 17 >>>
+Gramatika: 10
+Ispravnost: 8
+Sažetost: 10
+Usmjerenost: 10
+Potpunost: 10
+Strukturiranost: 8
+Recenzija: Prvi dio odgovora je savršen ali onda model odluči studentu objasniti rastav bodova koji je sam model izmislio. Sve osim rastava bodova je točno. Na kraju model počne ponavljati riječi.
+
+<<< Question 18 >>>
+Gramatika: 10
+Ispravnost: 1
+Sažetost: 4
+Usmjerenost: 8
+Potpunost: 10
+Strukturiranost: 10
+Recenzija: Odgovor je u potpunosti netočan, ali je dobro napisan.
+
+<<< Question 19 >>>
+Gramatika: 10
+Ispravnost: 10
+Sažetost: 3
+Usmjerenost: 3
+Potpunost: 10
+Strukturiranost: 3
+Recenzija: Pitanje je u potpunosti i točno odgovoreno, ali model odluči dodati još informacija koje nisu povezane s pitanjem.
+
+<<< Question 20 >>>
+Gramatika: 10
+Ispravnost: 7
+Sažetost: 3
+Usmjerenost: 3
+Potpunost: 10
+Strukturiranost: 7
+Recenzija: Pitanje nije u potpunosti točno jer ne znamo kada Prof. Ph.D. Boris Vrdoljak predaje već znamo kada Prof. Ph.D. Boris Vrdoljak i Prof. Ph.D. Krešimir Trontl predaju. Model daje informaciju nepovezanu s pitanjem. Model poludi na kraju.
