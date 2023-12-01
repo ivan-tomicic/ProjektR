@@ -45,3 +45,22 @@ Detailed Evaluation:
 -Provide an overall rating that reflects the combined performance in the other four metrics.
 -Consider how well the response functions as a whole, beyond just the sum of its parts.
 -Evaluate if the response would be satisfactory or exemplary from an overall perspective, including readability, informativeness, and accuracy.
+
+
+
+
+Difference between Relevance and Context Understanding:
+
+Relevance: This refers to how well the model's responses or outputs align with the specific query or prompt given by the user. It's about the directness and appropriateness of the answer to the question asked.
+
+Context Understanding: This involves the model's ability to comprehend, retain, and utilize the information provided in the conversation or the background setting of the query. It's about grasping the broader scenario, the nuances, and the specific details mentioned earlier in the interaction.
+
+Example Where Relevance is High but Context Understanding is Low:
+Imagine you ask, "What are the ingredients in a chocolate cake?" In response, I provide an accurate list of ingredients for a chocolate cake. This response is highly relevant to your question.
+
+However, if you had previously mentioned that you are allergic to nuts and I included almond flour in the ingredients list, this demonstrates a lack of context understanding. I provided a relevant answer but failed to incorporate the critical detail about your nut allergy.
+
+Example Where Context Understanding is High but Relevance is Low:
+Consider a situation where you've been discussing the history of space exploration and then ask, "Who was the first person to land on the moon?" I start talking about the Apollo missions' background, detailing the various missions and their objectives, and how they led up to the moon landing.
+
+In this case, I demonstrate a high understanding of the context (space exploration history) you're interested in. However, I don't directly answer your question about the first person on the moon, which makes my response less relevant to the specific query.
