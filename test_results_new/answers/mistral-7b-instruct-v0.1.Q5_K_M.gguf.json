@@ -3783,7 +3783,7 @@
         "question_number": "q_91",
         "question": "What final grade do I get if I score 65 points?",
         "answer": "You would receive a grade of 2 on the final exam, which is equivalent to a passing grade based on continuous monitoring of classes.",
-        "time": 19.3,
+        "time": 33.7,
         "evaluation": {
             "bleu_score": -100000,
             "rouge_score": {
@@ -3825,7 +3825,7 @@
         "question_number": "q_92",
         "question": "In which time period are there no lectures?",
         "answer": "There are no lectures during the time period of December 4, 2023 - January 24, 2024.",
-        "time": 22.5,
+        "time": 42.5,
         "evaluation": {
             "bleu_score": -100000,
             "rouge_score": {
