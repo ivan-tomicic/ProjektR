@@ -37,9 +37,9 @@ def read_json_file(file_path):
 
 
 for reviewer, model_answers in dict_.items():
-    if os.path.isfile(f"review_files/{reviewer}.json"):
-        print(f"review_files/{reviewer}.json")
-        review_file_data = read_json_file(f"review_files/{reviewer}.json")
+    if os.path.isfile(f"evaluations/{reviewer}.json"):
+        print(f"evaluations/{reviewer}.json")
+        review_file_data = read_json_file(f"evaluations/{reviewer}.json")
         answers_file_data = read_json_file(f"answers/{model_answers}")
         update_evaluations(answers_file_data, review_file_data, reviewer)
         with open(f"answers/{model_answers}", 'w') as file:
