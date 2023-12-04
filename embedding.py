@@ -8,11 +8,12 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 
 # define what documents to load
-loader = DirectoryLoader("./", glob="*.txt", loader_cls=TextLoader, loader_kwargs={'encoding': 'utf-8'})
+loader = DirectoryLoader("./english_docs_od_mentora_txt/", glob="*.txt", loader_cls=TextLoader, loader_kwargs={'encoding': 'utf-8'})
 
 # interpret information in the documents
 documents = loader.load()
-#print(documents)
+print(documents)
+exit(1)
 splitter = RecursiveCharacterTextSplitter(chunk_size=500,
                                           chunk_overlap=50)
 texts = splitter.split_documents(documents)
