@@ -795,7 +795,7 @@
         "question": "Am I allowed to print out an official reminder and bring it with me?",
         "answer": "You are not allowed to print out an official reminder and bring it with you. Official reminders are provided in this system for your reference during checks, but they cannot be printed or taken outside of the system.",
         "evaluation": {
-            "fluency": ""5,
+            "fluency": "5",
             "coherence": "5",
             "relevance": "1",
             "context_understanding": "5",
