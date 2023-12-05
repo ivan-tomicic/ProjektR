@@ -106,7 +106,8 @@ for i, model in enumerate(list_of_models):
         llm=llm,
         chain_type="stuff",
         retriever=retriever,
-        chain_type_kwargs={'prompt': prompt}
+        chain_type_kwargs={'prompt': prompt},
+        return_source_documents=True
     )
     answers = []
     cnt_ = 1
@@ -116,13 +117,20 @@ for i, model in enumerate(list_of_models):
         question_number = list(question_dict.keys())[0]
         question = question_dict[question_number]
         time_start = time.time()
-        output = qa.run(question)
+        output = qa(question)
         time_end = time.time()
         eval_dict["human_eval"] = get_human_eval_metric((i*3) + 1, (i+1)*3)
         answers.append({
             "question_number": question_number,
             "question": question,
-            "answer": output,
+            "query": output['query'],
+            "answer": output['result'],
+            "source_documents": [{
+                "page_content": doc.page_content,
+                "source_file": doc.metadata['source']
+            } for doc in output['source_documents']
+            ],
+            "combined_documents": qa.combine_documents_chain._get_inputs(output['source_documents'])['context'],
             "time": round(time_end - time_start, 2),
             "evaluation": eval_dict,
         })
