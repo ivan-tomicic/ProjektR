@@ -117,7 +117,7 @@ public class kappa {
     }
 
     public static void mistral_1() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>(List.of(0,0,0));
+        List<Integer> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("ProjektR/test_results_new_dummy/answers/mistral-7b-instruct-v0.1.Q5_K_M.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -208,7 +208,7 @@ values.clear();
     }
 
     public static void mistral_2() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>(List.of(0,0,0));
+        List<Integer> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("ProjektR/test_results_new_dummy/answers/mistral-7b-openorca.Q4_0.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -298,7 +298,7 @@ values.clear();
     }
 
     public static void zephyr_1() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>(List.of(0,0,0));
+        List<Integer> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("ProjektR/test_results_new_dummy/answers/zephyr-7b-alpha.Q5_K_M.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -387,7 +387,7 @@ values.clear();
     }
 
     public static void zephyr_2() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>(List.of(0,0,0));
+        List<Integer> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("ProjektR/test_results_new_dummy/answers/zephyr-7b-beta.Q5_K_M.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
