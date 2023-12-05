@@ -707,22 +707,22 @@
         "question": "If I got 23 points on my laboratory exercises, 7 points on my lectures, 35 points on my midterm exam, and 23 points on my final exam, will I pass?",
         "answer": "Based on the information provided, you have a total of 135 points (23 + 7 + 35 + 23). To pass, you need to have at least 50 points. Since you have more than enough points, you will pass the exam.",
         "evaluation": {
-            "fluency": "",
-            "coherence": "",
-            "relevance": "",
-            "context_understanding": "",
-            "overall_quality": ""
+            "fluency": "5",
+            "coherence": "5",
+            "relevance": "5",
+            "context_understanding": "4",
+            "overall_quality": "5"
         }
     },
     {
         "question": "What happens if i get 10 points on the final exam?",
         "answer": "If you receive 10 points on the final exam, your total number of points will be increased by 10 points.",
         "evaluation": {
-            "fluency": "",
-            "coherence": "",
-            "relevance": "",
-            "context_understanding": "",
-            "overall_quality": ""
+            "fluency": "5",
+            "coherence": "5",
+            "relevance": "1",
+            "context_understanding": "1",
+            "overall_quality": "1"
         }
     },
     {

@@ -13,7 +13,7 @@ loader = DirectoryLoader("./english_docs_od_mentora_txt/", glob="*.txt", loader_
 # interpret information in the documents
 documents = loader.load()
 print(documents)
-exit(1)
+
 splitter = RecursiveCharacterTextSplitter(chunk_size=500,
                                           chunk_overlap=50)
 texts = splitter.split_documents(documents)
