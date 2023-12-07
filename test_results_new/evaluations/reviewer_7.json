@@ -421,7 +421,7 @@
         "question": "How should i study outside of the lectures if I want to get a good grade?",
         "answer": "To study effectively outside of lectures, you should review the lecture materials, take notes on your own, practice problems related to the course content, and seek help from teachers or peers when needed. Additionally, engage in group discussions and participate in any available study groups to enhance your understanding of the subject matter.",
         "evaluation": {
-            "fluency": "",
+            "fluency": "5",
             "coherence": "5",
             "relevance": "5",
             "context_understanding": "5",
