@@ -152,5 +152,5 @@ for i, model in enumerate(list_of_models):
             "evaluation": eval_dict,
         }
         answers.append(answer_dict)
-        print("Number of input tokens: " + llm.get_num_tokens(answer_dict['combined_documents']))
+        print("Number of input tokens: " + str(llm.get_num_tokens(answer_dict['combined_documents'])))
     #answer_file.write(json.dumps(answers, indent=4))
