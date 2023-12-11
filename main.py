@@ -4,10 +4,17 @@ import time
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.llms.llamacpp import LlamaCpp
 from langchain.prompts import PromptTemplate
+from accelerate import Accelerator
 from langchain.chains import RetrievalQA
 from langchain.llms import CTransformers
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import LlamaCppEmbeddings
+from  langchain.schema.language_model import BaseLanguageModel
+import torch
+
+print(torch.cuda.is_available())
+print(torch.cuda.device_count())
+torch.cuda.empty_cache()
 
 
 list_of_models = [
@@ -89,19 +96,25 @@ eval_dict = {
     "diversity": -100_000,
 }
 
+accelerator = Accelerator()
+
 with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
     questions = json.load(f)
 
 for i, model in enumerate(list_of_models):
     print("Starting model: ", model["model_file"])
     # create a file where we will store models answers
-    answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
+    #answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
+    config = {'max_new_tokens': 256, 'repetition_penalty': 1.1, 'context_length': 4000, 'temperature': 0.01,
+              'gpu_layers': 25}
     llm = CTransformers(
         model=model['model'],
         model_file=model['model_file'],
         model_type="llama",
-        config={'max_new_tokens': 256, 'temperature': 0.01}
+        gpu_layers=25,
+        config=config,
     )
+    llm, config = accelerator.prepare(llm, config)
     qa = RetrievalQA.from_chain_type(
         llm=llm,
         chain_type="stuff",
@@ -109,6 +122,7 @@ for i, model in enumerate(list_of_models):
         chain_type_kwargs={'prompt': prompt},
         return_source_documents=True
     )
+
     answers = []
     cnt_ = 1
     for question_dict in questions:
@@ -119,8 +133,11 @@ for i, model in enumerate(list_of_models):
         time_start = time.time()
         output = qa(question)
         time_end = time.time()
+        print("Took ", round(time_end - time_start, 2), " seconds")
+        print("Answer: ", output['result'])
+        print("Number of output tokens: " + str(llm.get_num_tokens(output['result'])))
         eval_dict["human_eval"] = get_human_eval_metric((i*3) + 1, (i+1)*3)
-        answers.append({
+        answer_dict = {
             "question_number": question_number,
             "question": question,
             "query": output['query'],
@@ -133,5 +150,7 @@ for i, model in enumerate(list_of_models):
             "combined_documents": qa.combine_documents_chain._get_inputs(output['source_documents'])['context'],
             "time": round(time_end - time_start, 2),
             "evaluation": eval_dict,
-        })
-    answer_file.write(json.dumps(answers, indent=4))
+        }
+        answers.append(answer_dict)
+        print("Number of input tokens: " + llm.get_num_tokens(answer_dict['combined_documents']))
+    #answer_file.write(json.dumps(answers, indent=4))

@@ -1,3 +1,4 @@
+accelerate==0.25.0
 chromadb==0.3.29
 ctransformers[cuda]==0.2.27
 faiss-cpu==1.7.4
