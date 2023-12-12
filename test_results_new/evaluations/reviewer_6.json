@@ -300,11 +300,11 @@
         "question": "Is there a support system in Edgar?",
         "answer": "Yes, there is a support system in Edgar called Ticketing system.",
         "evaluation": {
-            "fluency": "",
-            "coherence": "",
-            "relevance": "",
-            "context_understanding": "",
-            "overall_quality": ""
+            "fluency": "5",
+            "coherence": "5",
+            "relevance": "5",
+            "context_understanding": "5",
+            "overall_quality": "5"
         }
     },
     {
@@ -666,7 +666,7 @@
             "fluency": "5",
             "coherence": "5",
             "relevance": "5",
-            "context_understanding": "",
+            "context_understanding": "5",
             "overall_quality": "5"
         }
     },

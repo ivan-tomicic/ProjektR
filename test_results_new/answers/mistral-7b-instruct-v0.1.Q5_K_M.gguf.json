@@ -1150,27 +1150,27 @@
                 "fluency": {
                     "reviewer_4": "5",
                     "reviewer_5": "5",
-                    "reviewer_6": ""
+                    "reviewer_6": "5"
                 },
                 "coherence": {
                     "reviewer_4": "5",
                     "reviewer_5": "5",
-                    "reviewer_6": ""
+                    "reviewer_6": "5"
                 },
                 "relevance": {
                     "reviewer_4": "5",
                     "reviewer_5": "5",
-                    "reviewer_6": ""
+                    "reviewer_6": "5"
                 },
                 "context_understanding": {
                     "reviewer_4": "5",
                     "reviewer_5": "5",
-                    "reviewer_6": ""
+                    "reviewer_6": "5"
                 },
                 "overall_quality": {
                     "reviewer_4": "5",
                     "reviewer_5": "5",
-                    "reviewer_6": ""
+                    "reviewer_6": "5"
                 }
             }
         }
@@ -2551,7 +2551,7 @@
                 "context_understanding": {
                     "reviewer_4": "5",
                     "reviewer_5": "5",
-                    "reviewer_6": ""
+                    "reviewer_6": "5"
                 },
                 "overall_quality": {
                     "reviewer_4": "5",
