@@ -1,31 +1,21 @@
 import json
 import time
-
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.llms.llamacpp import LlamaCpp
-from langchain.prompts import PromptTemplate
-from accelerate import Accelerator
-from langchain.chains import RetrievalQA
-from langchain.llms import CTransformers
-from langchain.vectorstores.faiss import FAISS
-from langchain.embeddings import LlamaCppEmbeddings
-from  langchain.schema.language_model import BaseLanguageModel
 import torch
 
-print(torch.cuda.is_available())
-print(torch.cuda.device_count())
-torch.cuda.empty_cache()
+from langchain.chains import RetrievalQA
+from langchain.llms.ctransformers import CTransformers
+from langchain.prompts import PromptTemplate
+from retrievers import *
+from configurations import *
 
 
-list_of_models = [
-    {
-        "model": "TheBloke/Mistral-7B-OpenOrca-GGUF",
-        "model_file": "mistral-7b-openorca.Q4_0.gguf"
-    }
-]
+llm = CTransformers(
+    model="TheBloke/Mistral-7B-OpenOrca-GGUF",
+    model_file="mistral-7b-openorca.Q4_0.gguf",
+    config={'max_new_tokens': 256, 'repetition_penalty': 1.1, 'context_length': 4000, 'temperature': 0.01},
+)
 
-
-
+documents = get_documents("./english_docs_od_mentora_txt/")
 
 template = """Use the following pieces of information to answer the user's question.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
@@ -35,38 +25,10 @@ Only return the helpful answer below and nothing else.
 Helpful answer:
 """
 
-
 prompt = PromptTemplate(template=template, input_variables=["context", "question"])
 
-
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2",
-    model_kwargs={'device': 'cuda'})
-
-db = FAISS.load_local("faiss", embeddings)
-
-# prepare a version of the llm pre-loaded with the local content
-retriever = db.as_retriever(search_kwargs={'k': 2})
-
-def get_human_eval_metric(reviewer_from, reviewer_to):
-    human_eval_metrics = {
-        "fluency": {
-            f"reviewer_{i}": "_" for i in range(reviewer_from, reviewer_to + 1)
-        },
-        "coherence": {
-            f"reviewer_{i}": "_" for i in range(reviewer_from, reviewer_to + 1)
-        },
-        "relevance": {
-            f"reviewer_{i}": "_" for i in range(reviewer_from, reviewer_to + 1)
-        },
-        "context_understanding": {
-            f"reviewer_{i}": "_" for i in range(reviewer_from, reviewer_to + 1)
-        },
-        "overall_quality": {
-            f"reviewer_{i}": "_" for i in range(reviewer_from, reviewer_to + 1)
-        },
-    }
-    return human_eval_metrics
+with open("final_test/questions.json", "r", encoding='utf-8') as f:
+    questions = json.load(f)
 
 
 eval_dict = {
@@ -77,37 +39,33 @@ eval_dict = {
         "f1": -100_000
     },
     "diversity": -100_000,
+    "human_eval": {
+        "expression_and_logic": "_",
+        "accuracy_and_relevance": "_",
+        "overall_quality_and_engagement": "_",
+    },
 }
+i = 0
+for config_name, config in configurations.items():
+    i += 1
+    print(f"Processing configuration: {config_name}")
+    if i < 2:
+        continue
 
-accelerator = Accelerator()
-
-with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
-    questions = json.load(f)
-
-for i, model in enumerate(list_of_models):
-    print("Starting model: ", model["model_file"])
-    # create a file where we will store models answers
-    #answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
-    config = {'max_new_tokens': 256, 'repetition_penalty': 1.1, 'context_length': 4000, 'temperature': 0.01,
-              'gpu_layers': 25}
-    llm = CTransformers(
-        model=model['model'],
-        model_file=model['model_file'],
-        model_type="llama",
-        gpu_layers=25,
-        config=config,
-    )
-    llm, config = accelerator.prepare(llm, config)
+    retriever = process_configuration(config, documents)
+    
     qa = RetrievalQA.from_chain_type(
         llm=llm,
-        chain_type="stuff",
+        chain_type="stuff",  # ili "refine"
         retriever=retriever,
-        chain_type_kwargs={'prompt': prompt},
-        return_source_documents=True
+        chain_type_kwargs={"prompt": prompt},
+        return_source_documents=True,
     )
-
+    results = {}
     answers = []
     cnt_ = 1
+    answer_file = open(f"final_test/answers/{config_name}.json", "w+", encoding='utf-8')
+    results['config'] = convert_functions_to_names(config)
     for question_dict in questions:
         print(f"Question {cnt_} out of {len(questions)}")
         cnt_ += 1
@@ -119,11 +77,9 @@ for i, model in enumerate(list_of_models):
         print("Took ", round(time_end - time_start, 2), " seconds")
         print("Answer: ", output['result'])
         print("Number of output tokens: " + str(llm.get_num_tokens(output['result'])))
-        eval_dict["human_eval"] = get_human_eval_metric((i*3) + 1, (i+1)*3)
         answer_dict = {
             "question_number": question_number,
             "question": question,
-            "query": output['query'],
             "answer": output['result'],
             "source_documents": [{
                 "page_content": doc.page_content,
@@ -136,5 +92,6 @@ for i, model in enumerate(list_of_models):
         }
         answers.append(answer_dict)
         print("Number of input tokens: " + str(llm.get_num_tokens(answer_dict['combined_documents'])))
-    #answer_file.write(json.dumps(answers, indent=4))
 
+    results['answers'] = answers
+    answer_file.write(json.dumps(results, indent=4))

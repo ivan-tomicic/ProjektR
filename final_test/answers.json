@@ -1,0 +1,279 @@
+[
+   {
+      "q_1": "What does a compiler do? What does a linker do?",
+      "answers": [
+			"Compiler verifies that the source code adheres to the programming language's grammar rules. Linker resolves addresses and references among different modules to ensure proper linking.",
+			"Compiler enhances code efficiency and performance by applying various optimizations. Linker attaches external libraries to the program, resolving function calls to their actual locations.",
+			"Compiler identifies and reports errors such as syntax errors or type mismatches. Linker matches symbolic names used in the code with actual memory addresses or locations."
+	   ]
+   },
+   {
+      "q_2": "How do I install the MinGW package?",
+      "answers": [
+			"You can install MinGW using package managers like MSYS2. Utilize the package manager commands to fetch and install the MinGW components you need.",
+			"Many integrated development environments (IDEs) offer an option to install MinGW during their setup process. Choose this option to automatically install MinGW along with the IDE.",
+			"For advanced users, manual installation involves downloading individual MinGW components and configuring the system's PATH variable to include the MinGW binaries."		
+	   ]
+   },
+   {
+      "q_3": "What are all the ways I can set the System variable Path?",
+      "answers":  [
+			"(Windows): Use the Command Prompt or PowerShell to set the system PATH variable. For example, in Command Prompt, execute the command setx PATH \"%PATH%;C:\\Your\\Path\\Here\" to append a directory to the existing PATH.",
+			"(Unix-like systems): On Unix-like systems (Linux, macOS), modify profile files like .bashrc or .profile. Add a line such as export PATH=$PATH:/your/path/here to append a directory to the PATH.",
+			"(macOS): On macOS, open the \"System Preferences,\" go to \"Users & Groups,\" select your user, click on \"Login Items,\" and add the desired paths. Alternatively, modify shell profiles like .bash_profile or .zshrc."		
+	   ]
+   },
+   {
+      "q_4": "How do I translate and execute a simple program using shell commands?",
+      "answers": [
+			"Create a Makefile with compilation instructions. Use the command make to build the executable and then execute it.",
+			"For one-time execution without creating an executable file, use gcc -o /dev/null your_program.c && ./a.out. This compiles and executes without creating a persistent executable.",
+			"Combine compilation and execution in a single line with gcc -o output_executable your_program.c && ./output_executable."		
+	   ]
+   },
+   {
+      "q_5": "Explain me how to setup Visual Studio Code for Linux operating system.",
+      "answers": [
+         "Download Visual Studio Code (VSC) for Linux from https://code.visualstudio.com/download and install it. Open VSC, treat a single folder as a project. Install the C/C++ extension, create a .vscode subfolder, and generate tasks.json and launch.json files. In the tasks.json file, write the following code: { \"version\": \"2.0.0\", \"tasks\": [{ \"label\": \"Build with gcc\", \"type\": \"shell\", \"command\": \"gcc\", \"args\": [\"-g\", \"-std=c11\", \"-pedantic-errors\", \"-Wall\", \"-o\", \"program.exe\", \"${file}\"] }] } This code configures a task called \"Build with gcc\" to compile a C program using gcc. Create a launch.json file in the same .vscode subfolder with the following content: { \"version\": \"0.2.0\", \"configurations\": [ { \"name\": \"C Launch\", \"preLaunchTask\": \"Build with gcc\", \"type\": \"cppdbg\", \"request\": \"launch\", \"program\": \"${workspaceRoot}/program.exe\", \"args\": [], \"stopAtEntry\": false, \"cwd\": \"${workspaceRoot}\", \"environment\": [], \"externalConsole\": true, \"miDebuggerPath\": \"gdb.exe\", \"linux\": { \"MIMode\": \"gdb\" }, \"osx\": { \"MIMode\": \"lldb\" }, \"windows\": { \"MIMode\": \"gdb\" } } ] } This code sets up a launch configuration named \"C Launch\" to execute the compiled program with gdb for Linux. Reload VSC, open your source program file, select Debug, and press F5 to compile and execute. Save changes with File/Save or Ctrl-S and prevent immediate closure by placing a breakpoint on the last line of the program.",
+         "Begin by fetching Visual Studio Code (VSC) for Linux through https://code.visualstudio.com/download and completing the installation. Once installed, launch VSC and designate a single folder as your project. Proceed to install the C/C++ extension and create a .vscode subfolder, generating tasks.json and launch.json files. Within tasks.json, input the following code: { \"version\": \"2.0.0\", \"tasks\": [{ \"label\": \"Build with gcc\", \"type\": \"shell\", \"command\": \"gcc\", \"args\": [\"-g\", \"-std=c11\", \"-pedantic-errors\", \"-Wall\", \"-o\", \"program.exe\", \"${file}\"] }] } This code configures a task named \"Build with gcc\" for compiling C programs using gcc. Generate a launch.json file in the same .vscode subfolder with the subsequent content: { \"version\": \"0.2.0\", \"configurations\": [ { \"name\": \"C Launch\", \"preLaunchTask\": \"Build with gcc\", \"type\": \"cppdbg\", \"request\": \"launch\", \"program\": \"${workspaceRoot}/program.exe\", \"args\": [], \"stopAtEntry\": false, \"cwd\": \"${workspaceRoot}\", \"environment\": [], \"externalConsole\": true, \"miDebuggerPath\": \"gdb.exe\", \"linux\": { \"MIMode\": \"gdb\" }, \"osx\": { \"MIMode\": \"lldb\" }, \"windows\": { \"MIMode\": \"gdb\" } } ] } This code establishes a launch configuration named \"C Launch\" for executing the compiled program with gdb on Linux. Reload VSC, open your source program file, choose Debug, and hit F5 to compile and execute. Ensure changes are saved with File/Save or Ctrl-S, preventing immediate closure by placing a breakpoint on the last line of the program.",
+         "Initiate the setup of Visual Studio Code (VSC) on Linux by fetching it from https://code.visualstudio.com/download and executing the installation. Following installation, launch VSC and consider a single folder as your project. Install the C/C++ extension and craft a .vscode subfolder, generating tasks.json and launch.json files. Incorporate the provided code into tasks.json: { \"version\": \"2.0.0\", \"tasks\": [{ \"label\": \"Build with gcc\", \"type\": \"shell\", \"command\": \"gcc\", \"args\": [\"-g\", \"-std=c11\", \"-pedantic-errors\", \"-Wall\", \"-o\", \"program.exe\", \"${file}\"] }] } This code defines a task named \"Build with gcc\" for gcc-based compilation of C programs. Create a launch.json file within the same .vscode subfolder, incorporating the following content: { \"version\": \"0.2.0\", \"configurations\": [ { \"name\": \"C Launch\", \"preLaunchTask\": \"Build with gcc\", \"type\": \"cppdbg\", \"request\": \"launch\", \"program\": \"${workspaceRoot}/program.exe\", \"args\": [], \"stopAtEntry\": false, \"cwd\": \"${workspaceRoot}\", \"environment\": [], \"externalConsole\": true, \"miDebuggerPath\": \"gdb.exe\", \"linux\": { \"MIMode\": \"gdb\" }, \"osx\": { \"MIMode\": \"lldb\" }, \"windows\": { \"MIMode\": \"gdb\" } }] } This code configures a launch named \"C Launch\" to execute the compiled program with gdb on Linux. Reload VSC, open your source program file, opt for Debug, and press F5 to compile and execute. Save changes with File/Save or Ctrl-S, and forestall immediate closure by placing a breakpoint on the last line of the program.",
+         "Commence the Visual Studio Code (VSC) setup on Linux by acquiring it from https://code.visualstudio.com/download and finalizing the installation. Once installed, initiate VSC, designating a single folder as your project. Integrate the C/C++ extension and construct a .vscode subfolder, generating tasks.json and launch.json files. For tasks.json, inject the specified code: { \"version\": \"2.0.0\", \"tasks\": [{ \"label\": \"Build with gcc\", \"type\": \"shell\", \"command\": \"gcc\", \"args\": [\"-g\", \"-std=c11\", \"-pedantic-errors\", \"-Wall\", \"-o\", \"program.exe\", \"${file}\"] }] } This code configures a task, labeled \"Build with gcc,\" facilitating gcc-based compilation of C programs. Forge a launch.json file within the same .vscode subfolder, encompassing the subsequent content: { \"version\": \"0.2.0\", \"configurations\": [ { \"name\": \"C Launch\", \"preLaunchTask\": \"Build with gcc\", \"type\": \"cppdbg\", \"request\": \"launch\", \"program\": \"${workspaceRoot}/program.exe\", \"args\": [], \"stopAtEntry\": false, \"cwd\": \"${workspaceRoot}\", \"environment\": [], \"externalConsole\": true, \"miDebuggerPath\": \"gdb.exe\", \"linux\": { \"MIMode\": \"gdb\" }, \"osx\": { \"MIMode\": \"lldb\"}, \"windows\": { \"MIMode\": \"gdb\" } } ] } This code defines a launch configuration named \"C Launch\" for executing the compiled program with gdb on Linux. Refresh VSC, open your source program file, opt for Debug, and execute compilation with F5. Preserve changes with File/Save or Ctrl-S, and avert immediate closure by setting a breakpoint on the last line of the program.",
+         "Initiate the Visual Studio Code (VSC) configuration on Linux by retrieving it from https://code.visualstudio.com/download and executing the installation. Following installation, commence VSC, considering a single folder as your project. Immerse the C/C++ extension and devise a .vscode subfolder, producing tasks.json and launch.json files. Inscribe the provided code into tasks.json: { \"version\": \"2.0.0\", \"tasks\": [{ \"label\": \"Build with gcc\", \"type\": \"shell\", \"command\": \"gcc\", \"args\": [\"-g\", \"-std=c11\", \"-pedantic-errors\", \"-Wall\", \"-o\", \"program.exe\", \"${file}\"] }] } This code shapes a task labeled \"Build with gcc,\" facilitating gcc-based compilation of C programs. Construct a launch.json file within the same .vscode subfolder, encapsulating the ensuing content:{ \"version\": \"0.2.0\", \"configurations\": [ { \"name\": \"C Launch\", \"preLaunchTask\": \"Build with gcc\", \"type\": \"cppdbg\", \"request\": \"launch\", \"program\": \"${workspaceRoot}/program.exe\", \"args\": [], \"stopAtEntry\": false, \"cwd\": \"${workspaceRoot}\", \"environment\": [], \"externalConsole\": true, \"miDebuggerPath\": \"gdb.exe\", \"linux\": { \"MIMode\": \"gdb\" },\"osx\": { \"MIMode\": \"lldb\"}, \"windows\": { \"MIMode\": \"gdb\" } } ] } This code shapes a launch configuration titled \"C Launch\" for executing the compiled program with gdb on Linux. Refresh VSC, unveil your source program file, opt for Debug, and institute compilation with F5. Safeguard changes with File/Save or Ctrl-S, and inhibit immediate closure by implementing a breakpoint on the last line of the program."
+      ]
+   },
+   {
+      "q_6": "Give me the basics of using a debugger in Visual Studio Code.",
+      "answers": [
+         "Effectively utilizing a debugger in Visual Studio Code involves a structured process to monitor and analyze program execution. Initiate the debugging journey by strategically placing breakpoints in your source code file, such as program.c, where you want the execution to pause.  Click at the beginning of the line to set a breakpoint at the desired location. Following the  compilation of your program, execute it to observe halts at the breakpoints you've defined. During these pauses, inspect variable values by hovering over their names. It's important to note that uninitialized variables may exhibit unexpected values during this examination. To further navigate trough the program, familiarize yourself with the debugger toolbar icons, including Continue, Step Over, Step Into, Step Out, Restart, and Stop. Each icon corresponds to a fundamental command and is associated with a convenient keyboard shortcut. Gain additional insights into the program's state by checking the Locals window while paused. In larger programs, be aware that some variables may disappear from this window. To address this, you can add variables or expressions to the Watch window for constant monitoring, especially when dealing with variables not in the immediate surrounding of the current statement. Execute specific debugger commands based on your debugging needs: Continue running to the end or the next breakpoint (Continue, F5) Execute the next statement without entering the function code (Step Over, F10) Execute the next statement entering the function code (Step Into, F11) Exit the current function (Step Out, Shift-F11) Restart the program with recompilation (Restart, Ctrl-Shift-F5) Stop the program (Stop, Shift-F5) If the current statement involves a function call, you can use the Step Into action to enter the function code. However, this is typically necessary only in specific scenarios. Conversely, the Step Out action allows you to exit the current function and execute the remaining commands within that function. In summary, these steps, including setting breakpoints, provide a comprehensive guide for effectively utilizing the debugger in Visual Studio Code, allowing you to monitor and analyze the execution of your program with precision.",
+         "Effectively leveraging a debugger in Visual Studio Code requires a systematic approach to monitor and analyze program execution. Initiate the debugging process by strategically placing breakpoints in your source code file, such as program.c, where you wish the execution to pause. Set a breakpoint by clicking at the beginning of the line in the desired location. After compiling your program, execute it to witness pauses at the defined breakpoints. During these pauses, scrutinize variable values by hovering over their names. It's crucial to be mindful that uninitialized variables may display unexpected values during this examination. To navigate through the program seamlessly, acquaint yourself with the debugger toolbar icons, encompassing Continue, Step Over, Step Into, Step Out, Restart, and Stop. Each icon corresponds to a fundamental command and comes with a convenient keyboard shortcut. To delve deeper into the program's state, inspect the Locals window while paused. In more extensive programs, be cautious as some variables may vanish from this window. Counteract this by adding variables or expressions to the Watch window for constant monitoring, particularly when dealing with variables not immediately surrounding the current statement. Execute debugger commands tailored to your debugging needs: Continue running to the end or the next breakpoint (Continue, F5) Execute the next statement without entering the function code (Step Over, F10) Execute the next statement entering the function code (Step Into, F11) Exit the current function (Step Out, Shift-F11) Restart the program with recompilation (Restart, Ctrl-Shift-F5) Stop the program (Stop, Shift-F5) In situations involving a function call within the current statement, employ the Step Into action to enter the function code. However, this is typically necessary only in specific scenarios. Conversely, the Step Out action facilitates exiting the current function, executing the remaining commands within that function. In summary, these steps, encompassing breakpoint setting, offer a comprehensive guide for effectively utilizing the debugger in Visual Studio Code. This approach enables precise monitoring and analysis of your program's execution.",
+         "Effectively utilizing a debugger in Visual Studio Code necessitates a systematic approach to monitor and analyze program execution. Begin the debugging process by strategically placing breakpoints in your source code file, like program.c, where you intend the execution to pause. Click at the line's beginning to set a breakpoint in the desired location. After compiling your program, execute it to observe halts at the designated breakpoints. During these pauses, carefully inspect variable values by hovering over their names. It's crucial to be attentive, as uninitialized variables may present unexpected values during this examination. To seamlessly navigate through the program, familiarize yourself with the debugger toolbar icons, covering Continue, Step Over, Step Into, Step Out, Restart, and Stop. Each icon corresponds to a fundamental command, accompanied by a convenient keyboard shortcut. To gain deeper insights into the program's state, examine the Locals window while paused. In more extensive programs, exercise caution, as some variables may disappear from this window. Address this by adding variables or expressions to the Watch window for constant monitoring, especially when dealing with variables not immediately surrounding the current statement. Execute debugger commands tailored to your debugging needs: Continue running to the end or the next breakpoint (Continue, F5) Execute the next statement without entering the function code (Step Over, F10) Execute the next statement entering the function code (Step Into, F11) Exit the current function (Step Out, Shift-F11) Restart the program with recompilation (Restart, Ctrl-Shift-F5) Stop the program (Stop, Shift-F5) In situations involving a function call within the current statement, utilize the Step Into action to enter the function code. However, this is typically necessary only in specific scenarios. Conversely, the Step Out action facilitates exiting the current function, executing the remaining commands within that function. In summary, these steps, which encompass setting breakpoints, provide a comprehensive guide for effectively leveraging the debugger in Visual Studio Code. This approach facilitates precise monitoring and analysis of your program's execution.",
+         "Effectively utilizing a debugger in Visual Studio Code entails a systematic approach to monitor and analyze program execution. Initiate the debugging process by strategically placing breakpoints in your source code file, such as program.c, at locations where you intend the execution to pause. Set a breakpoint by clicking at the line's beginning in the desired location. After compiling your program, execute it to observe halts at the breakpoints you've defined. During these pauses, meticulously scrutinize variable values by hovering over their names. It's crucial to be mindful that uninitialized variables may exhibit unexpected values during this examination. To navigate through the program seamlessly, familiarize yourself with the debugger toolbar icons, encompassing Continue, Step Over, Step Into, Step Out, Restart, and Stop. Each icon corresponds to a fundamental command, and each is associated with a convenient keyboard shortcut. In addition to the debugging toolbar, gain deeper insights into the program's state by inspecting the Locals window while paused. In larger programs, exercise caution, as some variables may disappear from this window. To address this, add variables or expressions to the Watch window for constant monitoring, especially when dealing with variables not immediately surrounding the current statement. Execute debugger commands tailored to your debugging needs: Continue running to the end or the next breakpoint (Continue, F5) Execute the next statement without entering the function code (Step Over, F10) Execute the next statement entering the function code (Step Into, F11) Exit the current function (Step Out, Shift-F11) Restart the program with recompilation (Restart, Ctrl-Shift-F5) Stop the program (Stop, Shift-F5)In situations involving a function call within the current statement, employ the Step Into action to enter the function code. However, this is typically necessary only in specific scenarios. Conversely, the Step Out action facilitates exiting the current function, executing the remaining commands within that function. The debugger's capabilities offer a comprehensive guide for effectively leveraging Visual Studio Code's debugging features. This approach enables precise monitoring and analysis of your program's execution, ensuring a thorough understanding of its behavior."
+      ]
+   },
+   {
+      "q_7": "How can I create a universal Makefile?",
+      "answers": [
+         "To create a universal Makefile for compiling programs of any complexity without explicitly specifying individual components and their dependencies, you can use the following Makefile based on the provided text: CC = gcc CFLAGS = -c -g -std=c11 -pedantic-errors -Wall SRCS = $(wildcard *.c) INCLUDES = $(wildcard *.h) OBJS = $(SRCS:.c=.o) main.exe: $(OBJS) $(CC) -o $@ $(OBJS) $(OBJS): %.o: %.c $(INCLUDES) $(CC) $(CFLAGS) -c $< clean: del *.o *.exe This Makefile includes variables for the compiler (CC) and compiler options (CFLAGS). It automatically identifies source files (*.c), header files (*.h), and generates object files (*.o). The main target is main.exe, which depends on the object files and is built using the specified compiler and options. The rule for building object files is also included, and the clean rule allows for the deletion of all object and executable files.",
+         "To create a universal Makefile that can compile programs of any complexity without the need for explicit specifications of individual components and their dependencies, consider the following example: CC = gcc CFLAGS = -c -g -std=c11 -pedantic-errors -Wall SRCS = $(wildcard *.c) INCLUDES = $(wildcard *.h) OBJS = $(SRCS:.c=.o) main.exe: $(OBJS) $(CC) -o $@ $(OBJS) $(OBJS): %.o: %.c $(INCLUDES) $(CC) $(CFLAGS) -c $< clean: del *.o *.exe This Makefile incorporates variables for the compiler (CC) and compiler options (CFLAGS). It automatically detects source files (*.c) and header files (*.h), generating corresponding object files (*.o). The primary target is main.exe, dependent on the object files and constructed using the specified compiler and options. Additionally, it includes a rule for building object files from source files and a cleanup rule (clean) for removing all object and executable files.",
+         "To craft a universal Makefile capable of compiling programs of varying complexity without explicitly specifying individual components and their dependencies, utilize the provided Makefile as follows: CC = gcc CFLAGS = -c -g -std=c11 -pedantic-errors -Wall SRCS = $(wildcard *.c) INCLUDES = $(wildcard *.h) OBJS = $(SRCS:.c=.o) main.exe: $(OBJS) $(CC) -o $@ $(OBJS) $(OBJS): %.o: %.c $(INCLUDES) $(CC) $(CFLAGS) -c $< clean: del *.o *.exe This Makefile integrates variables for the compiler (CC) and compiler options (CFLAGS). It automatically recognizes source files (.c) and header files (.h), producing corresponding object files (*.o). The primary target is main.exe, relying on the object files and constructed using the specified compiler and options. The rule for producing object files from source files is also provided, and the clean rule facilitates the removal of all object and executable files.",
+         "To generate a universal Makefile suitable for compiling programs of diverse complexities without explicitly specifying individual components and their dependencies, adopt the following Makefile: CC = gcc CFLAGS = -c -g -std=c11 -pedantic-errors -Wall SRCS = $(wildcard *.c) INCLUDES = $(wildcard *.h) OBJS = $(SRCS:.c=.o) main.exe: $(OBJS) $(CC) -o $@ $(OBJS) $(OBJS): %.o: %.c $(INCLUDES) $(CC) $(CFLAGS) -c $< clean: del *.o *.exeThis Makefile integrates variables for the compiler (CC) and compiler options (CFLAGS), dynamically identifies source files (.c) and header files (.h), and generates corresponding object files (*.o). The primary target, main.exe, depends on the object files and is constructed using the specified compiler and options. The rule for producing object files from source files is included, and the clean rule facilitates the removal of all object and executable files."
+      ]
+   },
+   {
+      "q_8": "What do I use to log in into Edgar?",
+      "answers": [
+         "The username and password from the AAI-Edu system are used to log in to the system.",
+         "You should log into Edgar using the username and password from the AAI-Edu system.",
+         "The username and password from the AAI-Edu system should be used for logging into the Edgar system.",
+         "The username and password from the AAI-Edu system are used to log in to the system. You can access this login mode by clicking on \"login here using AAI\".",
+         "The username and password from the AAI-Edu system are used to log in to the system. You can access this login mode by clicking on \"login here using AAI\". Then you need to enter the AAI username and password in the login fields and click \"PRIJAVA\"."
+      ]
+   },
+   {
+      "q_9": "How does the support system in Edgar work?",
+      "answers": [
+         "Click on the icon in the upper right corner of the question page. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test, without waiting for an answer. The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it. After the the problem has been addresses, a message appears on the student's screen. The student can then return to the appropriate question and check for the answer. The answer can be viewed by clicking on the green cloud icon. Remark: Only after the teaching staff answers the question related to the task, the student can ask the next question about the same task if necessary.",
+         "Click on the icon located in the upper right corner of the question page. Enter a description of the issue in the appearing window and confirm it by selecting \"Yes, raise ticket.\" Proceed with the test without awaiting a response. The teaching staff will promptly address the problem and respond to the student. While awaiting a response, the student cannot send additional messages regarding the same task (although messages about other tasks are allowed) – the icon turns red, and an hourglass icon appears beside it. After the problem is addressed, a notification appears on the student's screen. The student can then return to the relevant question and check for the answer, accessible by clicking on the green cloud icon. Note: Only after the teaching staff answers the question related to the task can the student ask any additional questions about the same task if necessary.",
+         "Select the icon positioned in the upper right corner of the question page. Input a description of the problem in the emerging window and confirm by clicking \"Yes, raise ticket.\" Proceed with the test without awaiting a reply. The teaching staff will promptly assess the issue and respond to the student. During the waiting period, the student is unable to send extra messages related to the same task (though messages regarding other tasks are acceptable) – the icon transforms into red, accompanied by an hourglass icon. Following the resolution of the problem, a notification will appear on the student's screen, allowing them to return to the relevant question and access the answer by clicking on the green cloud icon. Special note: The student can inquire about additional questions regarding the same task only after the teaching staff has responded to the initial query.",
+         "Click on the icon located at the upper right corner of the question page. Describe the issue in the window that appears and confirm by clicking \"Yes, raise ticket.\" Proceed with the test without waiting for a response. The teaching staff will promptly review and respond to the student's concern. While awaiting a response, the student is restricted from sending extra messages concerning the same task (although messages about other tasks are allowed) – the icon changes to red, and an hourglass icon appears beside it. Once the issue is addressed, a message will appear on the student's screen, allowing them to return to the specific question and view the answer by clicking on the green cloud icon. Note: The student can only pose additional questions about the same task after the teaching staff has addressed the initial question.",
+         "Choose the icon positioned in the upper right corner of the question page. Provide a description of the problem in the window that pops up and confirm by clicking \"Yes, raise ticket.\" Proceed with the test without waiting for an answer. The teaching staff will promptly address the problem and respond to the student. While waiting for a response, the student is not permitted to send additional messages related to the same task (though messages about other tasks are acceptable) – the icon turns red, and an hourglass icon appears next to it. After the problem has been resolved, a message will appear on the student's screen, allowing them to return to the relevant question and check for the answer by clicking on the green cloud icon. Important note: The student can ask additional questions about the same task only after the teaching staff has answered the initial question."
+      ]
+   },
+   {
+      "q_10": "Is asking for solutions with the ticketing system ok?",
+      "answers": [
+         "Yes, you can ask questions related to tests using the ticketing system in Edgar.",
+         "You are allowed to inquire about test-related questions using the ticketing system in Edgar.",
+         "The ticketing system in Edgar facilitates the asking of questions pertaining to tests.",
+         "It's possible to use the ticketing system in Edgar for raising questions specifically related to tests."
+      ]
+   },
+   {
+      "q_11": "What is the duration of the second cycle in weeks?",
+      "answers": [
+         "The duration of the second cycle is 6 weeks.",
+         "The second cycle spans a duration of 6 weeks.",
+         "There is a 6-week duration assigned to the second cycle.",
+         "The second cycle extends over a period of 6 weeks."
+      ]
+   },
+   {
+      "q_12": "What will happen if i dont work continuously?",
+      "answers": [
+         "Working continuously is a vital aspect of success in this course. The workload is distributed across the weeks, with an average of 10 hours of independent work expected per week. Avoiding this and opting for last-minute cramming is strongly discouraged. It's essential to understand the materials, practice problem-solving, and prepare for assessments steadily to achieve good results.",
+         "It's crucial to work continuously throughout this course. The workload is designed for approximately 10 hours of independent work each week. Trying to compensate for missed weeks with a last-minute effort is not advisable and is likely to result in poor performance. Consistent effort is essential for comprehending the content, mastering coding skills, and succeeding in laboratory exercises and exams.",
+         "If you choose not to work continuously, it's essential to recognize that this course is designed for consistent effort. The expectation is around 10 hours of independent work each week. Trying to catch up after prolonged inactivity is a risky strategy and will likely lead to poor academic performance. Consistency is key to mastering the materials and excelling in assignments and tests.",
+         "If you don't work continuously, it's important to understand that the course expects an average of about 10 hours of independent work per week. Failing to maintain this continuous effort, and opting for a last-minute approach, is likely to result in poor outcomes. You'll struggle to grasp the materials, develop key skills, and perform well in laboratory exercises and tests."
+      ]
+   },
+   {
+      "q_13": "How should i study outside of the lectures if I want to get a good grade?",
+      "answers": [
+         "To secure a good grade, it's key to adopt an effective study routine outside of lectures. Here's a recommended approach:\nReview lecture slides and maintain detailed notes.\nEngage with the recommended reading materials.\nUse online resources to better your comprehension.\nPrioritize task-solving on your computer to build proficiency in algorithm design, coding, translation, error detection, and testing. These skills are crucial for success in laboratory exercises and exams. Additionally, work on published assignments in parallel with lectures and modify program examples from lecture materials to gain practical experience.",
+         "If you aim for a high grade, it's essential to approach your self-study strategically. Outside of lectures, focus on the following:\nThoroughly review lecture slides and take comprehensive notes.\nDive into the recommended reading materials.\nExplore online resources to make your understanding better.\nDedicate time to solving a variety of tasks on your computer to develop skills in algorithm design, coding, and error detection, which are assessed in laboratory exercises and exams. Work on published assignments alongside lectures and experiment with program examples to gain hands-on experience.",
+         "To get a good grade, focus on these key study tips:\nReview lecture slides and take notes.\nRead recommended materials.\nUse online resources for help.\nPractice solving tasks on your computer to build skills. Work on assignments alongside lectures.",
+         "To aim for a good grade, keep it simple:\nReview lecture slides and jot down notes.\nRead the suggested materials.\nFind extra help online.\nWork on tasks on your computer, like assignments and program examples."
+      ]
+   },
+   {
+      "q_14": "Which competences are expected to be acquired after completing the subject?",
+      "answers": [
+         "After completing the course, you are expected to acquire several key competences. These include a solid understanding of fundamental programming concepts and the ability to create relatively simple programs using the C programming language. Additionally, you should be proficient in using a compiler and a basic integrated development environment (IDE).",
+         "After successfully completing the course, you should have developed a range of competences. These include a strong foundation in programming principles and the capability to develop simpler programs using the C programming language. Moreover, you should be proficient in utilizing both a compiler and a basic integrated development environment (IDE).",
+         "By the end of the course, you'll have gained skills in fundamental programming concepts, be able to create basic programs in C, and know how to work with a compiler and a simple IDE.",
+         "When you finish the course, you'll have learned the basics of programming, gained the skill to create simple programs in C, and become familiar with using a compiler and a basic IDE."
+      ]
+   },
+   {
+      "q_15": "How do laboratory exercises work?",
+      "answers": [
+         "Laboratory exercises are an essential part of the course, and here's how they work:\nThere are eight exercises in total, four before the midterm exam and four after.\nEach exercise lasts around 110 minutes.\nStudents must complete each exercise within the specified time frame, and there are no makeup sessions for missed exercises.\nEach exercise has two parts: multiple-choice questions with positive and negative scoring, and programming tasks with no negative points.\nStudents work independently on faculty computers, supervised by teachers.\nYou can use tools like Notepad, Notepad++, and the gcc compiler via the command line or the VSCode development environment.\nIt's crucial to have elementary program editing skills with Notepad/Notepad++, as well as the ability to compile and run programs from the command line.",
+         "To understand how laboratory exercises work, consider the following:\nThere are eight exercises in total, evenly split into two cycles before and after the midterm exam.\nEach exercise is approximately 110 minutes in duration.\nStudents are required to complete each exercise within the specified time frame, with no opportunity for makeup sessions.\nEach exercise comprises two parts: multiple-choice questions with scoring (positive for correct, negative for incorrect answers) and programming tasks without negative points.\nStudents work independently on faculty computers, utilizing tools like Notepad, Notepad++, gcc compiler via the command line, and VSCode.\nProficiency in basic program editing with Notepad/Notepad++ and the ability to compile and run programs from the command line are important.",
+         "Laboratory exercises are an important part of the course. Here's how they work:\nThere are eight exercises, split into two cycles before and after the midterm exam.\nEach exercise takes around 110 minutes.\nYou must finish each exercise in the given time; there are no second chances.\nExercises have two parts: multiple-choice questions with positive and negative scoring, and programming tasks with no negative points.\nYou work on faculty computers, and you can use tools like Notepad, Notepad++, and the gcc compiler via the command line or VSCode.\nBe sure to know how to edit programs with Notepad/Notepad++ and compile/run programs from the command line."
+      ]
+   },
+   {
+      "q_16": "Are there negative points on laboratory exercises?",
+      "answers": [
+         "Yes, there are negative points on laboratory exercises, but it depends on the type of task. In the multiple-choice questions part, a correct answer earns positive points, an incorrect answer results in negative points, and unanswered questions do not receive negative points. However, in the programming assignments, there are no negative points.",
+         "Indeed, laboratory exercises include negative points, but it varies by task type. When it comes to multiple-choice questions, a correct answer adds positive points, an incorrect answer deducts points, and leaving a question unanswered doesn't result in negative points. However, in the programming assignments, there are no negative points.",
+         " Yes, there are negative points in laboratory exercises, but the scoring depends on the task type. In the multiple-choice questions part, a correct answer earns positive points, an incorrect answer deducts points, and unanswered questions do not lead to negative points. However, in programming assignments, there are no negative points.",
+         "Yes, there are negative points on laboratory exercises, but it depends on the task type. In multiple-choice questions, incorrect answers deduct points, while unanswered questions don't result in negative points. However, in programming assignments, there are no negative points."
+      ]
+   },
+   {
+      "q_17": "What should i do with my code before running it in Edgar?",
+      "answers": [
+          "To prepare your code for submission in Edgar, you should follow these steps. Begin by writing your program using a text editor like Notepad or Notepad++. Afterward, compile it using the gcc compiler, and be sure to resolve any errors or warnings that may occur during compilation. Next, conduct comprehensive testing of your program against different test cases to verify its correctness. Only after confirming that your solution works well should you copy and paste the code into Edgar.",
+          "Before you submit your code to Edgar, there are specific steps to follow. First, create your program using a text editor such as Notepad or Notepad++. Then, compile it using the gcc compiler and address any errors or warnings that come up during compilation. It's crucial to thoroughly test your program with various examples to make sure it is correct. Once you are confident that your solution is correct, you can copy and paste the code into Edgar.",
+          "Before submitting your code in Edgar, it's essential to prepare it properly. Begin by writing your program using a text editor like Notepad or Notepad++. Then, compile it using the gcc compiler, making sure to address any errors or warnings during compilation. Additionally, thoroughly test your program with various examples to validate its correctness. Only when you are confident that your solution is free from errors should you copy and paste the code into Edgar.",
+          "Before using Edgar, make sure to follow these steps for your code: Write it in a text editor like Notepad or Notepad++, compile it using the gcc compiler, resolve any errors or warnings, and thoroughly test it with different data. Only when you're sure it's correct, copy and paste it into Edgar.",
+          "To prepare your code for Edgar, write it using a text editor like Notepad or Notepad++, compile it with the gcc compiler, fix any errors or warnings, and test it with various data. When you're confident it's working correctly, you can paste it into Edgar."
+      ]
+   },
+   {
+      "q_18": "Where can I find the schedule of the laboratory exercises?",
+      "answers": [
+         "The schedule for the laboratory exercises in the \"Introduction to Programming\" course, including dates, topics, and the number of program tasks per exercise, along with the maximum number of points achievable in each, will be made available on the Microsoft Teams platform. This information will be published at least a week prior to the exercises.",
+         "Students can find the detailed schedule for laboratory exercises, which specifies the dates, topics, number of tasks, and maximum points for each exercise, on the Microsoft Teams platform. This schedule will be posted with at least a week's notice before the commencement of the exercises.",
+         "The \"Introduction to Programming\" course provides the laboratory exercise schedule, covering dates, topics, and tasks per exercise, as well as the maximum points per exercise, on the Microsoft Teams platform. This schedule is published at least one week in advance of the exercises.",
+         "For the laboratory exercises of the \"Introduction to Programming\" course, the complete schedule, including exercise dates, topics, number of tasks, and the maximum points, is accessible on the Microsoft Teams platform. This information is reliably published at least a week before the exercises start​​."
+      ]
+   },
+   {
+      "q_19": "If I have 0 points from lab excercises, can I pass with a grade of 5?",
+      "answers": [
+         "No, it's not possible to pass with a grade of 5 if you have 0 points from laboratory exercises. The conditions for obtaining a passing grade based on continuous assessment require a minimum of 14 points out of 35 possible on the final exam and a total of at least 50 points overall.",
+         "Achieving a grade of 5 is unfeasible with 0 points from laboratory exercises. To pass, you must secure at least 14 points on the final exam and accumulate a total of 50 points or more, including lab exercise points.",
+         "With 0 points in laboratory exercises, obtaining a grade of 5 is not achievable. The passing criteria demand at least 14 points on the final exam, with an overall score of 50 points, including lab exercise points.",
+         "It's impossible to attain a grade of 5 if you score 0 points in laboratory exercises. Passing the course requires a minimum of 14 points on the final exam and a total score of 50 points, inclusive of laboratory exercise points​​."
+      ]
+   },
+   {
+      "q_20": "What are my options for consultations?",
+      "answers": [
+         "For consultations in the \"Introduction to Programming\" course, students can schedule times to discuss with the teacher through the MS Teams platform. The teacher is available to further explain course materials during these consultations.",
+         "Students have the option to arrange consultations with their teacher using the MS Teams platform. These sessions are intended for additional explanations of the course content.",
+         "The course offers consultation sessions with the teacher, which can be scheduled on the MS Teams platform. During these sessions, the teacher will provide further clarifications on the study material.",
+         "Consultation opportunities in this course involve arranging sessions with the teacher via MS Teams, where the teacher will provide additional insights into the course material​​."
+      ]
+   },
+   {
+      "q_21": "What happens if I do not pass the course during the continuous monitoring of classes?",
+      "answers": [
+         "If a student does not pass the \"Introduction to Programming\" course during the continuous monitoring period, they have the option to take one or more classical exams. These exams are similar to the midterm and final exams but are generally more comprehensive.",
+         "In the event of not passing the course through continuous monitoring, students can sit for classical exams. These exams, which are akin to the midterm and final exams, are typically more detailed and extensive.",
+         "Students who don't achieve a passing grade during the continuous assessment of the course have the opportunity to take classical exams. These exams are structured similarly to the midterm and final exams, yet they cover more material.",
+         "For students who fail to pass during the continuous monitoring phase, the course offers the alternative of taking classical exams. These exams are comparable in format to the midterm and final exams but tend to be more thorough​​."
+      ]
+   },
+   {
+      "q_22": "What will happen if I do not submit the exam on time?",
+      "answers": [
+         "The student is obliged to submit the test for assessment by the end of the countdown, but it will be possible to submit the test for assessment in a reasonable time after the expiration. This timeout, however, will be recorded in the system, so the test can be canceled later.",
+         "It is the student's responsibility to submit the test for assessment by the countdown's end. Yet, there is a reasonable window post-expiration for test submission, and the system will log this timeout, enabling potential cancellation.",
+         "If you don't submit test on time it is possible it will be canceled later.",
+         "Submission of the test for assessment by the countdown's end is a requirement for the student. However, there is a sensible timeframe after expiration for test submission, and the system will note this timeout for potential cancellation."
+      ]
+   },
+   {
+      "q_23": "Who do I contact if I have questions during the exam?",
+      "answers": [
+         "If you have a question during exam you can ask teaching staff using ticketing system.",
+         "If you have a question during exam you can ask teaching staff using ticketing system.",
+         "In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task. In order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system.",
+         "Edgar provides a support system known as the Ticketing system to enhance communication between students and teaching staff during test writing. If a student has uncertainties about the accuracy of a solution or any other matter, they can ask a question pertaining to a specific task.",
+         "In order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task."
+      ]
+   },
+   {
+      "q_24": "If I got 23 points on my laboratory exercises, 7 points on my lectures, 35 points on my midterm exam, and 23 points on my final exam, will I pass?",
+      "answers": [
+         "Yes, you will pass",
+         "Yes, you will have 88 points and enough points in each category",
+         "Not only that you will pass, you will have an excellent mark",
+         "According to your input, you will obtain 88 points and that is enough to pass",
+         "You will pass with an excellent mark"
+      ]
+   },
+   {
+      "q_25": "List me the recommended literature.",
+      "answers": [
+         "The recommended literature goes as follows: • V. Mornar: Introduction to programming, working version of the textbook • K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company • B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+         "The recommended literature is \"Introduction to programming,\" \"C Programming: A Modern Approach, Second Edition,\" and \"The C Programming Language, Second Edition\"",
+         "The recommended literature is \"Introduction to programming,\" \"C Programming: A Modern Approach, Second Edition,\" and \"The C Programming Language, Second Edition\" and authors are V. Mornar, K. N. King, and B. W. Kernighan, D. M. Ritchie respectively",
+         "Sure, here it is: • V. Mornar: Introduction to programming, working version of the textbook o The textbook covers the complete material of the subject, and even more than that. The textbook will be available on MS Teams as pdf. An integral part of the textbook is the folder Examples with about ninety programs that can be independently translated and run in the command line or in the development environment VSCode. • K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company o An extensive work (805 pages) that has been accepted as a textbook at hundreds of universities around the world. • B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall o A basic book whose authors are the creators of the C programming language from which many generations of programmers have learned the language."
+      ]
+   },
+   {
+      "q_26": "If i have a question for the lecturers, what should my email consist of?",
+      "answers": [
+         "At the start of the title (subject), you should add the mark [UPRO] (which is an abbreviation of the subject name), and at the end, state the name, surname, and JMBAG of the sender.",
+         "At the start of the title (subject), you should add the mark [UPRO] (which is an abbreviation of the subject name), and at the end, state the name, surname, and JMBAG of the sender. Addition: mail must be sent from @fer.hr, not @gmail.com, for example.",
+         "This information is in the student guide.",
+         "Your email needs to have your name, surname, JMBAG and subject of your email should be [UPRO]. It should also be send from @fer.hr. ",
+         "Your email needs to have your name, surname, JMBAG and subject of your email should be [UPRO]."
+      ]
+   },
+   {
+      "q_27": "What is the course official email address?",
+      "answers": [
+         "UPROlabosi@ferhr.onmicrosoft.com",
+         "Course official email adress is UPROlabosi@ferhr.onmicrosoft.com",
+         "Ask your professors questions related to the materials. Questions related to labaratory exercises should be sent to UPROlabosi@ferhr.onmicrosoft.com.",
+         "Course official email adress is UPROlabosi@ferhr.onmicrosoft.com. Questions related to the materials should be sent to professors."
+      ]
+   },
+   {
+      "q_28": "Give me a list of assistants who conduct laboratory exercises.",
+      "answers": [
+         "There is no information about this topic.",
+         "I can't answer this question.",
+         "I don't have enough information to answer this question.",
+         "Insufficient information is available for me to respond to this question adequately.",
+         "I do not possess enough information to provide a conclusive answer to this question.",
+         "The question cannot be answered thoroughly due to a lack of pertinent details."
+      ]
+   },
+   {
+      "q_29": "What subjects can I enroll in when I finish the introduction to programming?",
+      "answers": [
+         "There is no information about this topic.",
+         "I can't answer this question.",
+         "I don't have enough information to answer this question.",
+         "Insufficient information is available for me to respond to this question adequately.",
+         "I do not possess enough information to provide a conclusive answer to this question.",
+         "The question cannot be answered thoroughly due to a lack of pertinent details."
+      ]
+   },
+   {
+      "q_30": "How to get a grade of 6?",
+      "answers": [
+         "It is not possible to get grade of 6.",
+         "A grade of 6 is unattainable.",
+         "Achieving a grade of 6 is not an option.",
+         "It is impossible to receive a grade of 6.",
+         "Only grades between 1 and 5 are supported by the grading system."
+      ]
+   }
+]

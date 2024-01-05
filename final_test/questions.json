@@ -1,0 +1,92 @@
+[
+   {
+      "q_1": "What does a compiler do? What does a linker do?"
+   },
+   {
+      "q_2": "How do I install the MinGW package?"
+   },
+   {
+      "q_3": "What are all the ways I can set the System variable Path?"
+   },
+   {
+      "q_4": "How do I translate and execute a simple program using shell commands?"
+   },
+   {
+      "q_5": "Explain me how to setup Visual Studio Code for Linux operating system."
+   },
+   {
+      "q_6": "Give me the basics of using a debugger in Visual Studio Code."
+   },
+   {
+      "q_7": "How can I create a universal Makefile?"
+   },
+   {
+      "q_8": "What do I use to log in into Edgar?"
+   },
+   {
+      "q_9": "How does the support system in Edgar work?"
+   },
+   {
+      "q_10": "Is asking for solutions with the ticketing system ok?"
+   },
+   {
+      "q_11": "What is the duration of the second cycle in weeks?"
+   },
+   {
+      "q_12": "What will happen if i dont work continuously?"
+   },
+   {
+      "q_13": "How should i study outside of the lectures if I want to get a good grade?"
+   },
+   {
+      "q_14": "Which competences are expected to be acquired after completing the subject?"
+   },
+   {
+      "q_15": "How do laboratory exercises work?"
+   },
+   {
+      "q_16": "Are there negative points on laboratory exercises?"
+   },
+   {
+      "q_17": "What should i do with my code before running it in edgar?"
+   },
+   {
+      "q_18": "Where can I find the schedule of the laboratory exercises?"
+   },
+   {
+      "q_19": "If I have 0 points from lab excercises, can I pass with a grade of 5?"
+   },
+   {
+      "q_20": "What are my options for consultations?"
+   },
+   {
+      "q_21": "What happens if I do not pass the course during the continuous monitoring of classes?"
+   },
+   {
+      "q_22": "What will happen if I do not submit the exam on time?"
+   },
+   {
+      "q_23": "Who do I contact if I have questions during the exam?"
+   },
+   {
+      "q_24": "If I got 23 points on my laboratory exercises, 7 points on my lectures, 35 points on my midterm exam, and 23 points on my final exam, will I pass?"
+   },
+   {
+      "q_25": "List me the recommended literature."
+   },
+   {
+      "q_26": "If i have a question for the lecturers, what should my email consist of?"
+   },
+   {
+      "q_27": "What is the course official email address?"
+   },
+   {
+      "q_28": "Give me a list of assistants who conduct laboratory exercises."
+   },
+   {
+      "q_29": "What subjects can I enroll in when I finish the introduction to programming?"
+   },
+   {
+      "q_30": "How to get a grade of 6?"
+   }
+]
