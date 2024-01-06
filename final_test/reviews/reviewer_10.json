@@ -1,0 +1,596 @@
+{
+    "q_19": {
+        "question": {
+            "q_19": "If I have 0 points from lab excercises, can I pass with a grade of 5?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from lab exercises. You need at least 14 points on the final exam to pass based on continuous assessment.",
+                "time": 40.28,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "No",
+                "time": 73.72,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "No",
+                "time": 126.63,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "No",
+                "time": 37.49,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "No",
+                "time": 39.42,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from lab exercises. You need to achieve at least a total of 50 points (including lab points) and meet the threshold requirements for passing grades based on continuous assessment or exam period.",
+                "time": 104.51,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "No",
+                "time": 26.98,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "No",
+                "time": 66.04,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from laboratory exercises. You need to achieve at least 14 (out of 35 possible) points on the final exam and total points >= 50.",
+                "time": 200.98,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "No",
+                "time": 51.81,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from lab exercises. You need at least 14 points on the final exam to pass based on continuous assessment.",
+                "time": 51.42,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from laboratory exercises. You need to achieve at least 14 (out of 35 possible) points on the final exam and total points >= 50.",
+                "time": 170.53,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "No",
+                "time": 141.75,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "No",
+                "time": 39.89,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "No",
+                "time": 30.73,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from lab exercises. You need to achieve at least a total of 50 points (including lab points) and meet the threshold requirements for passing grades based on continuous assessment or exam period.",
+                "time": 104.98,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "No",
+                "time": 26.94,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "No",
+                "time": 74.14,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from laboratory exercises. You need to achieve at least 14 (out of 35 possible) points on the final exam and total points >= 50.",
+                "time": 193.58,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "No",
+                "time": 54.78,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "No",
+                "time": 41.96,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "No",
+                "time": 30.68,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "No",
+                "time": 97.58,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "No",
+                "time": 27.86,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "No",
+                "time": 72.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "No, you cannot pass with a grade of 5 if you have 0 points from laboratory exercises. You need to achieve at least 14 (out of 35 possible) points on the final exam and total points >= 50.",
+                "time": 190.87,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "No",
+                "time": 72.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "No",
+                "time": 37.74,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "No",
+                "time": 71.26,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    },
+    "q_20": {
+        "question": {
+            "q_20": "What are my options for consultations?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "Your options for consultations include requesting a consultation with your teacher through MS Teams, browsing content on the Internet for additional explanations and examples, and viewing your own tickets in the My tickets menu option to see open and resolved questions.",
+                "time": 32.52,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "Your options for consultations are to use the MS Teams platform, at times agreed with the teacher.",
+                "time": 62.28,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 110.74,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "Your options for consultations are to request a consultation with your teacher through MS Teams at agreed upon times. The teacher will be happy to explain material during the consultation, but will not teach it again. It is important to request consultations as soon as ambiguities arise so that you can resolve them before exams. You can also view your own tickets in the menu option My tickets to see open and resolved questions.",
+                "time": 37.81,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "Your options for consultations are through MS Teams platform, at times agreed with the teacher. The teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again. Consultations should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam, or exam - at that point, it will most likely be too late.",
+                "time": 56.99,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 95.86,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "Your options for consultations are to request a meeting with your teacher through MS Teams at an agreed time, where they can help clarify any ambiguities or difficulties you may have with the material. However, they will not teach the material again during these consultations. It is recommended to request these consultations as soon as you encounter issues, rather than waiting until close to exams, as it may be too late by then.",
+                "time": 29.22,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "Your options for consultations are to use the MS Teams platform to schedule a time with your teacher for a consultation. During these consultations, the teacher will be happy to explain the material further but will not teach it again. It is recommended that you request a consultation as soon as ambiguities arise that you cannot resolve on your own or with the help of colleagues. Do not wait until just before the midterm exam, final exam, or exam, as it may be too late at that point.",
+                "time": 87.38,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 157.91,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "You can consult with the teacher through MS Teams at agreed times. Additionally, you can view your own tickets in the menu option My tickets to see open and resolved questions.",
+                "time": 42.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "Your options for consultations are to use the MS Teams platform, at times agreed with the teacher.",
+                "time": 53.02,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 149.77,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "Your options for consultations are through the MS Teams platform, at times agreed with the teacher.",
+                "time": 110.69,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "Your options for consultations are to request a consultation with your teacher through the MS Teams platform, at times agreed with the teacher.",
+                "time": 26.37,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "Your options for consultations include requesting a meeting with your teacher through MS Teams at an agreed time, seeking help from colleagues, or browsing content on the Internet for additional explanations and examples.",
+                "time": 32.74,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 96.25,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "Your options for consultations are to request a meeting with your teacher through MS Teams at an agreed time, where they can help clarify any ambiguities or difficulties you may have with the material. However, they will not teach it again during these consultations. It is recommended to request these consultations as soon as you encounter issues, rather than waiting until close to exams, as it may be too late by then.",
+                "time": 33.09,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "You can consult with the teacher through the MS Teams platform at times agreed with the teacher. The teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again. Consultation should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam, or exam - at that point, it will most likely be too late.",
+                "time": 91.48,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "Your options for consultations are to use the MS Teams platform to schedule a time with your teacher for a consultation. During the consultation, the teacher will be happy to explain the material further but will not teach it again. It is recommended that you request a consultation as soon as ambiguities arise that you cannot resolve on your own or with the help of colleagues. Do not wait until just before the midterm exam, final exam, or exam, as it may be too late at that point.",
+                "time": 145.03,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "Your options for consultations are to use the MS Teams platform, at times agreed with the teacher.",
+                "time": 47.74,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "Your options for consultations are through MS Teams platform, at times agreed with the teacher. The teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again. It is recommended to request a consultation as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam or exam - at that point it will most likely be too late.",
+                "time": 40.3,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "Your options for consultations include requesting a meeting with your teacher through MS Teams at an agreed time, seeking help from colleagues, or browsing content on the Internet for additional explanations and examples.",
+                "time": 32.67,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 92.95,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "Your options for consultations are to request a meeting with your teacher through MS Teams at an agreed time, where they can help clarify any ambiguities or difficulties you may have with the material. However, they will not teach the material again during these consultations. It is recommended to request these consultations as soon as you encounter issues, rather than waiting until close to exams, as it may be too late by then.",
+                "time": 30.45,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "Your options for consultations are to use the MS Teams platform to schedule a time with your teacher for a consultation. During the consultation, the teacher will be happy to explain the material further, but they will not teach it again. It is recommended that you request a consultation as soon as ambiguities arise that you cannot resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam, or exam, as it may be too late at that point.",
+                "time": 73.2,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 150.02,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "Your options for consultations include requesting a consultation through MS Teams with your teacher at an agreed time, or viewing your own tickets in the menu option My tickets to see any previously answered questions by the teaching staff.",
+                "time": 52.78,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "Consultations will take place through the MS Teams platform, at times agreed with the teacher.",
+                "time": 42.57,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "Your options for consultations are through the MS Teams platform at times agreed with the teacher. The teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again. Consultations should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues.",
+                "time": 64.14,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    }
+}

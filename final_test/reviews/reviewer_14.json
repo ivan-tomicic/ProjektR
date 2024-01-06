@@ -1,0 +1,596 @@
+{
+    "q_27": {
+        "question": {
+            "q_27": "What is the course official email address?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "The course's official email address is @fer.hr.",
+                "time": 40.77,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "The course official email address is @fer.hr.",
+                "time": 64.24,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 111.38,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 29.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "The course official email address is @fer.hr.",
+                "time": 63.29,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "The course official email address is @fer.hr.",
+                "time": 94.22,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "You should check your email inbox @fer.hr.",
+                "time": 20.84,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 74.75,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 162.78,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "The course official email address is vedran.mornar@fer.hr.",
+                "time": 40.32,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 70.27,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 191.51,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "The course official email address is not provided in this text.",
+                "time": 136.62,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "The course does not provide an official email address.",
+                "time": 32.14,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 52.28,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 82.53,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 15.1,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 108.77,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 167.1,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 46.19,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 27.4,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "The course official email address is @fer.hr.",
+                "time": 29.45,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "You should check your email inbox @fer.hr.",
+                "time": 85.42,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "I don't know the course official email address.",
+                "time": 16.33,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "You should check your email inbox @fer.hr.",
+                "time": 84.4,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 162.16,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "The course official email address is not provided in the given context.",
+                "time": 54.79,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "The course official email address is @fer.hr.",
+                "time": 37.75,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "The course official email address is vedran.mornar@fer.hr",
+                "time": 76.29,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    },
+    "q_28": {
+        "question": {
+            "q_28": "Give me a list of assistants who conduct laboratory exercises."
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "The list of assistants who conduct laboratory exercises is not provided in this context.",
+                "time": 42.03,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "The list of assistants who conduct laboratory exercises is not provided in this context.",
+                "time": 55.12,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "Assistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr",
+                "time": 116.85,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 36.39,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 51.9,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "Assistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr",
+                "time": 83.3,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 27.68,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "Assistants who conduct laboratory exercises are not provided in this context.",
+                "time": 78.52,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "Assistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr",
+                "time": 169.05,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 41.35,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 55.86,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "Assistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr",
+                "time": 214.76,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "The list of assistants who conduct laboratory exercises is not provided here, as it may change from semester to semester or even during the course of a semester. It is recommended that you ask your teacher or the head of the department for the current list of assistants conducting laboratory exercises.",
+                "time": 144.59,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 33.89,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 39.66,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "The list of assistants who conduct laboratory exercises will be published on Teams at least one week before the start of the exercises.",
+                "time": 104.73,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 28.97,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "The list of assistants who conduct laboratory exercises is not provided in this context.",
+                "time": 86.55,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "Assistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr",
+                "time": 179.13,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 47.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 31.21,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 37.94,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "Assistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr",
+                "time": 82.09,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 27.34,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "Assistants who conduct laboratory exercises are not provided in this context.",
+                "time": 84.43,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "Assistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr",
+                "time": 179.04,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "The list of assistants who conduct laboratory exercises is not provided in this context.",
+                "time": 52.92,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+                "time": 42.09,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "The list of assistants who conduct laboratory exercises will be published on Teams at least a week before the exercises start.",
+                "time": 97.01,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    }
+}

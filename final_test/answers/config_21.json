@@ -869,7 +869,7 @@
                 }
             ],
             "combined_documents": "Browsing content on the Internet for additional explanations and examples\n\nIt is therefore of the utmost importance:\n        solve published assignments for exercises in addition to lectures (published at the same time as lectures)\n        test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications (you can copy the program code of examples from lectures from PDF versions of published lectures)\n    Reading other literature (see chapter Other materials - Recommended reading)\n\n1 Introduction",
-            "time": 425.35,
+            "time": 21.66,
             "evaluation": {
                 "bleu_score": -100000,
                 "rouge_score": {

@@ -1,0 +1,596 @@
+{
+    "q_1": {
+        "question": {
+            "q_1": "What does a compiler do? What does a linker do?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "A compiler translates source code into object code, while a linker links object code files with libraries to create an executable program.",
+                "time": 76.79,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "A compiler translates source code into object code, while a linker merges object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 72.98,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "A compiler translates the source code file into object code, which is a file that cannot yet be run because it lacks links to functions and variables from other object code files and libraries where standard functions (input/output, mathematical functions, etc.) have been prepared. A linker merges all required object code files with pre-programmed libraries and creates an executable code that can be run directly from the operating system.",
+                "time": 151.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "A compiler translates source code into object code, which is a file that cannot be run directly. A linker merges the required object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 36.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "A compiler translates source code into object code, while a linker merges object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 56.09,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "A compiler translates the source file (written in programming language C) into an object code file that cannot yet be run because it does not yet have links to functions and variables from other object code files and libraries where standard functions (input/output, mathematical functions, etc.) have been prepared. A linker merges all required object code files with the pre-programmed libraries and creates executable code that can be run directly from the operating system.",
+                "time": 153.77,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "A compiler translates source code into object code, while a linker merges object code files with pre-programmed libraries to create executable code that can be run directly from the operating system.",
+                "time": 31.35,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "A compiler translates source code into object code, while a linker links object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 89.11,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "A compiler is a program that translates source code written in a programming language (such as C) into machine code, which is a set of instructions that a computer's processor can understand. A linker is another program that links together object files (which are partially compiled programs) and libraries to create an executable program.",
+                "time": 305.47,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "A compiler translates source code into object code. A linker merges object code files with pre-programmed libraries to create an executable file that can be run directly from the operating system.",
+                "time": 47.37,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "A compiler translates the source file into an object code file, which is not yet runnable because it lacks links to functions and variables from other object code files and libraries. A linker merges all required object code files with pre-programmed libraries and creates executable code that can be run directly from the operating system.",
+                "time": 80.07,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "A compiler is a program that translates source code written in a programming language (such as C) into machine code, which is a set of instructions that a computer's processor can understand. A linker is another program that links together object files (which are partially compiled programs) with libraries and other necessary files to create an executable program that can be run directly from the operating system.",
+                "time": 229.51,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "A compiler is a program that translates human-readable source code written in a programming language (such as C) into machine code, which is a series of instructions that a computer's processor can understand. This process is called compilation.\nA linker is another program that takes the object code files generated by the compiler and links them together with any necessary libraries to create an executable program. This process is called linking.",
+                "time": 164.14,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "A compiler is a tool that translates source code (written in a programming language) into object code, which can be understood by the computer's processor. A linker, on the other hand, links together the object code files with pre-programmed libraries to create an executable program that can be run directly from the operating system.",
+                "time": 42.94,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "A compiler translates source code into object code. A linker links the object code with necessary libraries to create an executable file that can be run directly from the operating system.",
+                "time": 56.39,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "A compiler translates the source file (written in programming language C) into an object code file that cannot yet be run because it does not yet have links to functions and variables from other object code files and libraries where standard functions (input/output, mathematical functions, etc.) have been prepared. A linker merges all required object code files with the pre-programmed libraries and creates executable code that can be run directly from the operating system.",
+                "time": 120.22,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "A compiler translates source code into object code, while a linker merges object code files with pre-programmed libraries to create executable code that can be run directly from the operating system.",
+                "time": 30.99,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "A compiler translates source code into object code, while a linker links object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 99.25,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "A compiler is a program that translates source code written in a programming language (such as C) into machine code, which is a set of instructions that a computer's processor can understand. A linker is another program that links together object files (which are partially compiled programs) and libraries to create an executable program.",
+                "time": 275.44,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "A compiler translates source code into object code. A linker links the object code with required libraries to create an executable program.",
+                "time": 44.81,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "A compiler translates source code into object code, which is a file that cannot be run directly. A linker merges the required object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 35.32,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "A compiler translates source code into object code, while a linker merges object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 44.63,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "A compiler translates the source file (written in programming language C) into an object code file that cannot yet be run because it does not yet have links to functions and variables from other object code files and libraries where standard functions (input/output, mathematical functions, etc.) have been prepared. A linker merges all required object code files with the pre-programmed libraries and creates executable code that can be run directly from the operating system.",
+                "time": 112.35,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "A compiler translates source code into object code, while a linker merges object code files with pre-programmed libraries to create executable code that can be run directly from the operating system.",
+                "time": 24.9,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "A compiler translates source code into object code, while a linker links object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 85.29,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "A compiler is a program that translates source code written in a programming language into machine code, which can be executed by a computer's processor. A linker is a program that links together object files (files created by the compiler) with libraries to create an executable file that can be run directly from the operating system.",
+                "time": 259.69,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "A compiler translates source code into object code. A linker merges object code files with pre-programmed libraries to create an executable file that can be run directly from the operating system.",
+                "time": 55.01,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "A compiler translates the source file (written in programming language C) into an object code file, which is not yet runnable because it lacks links to functions and variables from other object code files and libraries. A linker merges all required object code files with pre-programmed libraries and creates executable code that can be run directly from the operating system.",
+                "time": 91.1,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "A compiler translates source code into object code, while a linker merges all required object code files with pre-programmed libraries to create an executable code that can be run directly from the operating system.",
+                "time": 107.84,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    },
+    "q_2": {
+        "question": {
+            "q_2": "How do I install the MinGW package?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, select Basic Setup in the left column and press Apply Changes to start the installation process. After the installation is completed, set the system variable Path by adding a path to the folder bin of the MinGW package.",
+                "time": 84.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, select Basic Setup in the left column and mark for installation the item mingw32-base in the next column. After that, apply changes and set the system variable Path to include the folder bin of the MinGW package.\n\nAlternatively, you can create a folder on your computer, download the archive MinGW.zip from the file repository, extract it into the folder, and set the system variable Path accordingly.",
+                "time": 105.72,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form shown.\n3. Press Continue on the next form.\n4. The MinGW Installation Manager will be downloaded and started automatically.\n5. In the left column, select Basic Setup.\n6. Mark (Select for Installation) mingw32-base in the next column.\n7. Select Installation -> Apply Changes and press Apply.\n8. After installation is completed, set the system variable Path by adding a path to the folder bin of the MinGW package. This can be done through the graphical interface or command prompt.",
+                "time": 138.13,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps: 1) Create a folder for MinGW files (e.g., C:\\MinGW), 2) Download the archive MinGW.zip and extract it into the folder, 3) Set the system variable Path according to instructions, and 4) Add the path to the folder where the MinGW package is installed to the list of folders where the operating system looks for executable programs.",
+                "time": 58.49,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager.\n3. In the left column of the manager, select Basic Setup, mark (Mark for Installation) mingw32-base in the next column, and apply changes by selecting Installation -> Apply Changes and pressing Apply.\n4. After installation, set the system variable Path to include the folder bin of the MinGW package.\n\nAn alternative method:\n1. Create a folder for MinGW files (e.g., C:\\MinGW).\n2. Download the archive MinGW.zip and extract it into the created folder.\n3. Set the system variable Path as instructed above.",
+                "time": 89.34,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Execute the program, select Basic Setup, mark (Mark for Installation) item mingw32-base, apply changes and set the system variable Path to the folder bin of the MinGW package. This can be done through a graphical interface or in command prompt.",
+                "time": 114.24,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute the downloaded program, press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps: create a folder for MinGW files (e.g. C:\\MinGW), download the archive MinGW.zip, extract it into the folder, and set the system variable Path according to instructions.",
+                "time": 44.25,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Run the downloaded program and follow the instructions provided. If you have problems with the latest version of MinGW on your Windows computer, try the alternative method described above.",
+                "time": 88.37,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from the page http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form shown, then Continue on the next form.\n3. In the left column of the MinGW Installation Manager, select Basic Setup. Mark (Select for installation) mingw32-base in the next column.\n4. Choose Installation -> Apply Changes from the menu and press Apply in the newly opened window.\n5. After the installation is completed, set the system variable Path by adding a path to the folder bin of the MinGW package (usually C:\\MinGW\\bin). This can be done through Control Panel or using an alternative method described in the text.",
+                "time": 256.6,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, press Install on the first form, Continue on the next one, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps:\n1. Create a folder for MinGW files (e.g., C:\\MinGW)\n2. Download the archive MinGW.zip and extract it into the folder\n3. Set the system variable Path according to instructions\n4. Add the path to the folder where the MinGW package is installed (normally C:\\MinGW\\bin) to the list of folders where executable programs are searched",
+                "time": 67.65,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, select Basic Setup in the left column and mark for installation the item mingw32-base in the next column. After that, apply changes and set the system variable Path to include the folder bin of the MinGW package.\n\nAlternatively, you can create a folder on your computer, download the archive MinGW.zip from the file repository, extract it into the folder, and set the system variable Path accordingly.",
+                "time": 73.04,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from the page http://sourceforge.net/projects/mingw/files/latest/download?source=files. After downloading, execute the program and follow the instructions to complete the installation.",
+                "time": 186.08,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form shown, then Continue on the next form.\n3. In the MinGW Installation Manager, select Basic Setup in the left column and mark (Mark for Installation) item mingw32-base in the next column.\n4. Press Installation -> Apply Changes and press Apply to start the installation process.\n5. After the installation is completed, set the system variable Path by adding a path to the folder bin of the MinGW package (usually C:\\MinGW\\bin). This can be done through Control Panel or in command prompt.",
+                "time": 134.2,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps: 1) Create a folder for MinGW files (e.g., C:\\MinGW), 2) Download the archive MinGW.zip and extract it into the folder, 3) Set the system variable Path according to instructions, and 4) Add the path to the folder where the MinGW package is installed to the list of folders where the operating system looks for executable programs.",
+                "time": 74.94,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager.\n3. In the left column of the manager, select Basic Setup, mark mingw32-base for installation in the next column, apply changes by selecting Installation -> Apply Changes and pressing Apply.\n4. After the installation is completed, set the system variable Path to include the folder bin of the MinGW package.\n\nAn alternative way:\n1. Create a folder on your computer (e.g., C:\\MinGW).\n2. Download the archive MinGW.zip and extract it into the folder created above.\n3. Set the system variable Path according to the instructions above.",
+                "time": 84.32,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Execute the program, select Basic Setup, mark (Mark for Installation) item mingw32-base, apply changes and set the system variable Path to the folder bin of the MinGW package. This can be done through a graphical interface or command prompt.",
+                "time": 100.38,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute the downloaded program, press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps: create a folder for MinGW files (e.g. C:\\MinGW), download the archive MinGW.zip, extract it into the folder, and set the system variable Path according to instructions.",
+                "time": 45.79,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Run the downloaded program and follow the instructions provided. If you have problems with the latest version of MinGW on your Windows computer, try the alternative method described above.",
+                "time": 92.36,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form shown, then Continue on the next form.\n3. In the left column of the MinGW Installation Manager, select Basic Setup.\n4. Mark (Select for Installation) the item mingw32-base in the next column.\n5. Choose Installation -> Apply Changes and press Apply in the newly opened window.\n6. Set the system variable Path by adding the folder bin of the MinGW package to it. This can be done through a graphical interface or by editing the environment variables manually.",
+                "time": 256.82,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, press Install on the first form, Continue on the next one, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps:\n1. Create a folder for MinGW files (e.g., C:\\MinGW)\n2. Download the archive MinGW.zip and extract it into the folder\n3. Set the system variable Path according to instructions\n4. Add the path to the folder where the MinGW package is installed (normally C:\\MinGW\\bin) to the list of folders where executable programs are searched",
+                "time": 65.25,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps:\n1.\tCreate a folder for MinGW files (e.g. C:\\MinGW)\n2.\tDownload the archive MinGW.zip and extract it into the folder created above\n3.\tSet the system variable Path according to the instructions above",
+                "time": 56.97,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager.\n3. In the left column of the manager, select Basic Setup, mark mingw32-base for installation in the next column, apply changes by selecting Installation -> Apply Changes and pressing Apply.\n4. After the installation is completed, set the system variable Path to include the folder bin of the MinGW package.\n\nAn alternative way:\n1. Create a folder on your computer (e.g., C:\\MinGW).\n2. Download the archive MinGW.zip and extract it into the folder created above.\n3. Set the system variable Path according to the instructions above.",
+                "time": 83.11,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Execute the program, select Basic Setup, mark (Mark for Installation) item mingw32-base, apply changes and set the system variable Path to the folder bin of the MinGW package. This can be done through a graphical interface or in command prompt.",
+                "time": 97.3,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute the downloaded program, press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps: create a folder for MinGW files (e.g. C:\\MinGW), download the archive MinGW.zip, extract it into the folder, and set the system variable Path according to instructions.",
+                "time": 44.38,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Run the downloaded program and follow the instructions provided. If you have problems with the latest version of MinGW on your Windows computer, try the alternative method described above.",
+                "time": 89.0,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form shown.\n3. Press Continue on the next form.\n4. In the left column of the MinGW Installation Manager, select Basic Setup.\n5. Mark (Select for Installation) item mingw32-base in the next column.\n6. Select Installation -> Apply Changes and press Apply in the newly opened window.\n7. After installation is completed, set the system variable Path by adding a path to the folder bin of the MinGW package. This can be done through Control Panel: Control Panel -> System and Security -> System -> Advanced system settings -> Environment Variables -> Path.",
+                "time": 234.23,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Then execute it, press Install on the first form, Continue on the next one, and then Continue again to start MinGW Installation Manager. Alternatively, you can follow these steps:\n1. Create a folder for MinGW files (e.g., C:\\MinGW).\n2. Download the archive MinGW.zip and extract it into the folder.\n3. Set the system variable Path according to the instructions above.",
+                "time": 73.72,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from the page http://sourceforge.net/projects/mingw/files/latest/download?source=files. Run the downloaded program and follow the instructions on the screen. After installation, set the system variable Path by adding a path to the folder bin of the MinGW package.",
+                "time": 72.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "To install the MinGW package, download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files. Run the downloaded program and follow the instructions on screen.",
+                "time": 143.24,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    }
+}

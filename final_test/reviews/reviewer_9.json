@@ -1,0 +1,596 @@
+{
+    "q_17": {
+        "question": {
+            "q_17": "What should i do with my code before running it in edgar?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "Before running your code in Edgar, you need to prepare and test the program outside of Edgar first. This involves writing the code (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing the program against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 58.72,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "Before running your code in Edgar, you need to prepare and test the program outside of Edgar first. This involves writing the code (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing the program against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 80.49,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "Before running your program in Edgar, you need to prepare and test it outside of Edgar. This means writing the program (e.g., using Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 148.86,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or the Ctrl + Enter key combination.",
+                "time": 44.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or the Ctrl + Enter key combination.",
+                "time": 94.43,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "Before running your program in Edgar, you need to prepare and test it outside Edgar first. This means writing the program (e.g., using Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 112.32,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving all errors and warnings, and thoroughly testing it against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 42.59,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "Before submitting a solution to Edgar, you need to write the program (using Notepad++ or VSC), compile it (by calling the gcc compiler), resolve all errors and warnings, and thoroughly test it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 93.33,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of Edgar first. This means writing the program (e.g., using Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 398.72,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of Edgar. This means writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving all errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or Ctrl + Enter key combination.",
+                "time": 62.31,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "Before running your code in Edgar, you must first write the program (using Notepad++ or VSC), compile it using the gcc compiler, resolve any errors and warnings, and thoroughly test it by executing against different test data. Once you are confident that your solution is correct, copy-paste the code into the Edgar system.",
+                "time": 76.62,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "Before submitting your solution to Edgar, you need to thoroughly test your program by executing it against different test data. This means that before submitting a solution to the Edgar system, the program needs to be written (eg with the Notepad/++ editor or in the VSC), compiled (by calling the gcc compiler), all errors and warnings must be resolved, and the program should be thoroughly tested by executing against different test data.",
+                "time": 223.28,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "Before running your program in Edgar, you need to prepare and test it outside of Edgar. This means writing the program (e.g., using Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 163.78,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 58.74,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or the Ctrl + Enter key combination.",
+                "time": 68.18,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "Before running your program code in Edgar, you need to prepare and test it outside Edgar first. This means writing the program (e.g., using Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving all errors and warnings, and thoroughly testing it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 115.42,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving all errors and warnings, and thoroughly testing it against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 43.9,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "Before submitting a solution to Edgar, you need to write the program (using Notepad++ or VSC), compile it (by calling the gcc compiler), resolve all errors and warnings, and thoroughly test it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 100.03,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of Edgar first. This means writing the program (e.g., using Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 217.75,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the Edgar system. This involves writing the program (using an editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 66.12,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 52.47,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or the Ctrl + Enter key combination.",
+                "time": 74.07,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "Before running your code in Edgar, you need to correct the print statement to:\nprintf(\"%d %d\\n%d\", a, b, a + b);",
+                "time": 112.72,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving all errors and warnings, and thoroughly testing it against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or by pressing Ctrl + Enter while the program code field is in focus.",
+                "time": 43.56,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "Before submitting a solution to Edgar, you need to write the program (using Notepad++ or VSC), compile it (by calling the gcc compiler), resolve all errors and warnings, and thoroughly test it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 95.5,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of Edgar first. This means writing the program (e.g., using Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 217.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside of Edgar. This means writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving all errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or Ctrl + Enter key combination.",
+                "time": 78.42,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "Before running your code in Edgar, you need to prepare and test it outside Edgar. This means that you must write the program (for example, using Notepad++ or VSC editor), compile it (by calling the gcc compiler), resolve all errors and warnings, and thoroughly test it by executing it against different test data. Only when you consider your solution to be entirely correct should you copy-paste the code into Edgar.",
+                "time": 71.19,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "Before running your program in Edgar, you need to prepare and test the program outside of Edgar. This means writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it there.",
+                "time": 81.31,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    },
+    "q_18": {
+        "question": {
+            "q_18": "Where can I find the schedule of the laboratory exercises?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 45.72,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 70.03,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 120.7,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on Teams at least a week before the exercises.",
+                "time": 37.69,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise will be published on Teams at least a week before the exercises.",
+                "time": 49.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 103.83,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 28.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 84.75,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 181.66,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 49.34,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 57.65,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 220.78,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 135.5,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on Teams at least a week before the exercises.",
+                "time": 35.36,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise will be published on Teams at least a week before the exercises.",
+                "time": 43.3,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 106.62,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "The exact schedule, including dates, topics, and number of program tasks per exercise, will be published on Teams at least a week before the exercises.",
+                "time": 29.46,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise will be published on Teams at least a week before the exercises.",
+                "time": 88.27,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 176.86,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on Teams at least a week before the exercises.",
+                "time": 42.18,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on Teams at least a week before the exercises.",
+                "time": 37.84,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise will be published on Teams at least a week before the exercises.",
+                "time": 39.57,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 103.29,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 28.81,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 88.84,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams.",
+                "time": 174.56,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on Teams at least a week before the exercises.",
+                "time": 54.67,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "You can find the schedule of the laboratory exercises on Teams, at least a week before the exercises start.",
+                "time": 39.62,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on Teams at least a week before the exercises.",
+                "time": 52.49,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    }
+}

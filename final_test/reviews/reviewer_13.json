@@ -1,0 +1,596 @@
+{
+    "q_25": {
+        "question": {
+            "q_25": "List me the recommended literature."
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook (available on MS Teams as pdf)\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 47.73,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 58.48,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "The recommended literature is:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 141.86,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook",
+                "time": 57.47,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "The recommended literature includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 62.84,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 110.59,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "The recommended literature includes K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company and B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall.",
+                "time": 36.54,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 77.66,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook\nK. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\nB. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 194.8,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "The recommended literature includes:\n1. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n2. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall\n3. V. Mornar: Introduction to programming, working version of the textbook",
+                "time": 61.97,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "Recommended reading can be found in the chapter Other materials - Recommended reading.",
+                "time": 56.71,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook\nK. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\nB. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 162.61,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "The recommended literature is not provided in the given context.",
+                "time": 101.02,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "The recommended literature is not provided in this context.",
+                "time": 21.66,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "The recommended literature includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 49.67,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "The recommended literature is not provided in this context.",
+                "time": 104.91,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "The recommended literature is not provided in this context.",
+                "time": 17.57,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook\nK. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\nB. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 91.66,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook\nK. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\nB. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 204.12,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "The recommended literature is not provided in this context.",
+                "time": 28.37,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook",
+                "time": 34.93,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "The recommended literature includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 49.39,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 111.45,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook",
+                "time": 25.76,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 83.77,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook\nK. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\nB. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 198.18,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "V. Mornar: Introduction to programming, working version of the textbook",
+                "time": 59.62,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 175.45,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "The recommended literature for this course includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+                "time": 103.91,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    },
+    "q_26": {
+        "question": {
+            "q_26": "If i have a question for the lecturers, what should my email consist of?"
+        },
+        "answers": [
+            {
+                "config": "config_1",
+                "answer": "Your email to the lecturer should include:\n1. A clear and concise subject line that describes your question or issue.\n2. The specific topic or problem you are having trouble with.\n3. Any relevant background information, such as what you have tried so far or any related materials you have reviewed.\n4. Your name and student number for identification purposes.",
+                "time": 62.47,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_10",
+                "answer": "If you want to communicate with the lecturer via email, please start the subject line with [IPRO2023].",
+                "time": 58.73,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_11",
+                "answer": "If you need to communicate with the lecturer via email, please start the subject line with [IPRO2023].",
+                "time": 117.4,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_12",
+                "answer": "If you have a question for the lecturers, please start the subject line with [IPRO2023] and send your email to Prof. dr. sc. Vedran Mornar (vedran.mornar@fer.hr) or Assistant Melita Fertalj (melita.fertalj@fer.hr).",
+                "time": 38.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_13",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023] and send it to Prof. dr. sc. Vedran Mornar (vedran.mornar@fer.hr) or Assistant Melita Fertalj (melita.fertalj@fer.hr).",
+                "time": 60.85,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_14",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023].",
+                "time": 87.3,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_15",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023] and send it to Prof. dr. sc. Vedran Mornar (vedran.mornar@fer.hr) or Assistant Melita Fertalj (melita.fertalj@fer.hr).",
+                "time": 27.53,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_16",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023].",
+                "time": 73.02,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_17",
+                "answer": "Subject: [IPRO2023] Question for Prof. dr. sc. Vedran Mornar or Assistant Melita Fertalj\nBody: Please provide information on the topic XYZ. Thank you in advance for your assistance.",
+                "time": 168.49,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_18",
+                "answer": "If you have a question for the lecturers, please start the subject line with [IPRO2023] and send your email to Prof. dr. sc. Vedran Mornar (vedran.mornar@fer.hr) or Assistant Melita Fertalj (melita.fertalj@fer.hr).",
+                "time": 47.32,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_19",
+                "answer": "If you want to contact the lecturers via email, please start the subject with [IPRO2023].",
+                "time": 42.58,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_2",
+                "answer": "Subject: [IPRO2023] Question about lecture material/exercise\nBody: Please provide assistance with the following issue/question related to the course material/exercise.\n\n4\tExams\n4.1\tMidterm exam\nThe midterm exam will be held after the first cycle of lectures, i.e., on November 29th, 2023. The exam consists of written tasks and laboratory exercises.\n    Written tasks are based on the material covered in lectures and independent work during the first cycle.\n    Laboratory exercises are based on the practical skills acquired during the first cycle.\n    The midterm exam is graded, and the results are published immediately after the exam.\n    \n4.2\tFinal exam\nThe final exam will be held at the end of the course, i.e., on January 30th, 2024. The exam consists of written tasks and laboratory exercises.\n    Written tasks are based on the material covered in lectures and independent work during the entire course.\n    Laboratory exercises are based on the practical skills acquired throughout the course.\n    The final exam is graded, and the results are",
+                "time": 173.12,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_20",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023].",
+                "time": 126.47,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_21",
+                "answer": "Your email should include a clear description of the problem you are facing, along with any relevant information or context that might help the teaching staff understand your issue. Make sure to use proper grammar and punctuation for clarity.",
+                "time": 35.52,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_22",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023] to ensure it is directed to the appropriate person.",
+                "time": 42.56,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_23",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023].",
+                "time": 88.21,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_24",
+                "answer": "Your email should include a clear subject line that describes the topic of your question, followed by a detailed description of the issue or concern you would like to discuss with the lecturers.",
+                "time": 15.91,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_25",
+                "answer": "If you have a question for the lecturers, please start the subject line of your email with [IPRO2023] to ensure it is directed to the correct recipient.",
+                "time": 77.15,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_26",
+                "answer": "Subject: [IPRO2023] Question for Prof. dr. sc. Vedran Mornar or Assistant Melita Fertalj\nBody: Please provide information on the topic XYZ. Thank you in advance for your assistance.",
+                "time": 178.18,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_27",
+                "answer": "When sending an email to your lecturer with a question, make sure to include the following information:\n1. Your name and student number\n2. The subject or topic of your question\n3. A clear and concise explanation of your issue or confusion\n4. Any relevant course materials or resources you have already consulted\n5. If applicable, any attempts you have made to resolve the issue on your own or with the help of colleagues\n6. Your preferred method of contact for a response (email, phone call, etc.)\n7. A polite and professional tone throughout the email\nRemember to proofread your email before sending it to ensure there are no errors or misunderstandings.",
+                "time": 51.42,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_3",
+                "answer": "When sending an email to your lecturers with a question, make sure to include the following information:\n1. Your full name and student number.\n2. The specific subject or course you are inquiring about.\n3. A clear and concise explanation of your question or concern.\n4. Any relevant background information or context that may help them understand your issue.\n5. If possible, provide any additional materials such as screenshots or documents related to the problem.\n6. Proofread your email for grammar and spelling errors before sending it.",
+                "time": 45.44,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_4",
+                "answer": "Your email should include your question or concern regarding the course material or any other issue related to the course. Make sure to address it to Prof. dr. sc. Vedran Mornar at vedran.mornar@fer.hr.",
+                "time": 47.7,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_5",
+                "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023].",
+                "time": 85.41,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_6",
+                "answer": "When sending an email to your lecturers with a question, make sure to include the following information:\n1. Your name and student number\n2. The subject or topic of your question\n3. A clear and concise explanation of your question or issue\n4. Any relevant background information or context\n5. Attach any necessary files or documents related to your question\n6. Proofread your email for spelling and grammar errors before sending it",
+                "time": 32.38,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_7",
+                "answer": "If you have a question for the lecturers, start the subject line of your email with [IPRO2023] to ensure it is directed to the correct team.",
+                "time": 73.09,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_8",
+                "answer": "Subject: [IPRO2023] Question regarding lecture material/consultation request\nBody: Please provide assistance with the following issue/request further information about the topic discussed in the lectures/ask for a consultation.",
+                "time": 171.09,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_9",
+                "answer": "If you have a question for the lecturers, your email should start with [IPRO2023] in the subject line to ensure it is directed to the appropriate person. Then, provide a clear and concise description of your question or issue in the body of the email. Make sure to include any relevant information or context that may help the lecturer understand and respond to your query.",
+                "time": 61.1,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent1",
+                "answer": "If you have a question for the lecturers, please start the subject line of your email with [IPRO2023] to ensure that it is directed to the appropriate person.",
+                "time": 80.1,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            },
+            {
+                "config": "config_parent2",
+                "answer": "Your email should include a clear and concise explanation of your question or issue, along with any relevant context or information that may help the lecturer understand your problem. Be sure to use a proper subject line that describes the topic of your email, and always address it to the appropriate lecturer (Prof. dr. sc. Vedran Mornar).",
+                "time": 105.53,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        ]
+    }
+}
