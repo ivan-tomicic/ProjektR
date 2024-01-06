@@ -1,0 +1,944 @@
+{
+    "config": {
+        "retriever_type": "rerank",
+        "embeddings_func": "embeddings_3",
+        "vectorstore_func": "vectorstore_1",
+        "rerank_func": "rerank_1",
+        "chunk_size": 1000,
+        "chunk_overlap": 200,
+        "number_of_retrievals": 7,
+        "top_number_of_retrievals": 2
+    },
+    "answers": [
+        {
+            "question_number": "q_1",
+            "question": "What does a compiler do? What does a linker do?",
+            "answer": "A compiler translates source code into object code. A linker links the object code with necessary libraries to create an executable file that can be run directly from the operating system.",
+            "source_documents": [
+                {
+                    "page_content": "a)\tThe translation into object code is done by a program called the compiler. The compiler translates the source file and creates the object code file (usually with the extension .o) that cannot yet be run because it does not yet have links to functions and variables from other object code files and libraries where standard functions (input / output, mathematical functions, etc.) have been prepared.\nb)\tLinking to the executable code is done by a program called the linker. This program merges all the required object code files with the pre-programmed libraries and creates executable code that can be run directly from the operating system.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "The following code should be entered in this file:\n#include <stdio.h>\n\nint main(void) {\n   printf(\"Introduction to Programming\");\n   return 0;\n}\nand save the changes via the File/Save menu or the standard keyboard shortcut Ctrl-S (press the Ctrl key and then, without releasing it, the S key). After that it is necessary to check whether elementary compilation works:\ngcc program.c -o program.exe\n\nThis simplest gcc compiler call integrates compiler and linker functions. The program.c file is compiled. Because of the -o (output) option, it creates an executable file named program.exe which can then be executed with the command\nprogram.exe\nor\nprogram\nIf an error occurred while calling the compiler or starting the program, you should look for the solution in the next section.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                }
+            ],
+            "combined_documents": "a)\tThe translation into object code is done by a program called the compiler. The compiler translates the source file and creates the object code file (usually with the extension .o) that cannot yet be run because it does not yet have links to functions and variables from other object code files and libraries where standard functions (input / output, mathematical functions, etc.) have been prepared.\nb)\tLinking to the executable code is done by a program called the linker. This program merges all the required object code files with the pre-programmed libraries and creates executable code that can be run directly from the operating system.\n\nThe following code should be entered in this file:\n#include <stdio.h>\n\nint main(void) {\n   printf(\"Introduction to Programming\");\n   return 0;\n}\nand save the changes via the File/Save menu or the standard keyboard shortcut Ctrl-S (press the Ctrl key and then, without releasing it, the S key). After that it is necessary to check whether elementary compilation works:\ngcc program.c -o program.exe\n\nThis simplest gcc compiler call integrates compiler and linker functions. The program.c file is compiled. Because of the -o (output) option, it creates an executable file named program.exe which can then be executed with the command\nprogram.exe\nor\nprogram\nIf an error occurred while calling the compiler or starting the program, you should look for the solution in the next section.",
+            "time": 56.39,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_2",
+            "question": "How do I install the MinGW package?",
+            "answer": "To install the MinGW package, follow these steps:\n1. Download the installer mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files/latest/download?source=files.\n2. Run the downloaded program and press Install on the first form, Continue on the next form, and then Continue again to start MinGW Installation Manager.\n3. In the left column of the manager, select Basic Setup, mark mingw32-base for installation in the next column, apply changes by selecting Installation -> Apply Changes and pressing Apply.\n4. After the installation is completed, set the system variable Path to include the folder bin of the MinGW package.\n\nAn alternative way:\n1. Create a folder on your computer (e.g., C:\\MinGW).\n2. Download the archive MinGW.zip and extract it into the folder created above.\n3. Set the system variable Path according to the instructions above.",
+            "source_documents": [
+                {
+                    "page_content": "2\tInstalling MinGW\nThe installer mingw-get-setup.exe will be downloaded automatically from the page http://sourceforge.net/projects/mingw/files/latest/download?source=files.\nThe downloaded program must be executed. On the first form shown, press the Install button. On the next form, press Continue. It will initiate download of MinGW Installation Manager. When downloaded, press Continue to start MinGW Installation Manager.\nIn left column, select Basic Setup. In next column, select (Mark for Installation) item mingw32-base. Next, from the menu, select Installation -> Apply Changes and in the newly opened window, press the button Apply.\nAfter the installation is completed, the system variable Path must be set by adding a path to the folder bin of the MinGW package. This system variable contains a list of folders where the operating system looks for executable programs that the user attempts to run by specifying their name.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "An alternative way of installation\nStudents who have problems installing the latest version of MinGW on their Windows computer can try this alternative method:\n1.\tCreate a folder on your computer to place MinGW files (e.g. C:\\MinGW)\n2.\tDownload the archive MinGW.zip from the file repository and extract it into the folder created above\n3.\tSet the system variable Path according to the instructions above\n\n\n3   Writing programs with a simple editor, compiling and executing programs\nThe whole process of writing and compiling programs will be illustrated in the command prompt, where you first need to create a folder where the program file will be stored, and then make it current e.g.\nmkdir C:\\IPRO\ncd C:\\IPRO\nand start editing program there with a text editor:\nnotepad program.c\n\nThe following code should be entered in this file:\n#include <stdio.h>",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                }
+            ],
+            "combined_documents": "2\tInstalling MinGW\nThe installer mingw-get-setup.exe will be downloaded automatically from the page http://sourceforge.net/projects/mingw/files/latest/download?source=files.\nThe downloaded program must be executed. On the first form shown, press the Install button. On the next form, press Continue. It will initiate download of MinGW Installation Manager. When downloaded, press Continue to start MinGW Installation Manager.\nIn left column, select Basic Setup. In next column, select (Mark for Installation) item mingw32-base. Next, from the menu, select Installation -> Apply Changes and in the newly opened window, press the button Apply.\nAfter the installation is completed, the system variable Path must be set by adding a path to the folder bin of the MinGW package. This system variable contains a list of folders where the operating system looks for executable programs that the user attempts to run by specifying their name.\n\nAn alternative way of installation\nStudents who have problems installing the latest version of MinGW on their Windows computer can try this alternative method:\n1.\tCreate a folder on your computer to place MinGW files (e.g. C:\\MinGW)\n2.\tDownload the archive MinGW.zip from the file repository and extract it into the folder created above\n3.\tSet the system variable Path according to the instructions above\n\n\n3   Writing programs with a simple editor, compiling and executing programs\nThe whole process of writing and compiling programs will be illustrated in the command prompt, where you first need to create a folder where the program file will be stored, and then make it current e.g.\nmkdir C:\\IPRO\ncd C:\\IPRO\nand start editing program there with a text editor:\nnotepad program.c\n\nThe following code should be entered in this file:\n#include <stdio.h>",
+            "time": 84.32,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_3",
+            "question": "What are all the ways I can set the System variable Path?",
+            "answer": "You can set the system variable Path in a graphical interface by following these steps: Control Panel -> System and Security -> System -> Advanced system settings -> Environment Variables -> System variables -> Path -> Edit, or through a command window using the command setx Path \"%Path%;C:\\MinGW\\Bin\".",
+            "source_documents": [
+                {
+                    "page_content": "Setting the system variable Path through a graphical interface\nThe system variable Path can be set in Control Panel:\nControl Panel -> System and Security -> System\nYou need to click the link Advanced system settings in in the left menu.\nIn the newly opened window, select the tab Advanced in top menu and then press the button Environment Variables.\nAfter that, choose Path from the list System variables and click Edit.\nA window will open with all the folders where the operating system looks for executable programs, where you need to click New.\nIn the newly created blank field at the bottom of the list, enter the path to the folder where the MinGW package is installed to (normally C:\\MinGW\\bin), and press OK.\nIn older versions of Windows, a window will open. There, in the Variable value field, the text: \";C:\\MinGW\\bin\\\" should be appended to existing text.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "2.1.1\tSetting the system variable Path in the command window\nThe system variable Path is easily set in a command window by a command\nsetx Path \"%Path%;C:\\MinGW\\Bin\"\nThe setx command written in this way sets the new value of the variable Path by adding text  ;C:\\MinGW\\Bin to it's old value.\nUnfortunately, the command setx has a built-in restriction on the length of a variable to 1024 characters, so before the call it is necessary to check that the existing content is not too long, which can be checked by the command echo:\necho %Path%\nIf the following message appears when setting the variable Path:\nWARNING: The data being saved is truncated to 1024 characters.\nit means that the setx command limit is exceeded, so the variable Path will need to be set through the GUI and checked for content.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                }
+            ],
+            "combined_documents": "Setting the system variable Path through a graphical interface\nThe system variable Path can be set in Control Panel:\nControl Panel -> System and Security -> System\nYou need to click the link Advanced system settings in in the left menu.\nIn the newly opened window, select the tab Advanced in top menu and then press the button Environment Variables.\nAfter that, choose Path from the list System variables and click Edit.\nA window will open with all the folders where the operating system looks for executable programs, where you need to click New.\nIn the newly created blank field at the bottom of the list, enter the path to the folder where the MinGW package is installed to (normally C:\\MinGW\\bin), and press OK.\nIn older versions of Windows, a window will open. There, in the Variable value field, the text: \";C:\\MinGW\\bin\\\" should be appended to existing text.\n\n2.1.1\tSetting the system variable Path in the command window\nThe system variable Path is easily set in a command window by a command\nsetx Path \"%Path%;C:\\MinGW\\Bin\"\nThe setx command written in this way sets the new value of the variable Path by adding text  ;C:\\MinGW\\Bin to it's old value.\nUnfortunately, the command setx has a built-in restriction on the length of a variable to 1024 characters, so before the call it is necessary to check that the existing content is not too long, which can be checked by the command echo:\necho %Path%\nIf the following message appears when setting the variable Path:\nWARNING: The data being saved is truncated to 1024 characters.\nit means that the setx command limit is exceeded, so the variable Path will need to be set through the GUI and checked for content.",
+            "time": 62.18,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_4",
+            "question": "How do I translate and execute a simple program using shell commands?",
+            "answer": "To translate and execute a simple program using shell commands, follow these steps:\n1) Write the source code in a file (e.g., test.c).\n2) Use a text editor like Notepad or Notepad++ to edit the program.\n3) Translate the program using the GCC compiler with appropriate options (e.g., gcc -std=c11 -pedantic-errors -Wall test.c -o test.exe).\n4) Execute the translated program using the command: ./test.exe or ./output_program, depending on your requirements.",
+            "source_documents": [
+                {
+                    "page_content": "The command that translates the program with the options listed above looks like this:\n\ngcc -std=c11 -pedantic-errors -Wall program.c -o program.exe\n\n3.1\tConfiguration for MacOS\nInstall gcc using Homebrew: https://brew.sh/\n1.\tInstall Homebrew by executing in terminal:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n2.\tInstall gcc:\nbrew install gcc\n3.\tCheck whether elementary compilation works:\ngcc -o <output-file-name> <input-file-name>\nnpr.\ngcc -o output_program program.c\n4.\tExecute with the command:\n./output_program",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "2) Write a program that will read two integers and print a larger number. Store the source code in the test.c file in the ipro folder created in Task 1. Use the Notepad or Notepad ++ editor to edit the program (specify the file name when starting the editor). Translate the program using the GCC compiler, and name the executable file test.exe. Run the program so that:\n1) the numbers are read from the keyboard and the result is printed on the monitor screen\n2) the numbers are read from the keyboard and the result is printed to the output.txt file\n3) numbers are read from the input.txt file previously prepared using a text editor, and the result is printed to the end of the output.txt file, without deleting its previous contents",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCommandPrompt.txt"
+                }
+            ],
+            "combined_documents": "The command that translates the program with the options listed above looks like this:\n\ngcc -std=c11 -pedantic-errors -Wall program.c -o program.exe\n\n3.1\tConfiguration for MacOS\nInstall gcc using Homebrew: https://brew.sh/\n1.\tInstall Homebrew by executing in terminal:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n2.\tInstall gcc:\nbrew install gcc\n3.\tCheck whether elementary compilation works:\ngcc -o <output-file-name> <input-file-name>\nnpr.\ngcc -o output_program program.c\n4.\tExecute with the command:\n./output_program\n\n2) Write a program that will read two integers and print a larger number. Store the source code in the test.c file in the ipro folder created in Task 1. Use the Notepad or Notepad ++ editor to edit the program (specify the file name when starting the editor). Translate the program using the GCC compiler, and name the executable file test.exe. Run the program so that:\n1) the numbers are read from the keyboard and the result is printed on the monitor screen\n2) the numbers are read from the keyboard and the result is printed to the output.txt file\n3) numbers are read from the input.txt file previously prepared using a text editor, and the result is printed to the end of the output.txt file, without deleting its previous contents",
+            "time": 66.47,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_5",
+            "question": "Explain me how to setup Visual Studio Code for Linux operating system.",
+            "answer": "To set up Visual Studio Code on a Linux operating system, follow these steps:\n1. Download Visual Studio Code from the link https://code.visualstudio.com/download.\n2. Select the appropriate platform for your Linux distribution (e.g., Debian, Ubuntu, Fedora).\n3. Run the installer and complete the installation process.\n4. Launch Visual Studio Code after successful installation.",
+            "source_documents": [
+                {
+                    "page_content": "This, as well as all VSC settings, can be set at the user level (User settings, will be valid in any project/folder) or at the folder level (Workspace settings, will only be valid in the current folder). It is therefore necessary to first indicate the level (in the following example User settings to make the setting valid in other projects as well). Then search for the setting by typing the name of the setting in the search box. Some settings can be edited in the appropriate fields, some, for now (the environment is in constant development) by editing the JSON object. The specific setting is edited by editing the JSON object.\nClick the pencil icon in the line editor.formatOnSave and select true.\nThe default formatting style is somewhat wasteful. While saving the above program code, it will be automatically formatted as follows:\n#include <stdio.h>\nint main(void)\n{\n\tif (1)\n\t{\n\t\tprintf(\"1\");\n\t}\n\telse\n\t{\n\t\tprintf(\"2\");\n\t}\n}",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "Integrated Development Environments (IDEs) are used to make writing, compiling, and testing programs easier. In the Introduction to Programming course, we will use Visual Studio Code development environment, because it is an open source program, runs on multiple platforms (Windows, Linux, Mac), the installation package is relatively small compared to other similar environments, installation is fast and can be used for programming in any programming language, provided that a suitable compiler is installed on your computer, such as the MinGW package whose installation and use is described in the previous sections. The following assumes that MinGW is installed in accordance with the instructions in the previous sections.\nInstallation of the environment\nVisual Studio Code (VSC) is downloaded from the link\nhttps://code.visualstudio.com/download\nAfter selecting the platform, downloading and running the installer and successfully completing the installation, VSC is ready to launch.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                }
+            ],
+            "combined_documents": "This, as well as all VSC settings, can be set at the user level (User settings, will be valid in any project/folder) or at the folder level (Workspace settings, will only be valid in the current folder). It is therefore necessary to first indicate the level (in the following example User settings to make the setting valid in other projects as well). Then search for the setting by typing the name of the setting in the search box. Some settings can be edited in the appropriate fields, some, for now (the environment is in constant development) by editing the JSON object. The specific setting is edited by editing the JSON object.\nClick the pencil icon in the line editor.formatOnSave and select true.\nThe default formatting style is somewhat wasteful. While saving the above program code, it will be automatically formatted as follows:\n#include <stdio.h>\nint main(void)\n{\n\tif (1)\n\t{\n\t\tprintf(\"1\");\n\t}\n\telse\n\t{\n\t\tprintf(\"2\");\n\t}\n}\n\nIntegrated Development Environments (IDEs) are used to make writing, compiling, and testing programs easier. In the Introduction to Programming course, we will use Visual Studio Code development environment, because it is an open source program, runs on multiple platforms (Windows, Linux, Mac), the installation package is relatively small compared to other similar environments, installation is fast and can be used for programming in any programming language, provided that a suitable compiler is installed on your computer, such as the MinGW package whose installation and use is described in the previous sections. The following assumes that MinGW is installed in accordance with the instructions in the previous sections.\nInstallation of the environment\nVisual Studio Code (VSC) is downloaded from the link\nhttps://code.visualstudio.com/download\nAfter selecting the platform, downloading and running the installer and successfully completing the installation, VSC is ready to launch.",
+            "time": 66.66,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_6",
+            "question": "Give me the basics of using a debugger in Visual Studio Code.",
+            "answer": "To use a debugger in Visual Studio Code, follow these steps:\n1. Open your source program file.\n2. Select Debug from the menu or press F5 on the keyboard.\n3. The program will be compiled as described in tasks.json and executed as described in launch.json.\n4. If you need to save changes before compiling, mark x after the program name will change into a circle. Save your changes with File/Save or Ctrl-S.\n5. To set a breakpoint, click at the beginning of the line containing the command you want to pause on execution. This will prevent the window from closing immediately.",
+            "source_documents": [
+                {
+                    "page_content": "If a new folder is created for another program or programs, .vscode folder should be copied there and all the preparatory actions are done.\nThe basics of working with a debugger\nProgram behavior is easily monitored using debugger. To demonstrate how such a program works, we will replace the content of program.c with\n#include<stdio.h>",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "Now all we have to do is open our source program file (because the configuration specifies that the program currently open in the editor is compiled) select Debug and start the program by pressing Start debugger or simply by pressing the key F5 on the keyboard.\nConsequently, the program will be compiled as described in prelaunch task in tasks.json and then, if compilation is successful, the program will be executed described in launch.json.\nIf the program has been modified in any way in the meantime, mark x after the program name will change into a circle and changes will need to be saved before the compilation with File/Save or Ctrl-S.\nThis action will print the text Introduction to Programming in a new window, which will then close immediately. To prevent the window from closing immediately, a breakpoint should be placed on the last line of the program by clicking the mouse at the very beginning of the line containing the return command.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                }
+            ],
+            "combined_documents": "If a new folder is created for another program or programs, .vscode folder should be copied there and all the preparatory actions are done.\nThe basics of working with a debugger\nProgram behavior is easily monitored using debugger. To demonstrate how such a program works, we will replace the content of program.c with\n#include<stdio.h>\n\nNow all we have to do is open our source program file (because the configuration specifies that the program currently open in the editor is compiled) select Debug and start the program by pressing Start debugger or simply by pressing the key F5 on the keyboard.\nConsequently, the program will be compiled as described in prelaunch task in tasks.json and then, if compilation is successful, the program will be executed described in launch.json.\nIf the program has been modified in any way in the meantime, mark x after the program name will change into a circle and changes will need to be saved before the compilation with File/Save or Ctrl-S.\nThis action will print the text Introduction to Programming in a new window, which will then close immediately. To prevent the window from closing immediately, a breakpoint should be placed on the last line of the program by clicking the mouse at the very beginning of the line containing the return command.",
+            "time": 59.88,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_7",
+            "question": "How can I create a universal Makefile?",
+            "answer": "A universal Makefile can be created by defining variables for the compiler name (CC) and options (CFLAGS), using wildcards to find source files (SRCS) and include files (INCLUDES), and creating rules that describe the dependencies between source code, object code, and executable code. The Makefile should be located in the same folder as the source code files.\n\nExample:\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<\n\nIn this example, the Makefile can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies.",
+            "source_documents": [
+                {
+                    "page_content": "4.1.1\tOptional: Universal Makefile\nIn the previous examples, only the basic functionality of the program make was shown. With knowledge of more advanced functionalities, the details of which we will not dwell into here, it is possible to write Makefile which can be used to compile programs of any complexity, without explicitly specifying individual components and their dependencies. Very superficially explained, all the files with the extension .c are source files for the program, and all the files with the extension .o are object code and are derived from the source code of the same base name. The compiler name and options are stored in variables CC and CFLAGS.\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "The dependencies are described by rules in the Makefile file, which should be located in the same folder as the source code files.\nMakefile which describes the compilation of program.c to program.exe:\nprogram.exe: program.o\n\tgcc -o program.exe program.o\nprogram.o: program.c\n\tgcc -c -g -std=c11 -pedantic-errors -Wall program.c\nHere we have defined that program.exe (executable code) depends on program.o (object code), and that program.o  depends on program.c. If program.c is changed, this file will become newer than program.o, wich results, due to the option -c (compile), in compilation into object code, which will make the object code newer than the executable one, causing linking.\nIt is important to know that the indentation of a command that is executed for an appropriate rule is mandatory, with a tab character, and that the line describing the dependency of the executable code on the object code must be written first.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                }
+            ],
+            "combined_documents": "4.1.1\tOptional: Universal Makefile\nIn the previous examples, only the basic functionality of the program make was shown. With knowledge of more advanced functionalities, the details of which we will not dwell into here, it is possible to write Makefile which can be used to compile programs of any complexity, without explicitly specifying individual components and their dependencies. Very superficially explained, all the files with the extension .c are source files for the program, and all the files with the extension .o are object code and are derived from the source code of the same base name. The compiler name and options are stored in variables CC and CFLAGS.\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<\n\nThe dependencies are described by rules in the Makefile file, which should be located in the same folder as the source code files.\nMakefile which describes the compilation of program.c to program.exe:\nprogram.exe: program.o\n\tgcc -o program.exe program.o\nprogram.o: program.c\n\tgcc -c -g -std=c11 -pedantic-errors -Wall program.c\nHere we have defined that program.exe (executable code) depends on program.o (object code), and that program.o  depends on program.c. If program.c is changed, this file will become newer than program.o, wich results, due to the option -c (compile), in compilation into object code, which will make the object code newer than the executable one, causing linking.\nIt is important to know that the indentation of a command that is executed for an appropriate rule is mandatory, with a tab character, and that the line describing the dependency of the executable code on the object code must be written first.",
+            "time": 94.46,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_8",
+            "question": "What do I use to log in into Edgar?",
+            "answer": "To log in to Edgar, you need to use your AAI-Edu system username and password. The username is in the form: your_user_name@your_institution.hr. You can access this login mode by clicking on \"login here using AAI\" and entering the credentials in the login fields.",
+            "source_documents": [
+                {
+                    "page_content": "1.1\tLogin to the system \nThe username and password from the AAI-Edu system are used to log in to the system. You can access this login mode by clicking on \"login here using AAI\".\nThen you need to enter the AAI username and password in the login fields and click \u201ePRIJAVA\u201c.\nNote: The username from the AAI-Edu system is in the form:\nyour_user_name@your_institution.hr \n\n\n1.2\tUsing Edgar for Introduction to Programming \nIn order to get access to the tasks and tests in the course Introduction to Programming for the current academic year in Edgar, it is necessary to select the appropriate course and academic year from the drop-down menus on the right side of the main menu.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "the program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "1.1\tLogin to the system \nThe username and password from the AAI-Edu system are used to log in to the system. You can access this login mode by clicking on \"login here using AAI\".\nThen you need to enter the AAI username and password in the login fields and click \u201ePRIJAVA\u201c.\nNote: The username from the AAI-Edu system is in the form:\nyour_user_name@your_institution.hr \n\n\n1.2\tUsing Edgar for Introduction to Programming \nIn order to get access to the tasks and tests in the course Introduction to Programming for the current academic year in Edgar, it is necessary to select the appropriate course and academic year from the drop-down menus on the right side of the main menu.\n\nthe program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.",
+            "time": 57.55,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_9",
+            "question": "How does the support system in Edgar work?",
+            "answer": "The support system in Edgar is called Ticketing system. It allows students to ask questions related to specific tasks during the writing of tests. To use it, students click on the \"yellow tools\" icon, describe their problem, and confirm it by clicking Yes, raise ticket. The teaching staff will examine the problem as soon as possible and answer the student.",
+            "source_documents": [
+                {
+                    "page_content": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "the program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.\n\nthe program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.",
+            "time": 59.19,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_10",
+            "question": "Is asking for solutions with the ticketing system ok?",
+            "answer": "No, it is not allowed to ask for solutions using the Ticketing system. The purpose of this system is to clarify doubts or problems related to a specific task during the test writing process. Students can only ask questions about the accuracy of their answers or other issues they may have encountered while solving the tasks.",
+            "source_documents": [
+                {
+                    "page_content": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "After the the problem has been addresses, a message saying \"Ticket resolved\" appears on the student's screen.\n\t4. The student can then return to the appropriate question and check for the answer. The answer can be viewed by clicking on the \"green cloud\" icon. Remark: Only after the teaching staff answers the question related to the task, the student can ask the next question about the same task if necessary.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.\n\nAfter the the problem has been addresses, a message saying \"Ticket resolved\" appears on the student's screen.\n\t4. The student can then return to the appropriate question and check for the answer. The answer can be viewed by clicking on the \"green cloud\" icon. Remark: Only after the teaching staff answers the question related to the task, the student can ask the next question about the same task if necessary.",
+            "time": 29.43,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_11",
+            "question": "What is the duration of the second cycle in weeks?",
+            "answer": "The duration of the second cycle is approximately 10 weeks.",
+            "source_documents": [
+                {
+                    "page_content": "2\tForms of teaching\n2.1\tLectures\nThe lectured present theoretical assumptions and explains concepts that are supported by numerous explanations and examples. There will be short tests given during most lectures which will count towards the final grade.\nLectures take place in two cycles. After the first cycle, midterm exams are held, and after the second\ncycle final exams.\n    lectures in the 1st cycle, October 2nd - November 15th, 2023.\n    lectures in the 2nd cycle, December 4th, 2023 - January 24th, 2024.\nDuring the lectures, the planned material is presented with the help of Powerpoint slides, solve tasks, discuss, conduct ad hoc surveys and knowledge tests which can be used by students to determine knowledge and self-assessment\n    slides that will be presented at lectures are available through the IPRO2023 team on the Microsoft Teams platform",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "2.3\tLaboratory exercises with knowledge tests\nAll students perform laboratory exercises in a FER lab, in precisely prescribed terms:\n    four exercises in the 1st cycle (i.e., before the midterm exam) and four exercises in the 2nd cycle\n    the duration of one laboratory exercise is approximately 110 minutes\n    laboratory exercises must be completed by the student in the specified time\n    there is no compensation for laboratory exercises in case of absence\n    the laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "2\tForms of teaching\n2.1\tLectures\nThe lectured present theoretical assumptions and explains concepts that are supported by numerous explanations and examples. There will be short tests given during most lectures which will count towards the final grade.\nLectures take place in two cycles. After the first cycle, midterm exams are held, and after the second\ncycle final exams.\n    lectures in the 1st cycle, October 2nd - November 15th, 2023.\n    lectures in the 2nd cycle, December 4th, 2023 - January 24th, 2024.\nDuring the lectures, the planned material is presented with the help of Powerpoint slides, solve tasks, discuss, conduct ad hoc surveys and knowledge tests which can be used by students to determine knowledge and self-assessment\n    slides that will be presented at lectures are available through the IPRO2023 team on the Microsoft Teams platform\n\n2.3\tLaboratory exercises with knowledge tests\nAll students perform laboratory exercises in a FER lab, in precisely prescribed terms:\n    four exercises in the 1st cycle (i.e., before the midterm exam) and four exercises in the 2nd cycle\n    the duration of one laboratory exercise is approximately 110 minutes\n    laboratory exercises must be completed by the student in the specified time\n    there is no compensation for laboratory exercises in case of absence\n    the laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.",
+            "time": 51.61,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_12",
+            "question": "What will happen if i dont work continuously?",
+            "answer": "If you don't work continuously, the program execution will be paused. You can resume running the program by pressing any key, for example Enter.",
+            "source_documents": [
+                {
+                    "page_content": "Continue running to the end or next breakpoint (Continue, F5)\nExecute the following statement without entering the function code (Step over, F10)\nExecute the following statement entering the function code (Step into, F11)\nExit the current function (Step out, Shift-F11)\nRestart the program with recompilation (Restart, Ctrl-Shift-F5)\nStop the program (Stop, Shift-F5)\nIf the following statement is executed with the Step over action, the program stops after executing the command, and hovering over the variable name indicates that the content has changed.\nThe state of several variables in the surrounding of statement where the program stopped can be monitored in the Locals window. In larger programs, some variables that are not in immediate surrounding of the current statement may disappear from the Locals window. In such a case, the variable or expression whose value we want to watch constantly can be added to the Watch window.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                },
+                {
+                    "page_content": "The running program can be interrupted by pressing the Ctrl and C (Ctrl+C) keys at the same time. \nProgram execution can be paused by pressing the key Pause or a key combination Ctrl+S. To resume running a program stopped in this way, press any key, for example Enter.\nThe exit command terminates the work with the character interface and closes the corresponding window.\nExample:\nhelp help\t(obtaining instructions on the operation of the program help)",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCommandPrompt.txt"
+                }
+            ],
+            "combined_documents": "Continue running to the end or next breakpoint (Continue, F5)\nExecute the following statement without entering the function code (Step over, F10)\nExecute the following statement entering the function code (Step into, F11)\nExit the current function (Step out, Shift-F11)\nRestart the program with recompilation (Restart, Ctrl-Shift-F5)\nStop the program (Stop, Shift-F5)\nIf the following statement is executed with the Step over action, the program stops after executing the command, and hovering over the variable name indicates that the content has changed.\nThe state of several variables in the surrounding of statement where the program stopped can be monitored in the Locals window. In larger programs, some variables that are not in immediate surrounding of the current statement may disappear from the Locals window. In such a case, the variable or expression whose value we want to watch constantly can be added to the Watch window.\n\nThe running program can be interrupted by pressing the Ctrl and C (Ctrl+C) keys at the same time. \nProgram execution can be paused by pressing the key Pause or a key combination Ctrl+S. To resume running a program stopped in this way, press any key, for example Enter.\nThe exit command terminates the work with the character interface and closes the corresponding window.\nExample:\nhelp help\t(obtaining instructions on the operation of the program help)",
+            "time": 44.82,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_13",
+            "question": "How should i study outside of the lectures if I want to get a good grade?",
+            "answer": "To study outside of lectures, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve tasks on your own computer to acquire necessary skills such as algorithm design, code writing, translation, error detection, and testing.\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.",
+            "source_documents": [
+                {
+                    "page_content": "Independent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes\n        Reading other literature (see chapter Recommended reading)\n        Internet\n    Solving tasks\n        solving a large number of tasks on your own computer acquires the necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).\n        It is therefore of the utmost importance:\n        solve published assignments for exercises in addition to lectures (published at the same time as lectures)\n        test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications (you can copy the program code of examples from lectures from PDF versions of published lectures)\n    Reading other literature (see chapter Other materials - Recommended reading)",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "3\tConditions for obtaining a passing grade\n3.1\tDuring the continuous assessment\nThe total number of points gained during the continuous assessment is obtained by adding the points gained at lectures, points gained in laboratory exercises and points gained in the midterm exam and the final exam:\n    total number of points = number of points at lectures + number of lab points + number of points on intermediate exam + number of points on final exam\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "Independent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes\n        Reading other literature (see chapter Recommended reading)\n        Internet\n    Solving tasks\n        solving a large number of tasks on your own computer acquires the necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).\n        It is therefore of the utmost importance:\n        solve published assignments for exercises in addition to lectures (published at the same time as lectures)\n        test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications (you can copy the program code of examples from lectures from PDF versions of published lectures)\n    Reading other literature (see chapter Other materials - Recommended reading)\n\n3\tConditions for obtaining a passing grade\n3.1\tDuring the continuous assessment\nThe total number of points gained during the continuous assessment is obtained by adding the points gained at lectures, points gained in laboratory exercises and points gained in the midterm exam and the final exam:\n    total number of points = number of points at lectures + number of lab points + number of points on intermediate exam + number of points on final exam\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50",
+            "time": 61.64,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_14",
+            "question": "Which competences are expected to be acquired after completing the subject?",
+            "answer": "After completing the subject, the following competences are expected to be acquired:\n1. Algorithm design skills\n2. Code writing skills\n3. Translation skills\n4. Error detection and testing skills\n5. Problem-solving skills\n6. Time management skills (due to the layered approach in processing materials)",
+            "source_documents": [
+                {
+                    "page_content": "Independent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes\n        Reading other literature (see chapter Recommended reading)\n        Internet\n    Solving tasks\n        solving a large number of tasks on your own computer acquires the necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).\n        It is therefore of the utmost importance:\n        solve published assignments for exercises in addition to lectures (published at the same time as lectures)\n        test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications (you can copy the program code of examples from lectures from PDF versions of published lectures)\n    Reading other literature (see chapter Other materials - Recommended reading)",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "2.2\tIndependent work\nThe course is performed with a load of 7 ECTS credits, which means that the total student engagement required to successfully master the material is estimated at approximately 7 x 30 = 210 hours. It is envisaged that:\n    50 hours will be spent on attending classes,\n    20 hours will be spent participating in laboratory exercises and attending exams,\n    the remaining time, i.e. at least 140 hours, must be spent on independent work.\nIt should be noted that 140 hours, when distributed on all teaching weeks, equal to an average of approximately 10 hours of independent work per week. Due to the layered approach in the processing of materials, it is very important to work continuously, every week. Campaign work (e.g. \"I won\u2019t do anything for three weeks and then I\u2019ll make up for it all at once\") on this subject will almost certainly end in very poor results.\nIndependent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "Independent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes\n        Reading other literature (see chapter Recommended reading)\n        Internet\n    Solving tasks\n        solving a large number of tasks on your own computer acquires the necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).\n        It is therefore of the utmost importance:\n        solve published assignments for exercises in addition to lectures (published at the same time as lectures)\n        test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications (you can copy the program code of examples from lectures from PDF versions of published lectures)\n    Reading other literature (see chapter Other materials - Recommended reading)\n\n2.2\tIndependent work\nThe course is performed with a load of 7 ECTS credits, which means that the total student engagement required to successfully master the material is estimated at approximately 7 x 30 = 210 hours. It is envisaged that:\n    50 hours will be spent on attending classes,\n    20 hours will be spent participating in laboratory exercises and attending exams,\n    the remaining time, i.e. at least 140 hours, must be spent on independent work.\nIt should be noted that 140 hours, when distributed on all teaching weeks, equal to an average of approximately 10 hours of independent work per week. Due to the layered approach in the processing of materials, it is very important to work continuously, every week. Campaign work (e.g. \"I won\u2019t do anything for three weeks and then I\u2019ll make up for it all at once\") on this subject will almost certainly end in very poor results.\nIndependent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes",
+            "time": 43.3,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_15",
+            "question": "How do laboratory exercises work?",
+            "answer": "Laboratory exercises involve developing one or more programs, including algorithm design, coding, and testing. Students submit their solutions during the lab exercises using the Edgar system. An official cheat-sheet may be used in these exercises. Knowledge tests are accessed with a password and are available at specific time intervals. The password for exams is provided by an assistant on duty before starting each exam.",
+            "source_documents": [
+                {
+                    "page_content": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "2\tExams \nNote: Official cheat-sheet printed on paper may be used in laboratory exercises. It will also be available in Edgar as a last question in the laboratory exercises and exams:\n\u2022\tCheat sheet for C\nKnowledge tests in laboratory exercises are accessed using a password. Knowledge tests are only available in a pre-set time intervals. \nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.\n\nThe test is commenced by the option \u201eStart exam\u201c.\nTo practice working with the system at home, a demo test has been defined. This test is not graded and can be run an unlimited number of times. The password is not needed. The test is available under \u201cPublic exams\u201d.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.\n\n2\tExams \nNote: Official cheat-sheet printed on paper may be used in laboratory exercises. It will also be available in Edgar as a last question in the laboratory exercises and exams:\n\u2022\tCheat sheet for C\nKnowledge tests in laboratory exercises are accessed using a password. Knowledge tests are only available in a pre-set time intervals. \nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.\n\nThe test is commenced by the option \u201eStart exam\u201c.\nTo practice working with the system at home, a demo test has been defined. This test is not graded and can be run an unlimited number of times. The password is not needed. The test is available under \u201cPublic exams\u201d.",
+            "time": 49.03,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_16",
+            "question": "Are there negative points on laboratory exercises?",
+            "answer": "Yes, there are negative points on laboratory exercises. Incorrect answers in the solving tasks part of the exercise obtain negative points.",
+            "source_documents": [
+                {
+                    "page_content": "2.3\tLaboratory exercises with knowledge tests\nAll students perform laboratory exercises in a FER lab, in precisely prescribed terms:\n    four exercises in the 1st cycle (i.e., before the midterm exam) and four exercises in the 2nd cycle\n    the duration of one laboratory exercise is approximately 110 minutes\n    laboratory exercises must be completed by the student in the specified time\n    there is no compensation for laboratory exercises in case of absence\n    the laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "Links at the top of the screen are used to navigate between tasks in the tests. In addition to the ordinal number of each task, the status of the task is shown in parentheses. Next to the ordinal number of the questions that have not yet been answered, a minus sign is displayed. If the answer to the question is a software solution that has already been written, it will be marked with </>.\n\nWith each task, information is shown regarding the points that the student earns for correct, unanswered and incorrect answer.\n\nIn the upper right corner there is a clock that counts down the time until the end of writing the test, a picture of the student and the \"Submit\" button which is used to submit the entire test for the final assessment (not individual tasks!).",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "2.3\tLaboratory exercises with knowledge tests\nAll students perform laboratory exercises in a FER lab, in precisely prescribed terms:\n    four exercises in the 1st cycle (i.e., before the midterm exam) and four exercises in the 2nd cycle\n    the duration of one laboratory exercise is approximately 110 minutes\n    laboratory exercises must be completed by the student in the specified time\n    there is no compensation for laboratory exercises in case of absence\n    the laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.\n\nLinks at the top of the screen are used to navigate between tasks in the tests. In addition to the ordinal number of each task, the status of the task is shown in parentheses. Next to the ordinal number of the questions that have not yet been answered, a minus sign is displayed. If the answer to the question is a software solution that has already been written, it will be marked with </>.\n\nWith each task, information is shown regarding the points that the student earns for correct, unanswered and incorrect answer.\n\nIn the upper right corner there is a clock that counts down the time until the end of writing the test, a picture of the student and the \"Submit\" button which is used to submit the entire test for the final assessment (not individual tasks!).",
+            "time": 46.77,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_17",
+            "question": "What should i do with my code before running it in edgar?",
+            "answer": "Before running your code in Edgar, you need to prepare and test it outside of the system. This involves writing the program (using a text editor like Notepad++ or VSC), compiling it (by calling the gcc compiler), resolving any errors and warnings, and thoroughly testing it by executing against different test data. Once you are confident that your solution is correct, you can copy-paste the code into Edgar and run it using the \"Run\" option or the Ctrl + Enter key combination.",
+            "source_documents": [
+                {
+                    "page_content": "2.1\tTests with program tasks \nImportant: The program task must first be prepared and tested outside Edgar. This means that before submitting a solution to the Edgar system, the program needs to be written (eg with the Notepad/++ editor or in the VSC), compiled (by calling the gcc compiler), all errors and warnings must be resolved, and the program should be thoroughly tested by executing against different test data. Only when you consider your solution to be entirely correct, you should copy-paste the code into Edgar.\nIn tasks that require writing of a program, in the Edgar system, below the text of the task, there is a field to which the solution (program code) should be pasted. \nThe program code transferred to the Edgar system can be run in the following ways:\n\u2022\tby selecting the option \u201eRun\u201c\n\u2022\twhile the program code field is in focus (the mouse pointer is in the field), by a key combination Ctrl + Enter",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "the program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "2.1\tTests with program tasks \nImportant: The program task must first be prepared and tested outside Edgar. This means that before submitting a solution to the Edgar system, the program needs to be written (eg with the Notepad/++ editor or in the VSC), compiled (by calling the gcc compiler), all errors and warnings must be resolved, and the program should be thoroughly tested by executing against different test data. Only when you consider your solution to be entirely correct, you should copy-paste the code into Edgar.\nIn tasks that require writing of a program, in the Edgar system, below the text of the task, there is a field to which the solution (program code) should be pasted. \nThe program code transferred to the Edgar system can be run in the following ways:\n\u2022\tby selecting the option \u201eRun\u201c\n\u2022\twhile the program code field is in focus (the mouse pointer is in the field), by a key combination Ctrl + Enter\n\nthe program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.",
+            "time": 68.18,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_18",
+            "question": "Where can I find the schedule of the laboratory exercises?",
+            "answer": "The exact schedule by dates, topics and number of program tasks per exercise will be published on Teams at least a week before the exercises.",
+            "source_documents": [
+                {
+                    "page_content": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "2\tExams \nNote: Official cheat-sheet printed on paper may be used in laboratory exercises. It will also be available in Edgar as a last question in the laboratory exercises and exams:\n\u2022\tCheat sheet for C\nKnowledge tests in laboratory exercises are accessed using a password. Knowledge tests are only available in a pre-set time intervals. \nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.\n\nThe test is commenced by the option \u201eStart exam\u201c.\nTo practice working with the system at home, a demo test has been defined. This test is not graded and can be run an unlimited number of times. The password is not needed. The test is available under \u201cPublic exams\u201d.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.\n\n2\tExams \nNote: Official cheat-sheet printed on paper may be used in laboratory exercises. It will also be available in Edgar as a last question in the laboratory exercises and exams:\n\u2022\tCheat sheet for C\nKnowledge tests in laboratory exercises are accessed using a password. Knowledge tests are only available in a pre-set time intervals. \nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.\n\nThe test is commenced by the option \u201eStart exam\u201c.\nTo practice working with the system at home, a demo test has been defined. This test is not graded and can be run an unlimited number of times. The password is not needed. The test is available under \u201cPublic exams\u201d.",
+            "time": 43.3,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_19",
+            "question": "If I have 0 points from lab excercises, can I pass with a grade of 5?",
+            "answer": "No",
+            "source_documents": [
+                {
+                    "page_content": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "Conditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\n3.2\tOn classical exams\nFor students who did not pass the exam during the continuous assessment, the total number of points is obtained by summing the points obtained in laboratory exercises during the continuous assessment and points obtained in the written part of the exam\n    total number of points = number of lab points + number of points on the exam\n\nLaboratory exercises\t30 points\tthere is no threshold\nExam\t70 points\ttreshold is 35 points\n\nConditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\n3.2\tOn classical exams\nFor students who did not pass the exam during the continuous assessment, the total number of points is obtained by summing the points obtained in laboratory exercises during the continuous assessment and points obtained in the written part of the exam\n    total number of points = number of lab points + number of points on the exam\n\nLaboratory exercises\t30 points\tthere is no threshold\nExam\t70 points\ttreshold is 35 points\n\nConditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50",
+            "time": 30.73,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_20",
+            "question": "What are my options for consultations?",
+            "answer": "Your options for consultations include requesting a meeting with your teacher through MS Teams at an agreed time, seeking help from colleagues, or browsing content on the Internet for additional explanations and examples.",
+            "source_documents": [
+                {
+                    "page_content": "2.4\tConsultations\nStudents have the opportunity to consult with the teacher. Consultations will take place through the MS Teams platform, at times agreed with the teacher.\n    the teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again\n    consultation should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam or exam - at that point it will most likely be too late.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "Reading other literature (see chapter Other materials - Recommended reading)\n    Browsing content on the Internet for additional explanations and examples",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "2.4\tConsultations\nStudents have the opportunity to consult with the teacher. Consultations will take place through the MS Teams platform, at times agreed with the teacher.\n    the teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again\n    consultation should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam or exam - at that point it will most likely be too late.\n\nReading other literature (see chapter Other materials - Recommended reading)\n    Browsing content on the Internet for additional explanations and examples",
+            "time": 32.74,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_21",
+            "question": "What happens if I do not pass the course during the continuous monitoring of classes?",
+            "answer": "If you do not pass the course during the continuous monitoring of classes, you will need to retake the course or seek alternative options for completing your degree requirements.",
+            "source_documents": [
+                {
+                    "page_content": "After the 10-minute period from the submission of the test, the review will be disabled, but the summary status of the test will still be displayed.\n\nAn overview of the summary results of all tests performed so far can be obtained at any time by selecting the option \u201eMy previous exams\u201c.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "The student is obliged to submit the test for assessment by the end of the countdown, but it will be possible to submit the test for assessment in a reasonable time after the expiration. This timeout, however, will be recorded in the system, so the test can be canceled later.\nIn the upper left corner (next to the test name) there is a button for selecting the layout of the screen.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "After the 10-minute period from the submission of the test, the review will be disabled, but the summary status of the test will still be displayed.\n\nAn overview of the summary results of all tests performed so far can be obtained at any time by selecting the option \u201eMy previous exams\u201c.\n\nThe student is obliged to submit the test for assessment by the end of the countdown, but it will be possible to submit the test for assessment in a reasonable time after the expiration. This timeout, however, will be recorded in the system, so the test can be canceled later.\nIn the upper left corner (next to the test name) there is a button for selecting the layout of the screen.",
+            "time": 30.62,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_22",
+            "question": "What will happen if I do not submit the exam on time?",
+            "answer": "If you do not submit the exam on time, the review will be disabled, but the summary status of the test will still be displayed.",
+            "source_documents": [
+                {
+                    "page_content": "After the 10-minute period from the submission of the test, the review will be disabled, but the summary status of the test will still be displayed.\n\nAn overview of the summary results of all tests performed so far can be obtained at any time by selecting the option \u201eMy previous exams\u201c.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "The student is obliged to submit the test for assessment by the end of the countdown, but it will be possible to submit the test for assessment in a reasonable time after the expiration. This timeout, however, will be recorded in the system, so the test can be canceled later.\nIn the upper left corner (next to the test name) there is a button for selecting the layout of the screen.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "After the 10-minute period from the submission of the test, the review will be disabled, but the summary status of the test will still be displayed.\n\nAn overview of the summary results of all tests performed so far can be obtained at any time by selecting the option \u201eMy previous exams\u201c.\n\nThe student is obliged to submit the test for assessment by the end of the countdown, but it will be possible to submit the test for assessment in a reasonable time after the expiration. This timeout, however, will be recorded in the system, so the test can be canceled later.\nIn the upper left corner (next to the test name) there is a button for selecting the layout of the screen.",
+            "time": 15.09,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_23",
+            "question": "Who do I contact if I have questions during the exam?",
+            "answer": "If you have questions during the exam, you should use the Ticketing system. You can access this system by clicking on the \"yellow tools\" icon in the upper right corner of the question page. Describe your problem in the window that appears and click Yes, raise ticket. Continue with the test without waiting for an answer. The teaching staff will examine the problem as soon as possible and answer you.",
+            "source_documents": [
+                {
+                    "page_content": "2.4\tConsultations\nStudents have the opportunity to consult with the teacher. Consultations will take place through the MS Teams platform, at times agreed with the teacher.\n    the teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again\n    consultation should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam or exam - at that point it will most likely be too late.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "2.4\tConsultations\nStudents have the opportunity to consult with the teacher. Consultations will take place through the MS Teams platform, at times agreed with the teacher.\n    the teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again\n    consultation should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam or exam - at that point it will most likely be too late.\n\n3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.",
+            "time": 53.44,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_24",
+            "question": "If I got 23 points on my laboratory exercises, 7 points on my lectures, 35 points on my midterm exam, and 23 points on my final exam, will I pass?",
+            "answer": "No",
+            "source_documents": [
+                {
+                    "page_content": "3\tConditions for obtaining a passing grade\n3.1\tDuring the continuous assessment\nThe total number of points gained during the continuous assessment is obtained by adding the points gained at lectures, points gained in laboratory exercises and points gained in the midterm exam and the final exam:\n    total number of points = number of points at lectures + number of lab points + number of points on intermediate exam + number of points on final exam\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "Conditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\n3.2\tOn classical exams\nFor students who did not pass the exam during the continuous assessment, the total number of points is obtained by summing the points obtained in laboratory exercises during the continuous assessment and points obtained in the written part of the exam\n    total number of points = number of lab points + number of points on the exam\n\nLaboratory exercises\t30 points\tthere is no threshold\nExam\t70 points\ttreshold is 35 points\n\nConditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "3\tConditions for obtaining a passing grade\n3.1\tDuring the continuous assessment\nThe total number of points gained during the continuous assessment is obtained by adding the points gained at lectures, points gained in laboratory exercises and points gained in the midterm exam and the final exam:\n    total number of points = number of points at lectures + number of lab points + number of points on intermediate exam + number of points on final exam\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\n3.2\tOn classical exams\nFor students who did not pass the exam during the continuous assessment, the total number of points is obtained by summing the points obtained in laboratory exercises during the continuous assessment and points obtained in the written part of the exam\n    total number of points = number of lab points + number of points on the exam\n\nLaboratory exercises\t30 points\tthere is no threshold\nExam\t70 points\ttreshold is 35 points\n\nConditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50",
+            "time": 51.67,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_25",
+            "question": "List me the recommended literature.",
+            "answer": "The recommended literature includes:\n1. V. Mornar: Introduction to programming, working version of the textbook\n2. K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n3. B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall",
+            "source_documents": [
+                {
+                    "page_content": "5\tOther materials\n5.1\tRecommended reading\n    V. Mornar: Introduction to programming, working version of the textbook\n        The textbook covers the complete material of the subject, and even more than that. The textbook will be available on MS Teams as pdf. An integral part of the textbook is the folder Examples with about ninety programs that can be independently translated and run in the command line or in the development environment VSCode.\n    K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n        An extensive work (805 pages) that has been accepted as a textbook at hundreds of universities around the world.\n    B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall\n        A basic book whose authors are the creators of the C programming language from which many generations of programmers have learned the language.\n5.2\tInstructions",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "Reading other literature (see chapter Other materials - Recommended reading)\n    Browsing content on the Internet for additional explanations and examples",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "5\tOther materials\n5.1\tRecommended reading\n    V. Mornar: Introduction to programming, working version of the textbook\n        The textbook covers the complete material of the subject, and even more than that. The textbook will be available on MS Teams as pdf. An integral part of the textbook is the folder Examples with about ninety programs that can be independently translated and run in the command line or in the development environment VSCode.\n    K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n        An extensive work (805 pages) that has been accepted as a textbook at hundreds of universities around the world.\n    B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall\n        A basic book whose authors are the creators of the C programming language from which many generations of programmers have learned the language.\n5.2\tInstructions\n\nReading other literature (see chapter Other materials - Recommended reading)\n    Browsing content on the Internet for additional explanations and examples",
+            "time": 49.67,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_26",
+            "question": "If i have a question for the lecturers, what should my email consist of?",
+            "answer": "If you have a question for the lecturers, please start the subject of your email with [IPRO2023] to ensure it is directed to the appropriate person.",
+            "source_documents": [
+                {
+                    "page_content": "5.4\tLecturers\nLecturer\nProf. dr. sc. Vedran Mornar, vedran.mornar@fer.hr\n\nAssistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr\nIf communicating via email, please start subject with [IPRO2023].",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "5.4\tLecturers\nLecturer\nProf. dr. sc. Vedran Mornar, vedran.mornar@fer.hr\n\nAssistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr\nIf communicating via email, please start subject with [IPRO2023].\n\n3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\t2. Enter a description of the problem in the window that appears and confirm it by clicking Yes, raise ticket. Then continue with the test,  without waiting for an answer.\n\t3.The teaching staff will examine the problem as soon as possible and answer the student. While waiting for an answer, the student is not able to send additional messages related to the same task (he can send messages about other tasks) - the icon turns red, and an hourglass icon appears next to it.",
+            "time": 42.56,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_27",
+            "question": "What is the course official email address?",
+            "answer": "The course official email address is not provided in the given context.",
+            "source_documents": [
+                {
+                    "page_content": "the program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "12. Call the help program without arguments, and redirect the program output to the help.txt file.\n13. Print the contents of the working folder.\n14. Move the help.txt file to the parent folder.\n15. By printing the contents of the working folder and then the parent folder, check that the copying was successful.\n16. Without changing the working folder, print the contents of the help.txt file to the screen.\n17. In the working folder, delete all files whose name begins with the letter p.\n18. Declare the root folder as the working folder by specifying the relative path.\n19. Delete folder C:\\exercise\\personal\\txt (specify absolute path to folder).\n20. Delete all files in the folder C: \\exercise\\personal\\pictures (specify the relative path to the folder).\n21. Delete the folder personal.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCommandPrompt.txt"
+                }
+            ],
+            "combined_documents": "the program will return the correct result for all test cases.\n\nIn the event of an unforeseen circumstance (eg power failure), Edgar allows the current contents of the solution field to be stored:\n\u2022\tExplicitly - the contents of the field can be explicitly saved by clicking the \"Save\" button in the upper right corner (below the \"Run\" button).\n\u2022\tImplicitly - Edgar automatically saves the contents of the field each time it is started with the \"Run\" option. Therefore, \"Save\" should only be used if you have written program code and have not run it.\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.\n\n12. Call the help program without arguments, and redirect the program output to the help.txt file.\n13. Print the contents of the working folder.\n14. Move the help.txt file to the parent folder.\n15. By printing the contents of the working folder and then the parent folder, check that the copying was successful.\n16. Without changing the working folder, print the contents of the help.txt file to the screen.\n17. In the working folder, delete all files whose name begins with the letter p.\n18. Declare the root folder as the working folder by specifying the relative path.\n19. Delete folder C:\\exercise\\personal\\txt (specify absolute path to folder).\n20. Delete all files in the folder C: \\exercise\\personal\\pictures (specify the relative path to the folder).\n21. Delete the folder personal.",
+            "time": 52.28,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_28",
+            "question": "Give me a list of assistants who conduct laboratory exercises.",
+            "answer": "I don't know the names of the assistants who conduct laboratory exercises.",
+            "source_documents": [
+                {
+                    "page_content": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "2\tExams \nNote: Official cheat-sheet printed on paper may be used in laboratory exercises. It will also be available in Edgar as a last question in the laboratory exercises and exams:\n\u2022\tCheat sheet for C\nKnowledge tests in laboratory exercises are accessed using a password. Knowledge tests are only available in a pre-set time intervals. \nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.\n\nThe test is commenced by the option \u201eStart exam\u201c.\nTo practice working with the system at home, a demo test has been defined. This test is not graded and can be run an unlimited number of times. The password is not needed. The test is available under \u201cPublic exams\u201d.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                }
+            ],
+            "combined_documents": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.\n\n2\tExams \nNote: Official cheat-sheet printed on paper may be used in laboratory exercises. It will also be available in Edgar as a last question in the laboratory exercises and exams:\n\u2022\tCheat sheet for C\nKnowledge tests in laboratory exercises are accessed using a password. Knowledge tests are only available in a pre-set time intervals. \nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.\n\nThe test is commenced by the option \u201eStart exam\u201c.\nTo practice working with the system at home, a demo test has been defined. This test is not graded and can be run an unlimited number of times. The password is not needed. The test is available under \u201cPublic exams\u201d.",
+            "time": 39.66,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_29",
+            "question": "What subjects can I enroll in when I finish the introduction to programming?",
+            "answer": "When you finish the Introduction to Programming course, you can consider enrolling in more advanced programming courses or other computer science-related subjects based on your interests and career goals. These may include data structures, algorithms, object-oriented programming, web development, machine learning, artificial intelligence, and more. It is important to research and consult with academic advisors to make an informed decision about which subjects to pursue next.",
+            "source_documents": [
+                {
+                    "page_content": "Introduction to programming: A guide for students\n1\tIntroduction\nThe aim of the course is to adopt the basic concepts of programming and gain the ability to create less complex programs in the programming language C.\nLecture slides, instructions, recommended literature, official reminders, and other materials are published through the IPRO2023 team on the Microsoft Teams platform.\nAlso, in case of need, students will receive the notification by e-mail, therefore you should check your email inbox @fer.hr.",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                },
+                {
+                    "page_content": "Integrated Development Environments (IDEs) are used to make writing, compiling, and testing programs easier. In the Introduction to Programming course, we will use Visual Studio Code development environment, because it is an open source program, runs on multiple platforms (Windows, Linux, Mac), the installation package is relatively small compared to other similar environments, installation is fast and can be used for programming in any programming language, provided that a suitable compiler is installed on your computer, such as the MinGW package whose installation and use is described in the previous sections. The following assumes that MinGW is installed in accordance with the instructions in the previous sections.\nInstallation of the environment\nVisual Studio Code (VSC) is downloaded from the link\nhttps://code.visualstudio.com/download\nAfter selecting the platform, downloading and running the installer and successfully completing the installation, VSC is ready to launch.",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForCompilingPrograms.txt"
+                }
+            ],
+            "combined_documents": "Introduction to programming: A guide for students\n1\tIntroduction\nThe aim of the course is to adopt the basic concepts of programming and gain the ability to create less complex programs in the programming language C.\nLecture slides, instructions, recommended literature, official reminders, and other materials are published through the IPRO2023 team on the Microsoft Teams platform.\nAlso, in case of need, students will receive the notification by e-mail, therefore you should check your email inbox @fer.hr.\n\nIntegrated Development Environments (IDEs) are used to make writing, compiling, and testing programs easier. In the Introduction to Programming course, we will use Visual Studio Code development environment, because it is an open source program, runs on multiple platforms (Windows, Linux, Mac), the installation package is relatively small compared to other similar environments, installation is fast and can be used for programming in any programming language, provided that a suitable compiler is installed on your computer, such as the MinGW package whose installation and use is described in the previous sections. The following assumes that MinGW is installed in accordance with the instructions in the previous sections.\nInstallation of the environment\nVisual Studio Code (VSC) is downloaded from the link\nhttps://code.visualstudio.com/download\nAfter selecting the platform, downloading and running the installer and successfully completing the installation, VSC is ready to launch.",
+            "time": 53.24,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        },
+        {
+            "question_number": "q_30",
+            "question": "How to get a grade of 6?",
+            "answer": "To obtain a passing grade of 6, you need to achieve at least 35 (out of 70 possible) points on the written exam and have a total score of at least 50 points.",
+            "source_documents": [
+                {
+                    "page_content": "Links at the top of the screen are used to navigate between tasks in the tests. In addition to the ordinal number of each task, the status of the task is shown in parentheses. Next to the ordinal number of the questions that have not yet been answered, a minus sign is displayed. If the answer to the question is a software solution that has already been written, it will be marked with </>.\n\nWith each task, information is shown regarding the points that the student earns for correct, unanswered and incorrect answer.\n\nIn the upper right corner there is a clock that counts down the time until the end of writing the test, a picture of the student and the \"Submit\" button which is used to submit the entire test for the final assessment (not individual tasks!).",
+                    "source_file": "english_docs_od_mentora_txt\\InstructionsForLabs.txt"
+                },
+                {
+                    "page_content": "Conditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\n3.2\tOn classical exams\nFor students who did not pass the exam during the continuous assessment, the total number of points is obtained by summing the points obtained in laboratory exercises during the continuous assessment and points obtained in the written part of the exam\n    total number of points = number of lab points + number of points on the exam\n\nLaboratory exercises\t30 points\tthere is no threshold\nExam\t70 points\ttreshold is 35 points\n\nConditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50",
+                    "source_file": "english_docs_od_mentora_txt\\StudentGuide.txt"
+                }
+            ],
+            "combined_documents": "Links at the top of the screen are used to navigate between tasks in the tests. In addition to the ordinal number of each task, the status of the task is shown in parentheses. Next to the ordinal number of the questions that have not yet been answered, a minus sign is displayed. If the answer to the question is a software solution that has already been written, it will be marked with </>.\n\nWith each task, information is shown regarding the points that the student earns for correct, unanswered and incorrect answer.\n\nIn the upper right corner there is a clock that counts down the time until the end of writing the test, a picture of the student and the \"Submit\" button which is used to submit the entire test for the final assessment (not individual tasks!).\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\n3.2\tOn classical exams\nFor students who did not pass the exam during the continuous assessment, the total number of points is obtained by summing the points obtained in laboratory exercises during the continuous assessment and points obtained in the written part of the exam\n    total number of points = number of lab points + number of points on the exam\n\nLaboratory exercises\t30 points\tthere is no threshold\nExam\t70 points\ttreshold is 35 points\n\nConditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50",
+            "time": 51.74,
+            "evaluation": {
+                "bleu_score": -100000,
+                "rouge_score": {
+                    "precision": -100000,
+                    "recall": -100000,
+                    "f1": -100000
+                },
+                "diversity": -100000,
+                "human_eval": {
+                    "expression_and_logic": "_",
+                    "accuracy_and_relevance": "_",
+                    "overall_quality_and_engagement": "_"
+                }
+            }
+        }
+    ]
+}

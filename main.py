@@ -49,7 +49,7 @@ i = 0
 for config_name, config in configurations.items():
     i += 1
     print(f"Processing configuration: {config_name}")
-    if i < 2:
+    if i < 19:
         continue
 
     retriever = process_configuration(config, documents)
