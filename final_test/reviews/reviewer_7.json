@@ -9,9 +9,9 @@
                 "answer": "To study outside of lectures, you should:\n1. Read the slides from the lectures carefully and take your own notes.\n2. Read other literature mentioned in the chapter Recommended reading.\n3. Use the internet to find additional resources and information related to the course material.\n4. Solve tasks on your own computer to acquire necessary skills, such as algorithm design, code writing, translation, error detection, and testing.\n5. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.",
                 "time": 91.93,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -19,9 +19,9 @@
                 "answer": "To study effectively outside of lectures, you should:\n1. Review the slides from the lectures and take your own notes.\n2. Read other literature (see chapter Recommended reading).\n3. Solve tasks on your own computer to acquire necessary skills such as algorithm design, code writing, translation, error detection, and testing.\n4. Work continuously every week, spending at least 10 hours per week on independent work.\n5. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications.",
                 "time": 125.5,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -29,9 +29,9 @@
                 "answer": "To achieve a good grade, you should spend at least 140 hours on independent work outside of the lectures. This includes learning from slides, notes, other literature, internet resources, solving tasks, and reading other materials. It is important to work continuously throughout the course, not just before exams. Solving published assignments for exercises in addition to lectures, testing examples of programs and excerpts from lectures, modifying these examples yourself, and noticing the effects of modifications are also crucial activities.",
                 "time": 141.02,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -39,9 +39,9 @@
                 "answer": "To get a good grade, you should solve published assignments for exercises in addition to attending lectures, test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications, and read other literature (see chapter Other materials - Recommended reading).",
                 "time": 40.82,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -49,9 +49,9 @@
                 "answer": "To study outside of lectures, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve tasks on your own computer to acquire necessary skills such as algorithm design, code writing, translation, error detection, and testing.\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.",
                 "time": 73.58,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -59,9 +59,9 @@
                 "answer": "To achieve a good grade outside of lectures, you should practice problem-solving regularly, work on assignments and exercises, read recommended literature, discuss topics with classmates or teachers, and revise your knowledge periodically.",
                 "time": 99.94,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -69,9 +69,9 @@
                 "answer": "To get a good grade, you should study by solving published assignments for exercises in addition to lectures, test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications, and read other literature (see chapter Other materials - Recommended reading).",
                 "time": 32.83,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -79,9 +79,9 @@
                 "answer": "To achieve a good grade, you should spend at least 140 hours on independent work. This includes learning from slides during lectures, taking your own notes, reading other literature (see chapter Recommended reading), solving tasks, testing examples of programs and excerpts from lectures, modifying these examples yourself, noticing the effects of modifications. You should also attend laboratory exercises and exams, and spend 50 hours on attending classes. It is important to work continuously every week, as a layered approach in processing materials is used.",
                 "time": 108.23,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -89,9 +89,9 @@
                 "answer": "To achieve a good grade, it is necessary to spend at least 140 hours on independent work. This includes learning, solving tasks, reading other literature, browsing content on the Internet for additional explanations and examples. It is important to work continuously, every week, due to the layered approach in processing materials.\n\n5\tRecommended literature\nThe recommended literature is published through the IPRO2023 team on the Microsoft Teams platform.\n    The recommended literature includes:\n        \"Introduction to Programming\" by Y. Demchenko and A. Kovalev, 2nd edition, 2014\n        \"C Programming Language\" by B. Kernighan and D. Ritchie, 2nd edition, 1988\n        \"The C Programming Language\" by B. Kernighan and D. Ritchie, 2nd edition, 1988\n        \"C: A Reference Manual\" by P. J. Weinberg, 3rd edition, 1995\n        \"C in a Nutshell\" by Ph. St. Laurent, 4th edition, 2006",
                 "time": 302.35,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -99,9 +99,9 @@
                 "answer": "To study outside of lectures for a good grade, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve published assignments for exercises in addition to lectures.\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications.\n4. Use the internet as a resource for learning.",
                 "time": 57.25,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -109,9 +109,9 @@
                 "answer": "To study outside of lectures for a good grade, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve tasks on your own computer to acquire necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.",
                 "time": 70.74,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -119,9 +119,9 @@
                 "answer": "To achieve a good grade, it is essential to engage in independent work outside of lectures. This includes learning from slides, notes, recommended literature, solving tasks, and browsing the internet for additional explanations and examples. It is crucial to work continuously throughout the course, not just cramming at the end. Additionally, using the official reminder can be a helpful tool during lectures and knowledge tests.",
                 "time": 177.28,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -129,9 +129,9 @@
                 "answer": "To achieve a good grade, you should spend at least 140 hours on independent work outside of the lectures. This includes learning from slides, notes, other literature, internet resources, solving tasks, and reading other materials. It is important to work continuously throughout the course, not just before exams. Solving published assignments for exercises in addition to lectures, testing examples of programs and excerpts from lectures, modifying these examples yourself, and noticing the effects of modifications are also crucial activities.",
                 "time": 139.89,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -139,9 +139,9 @@
                 "answer": "To study outside of lectures for a good grade, you should:\n1. Solve published assignments for exercises in addition to lectures (published at the same time as lectures).\n2. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications. You can copy program code from PDF versions of published lectures.\n3. Read other literature (see chapter Other materials - Recommended reading).\n4. Actively participate in lectures by solving tasks assigned during lectures and asking for additional clarifications from the teacher.\n5. Pay close attention to the content of the Independent work chapter.",
                 "time": 59.53,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -149,9 +149,9 @@
                 "answer": "To study outside of lectures, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve tasks on your own computer to acquire necessary skills such as algorithm design, code writing, translation, error detection, and testing.\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.",
                 "time": 61.64,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -159,9 +159,9 @@
                 "answer": "To achieve a good grade outside of lectures, you should practice problem-solving regularly, work on assignments and exercises, read recommended literature, discuss topics with classmates or teachers, and revise your knowledge periodically.",
                 "time": 100.11,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -169,9 +169,9 @@
                 "answer": "To study outside of lectures for better grades, you should:\n1. Solve published assignments for exercises in addition to lectures (published at the same time as lectures).\n2. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.\n3. Read other literature (see chapter Other materials - Recommended reading).",
                 "time": 41.29,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -179,9 +179,9 @@
                 "answer": "To achieve a good grade, you should spend at least 140 hours on independent work. This includes learning from slides during lectures, taking your own notes, reading other literature (see chapter Recommended reading), solving tasks, testing examples of programs and excerpts from lectures, modifying these examples yourself, noticing the effects of modifications. You should also attend laboratory exercises and exams, and spend 50 hours on attending classes. It is important to work continuously every week, as a layered approach in processing materials is used.",
                 "time": 120.39,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -189,9 +189,9 @@
                 "answer": "To achieve a good grade, it is necessary to spend at least 140 hours on independent work. This includes learning, solving tasks, reading other literature, browsing content on the Internet for additional explanations and examples. It is important to work continuously, every week, due to the layered approach in processing materials.\n\n5\tRecommended literature\nThe recommended literature is published through the IPRO2023 team on the Microsoft Teams platform.\n    The recommended literature includes:\n        \"Introduction to Programming\" by Y. Demchenko and A. Kovalev, 2nd edition, 2014\n        \"C Programming Language\" by B. Kernighan and D. Ritchie, 2nd edition, 1988\n        \"The C Programming Language\" by B. Kernighan and D. Ritchie, 2nd edition, 1988\n        \"C: A Reference Manual\" by P. J. Weinberg, 3rd edition, 1995\n        \"C in a Nutshell\" by Ph. St. Laurent, 4th edition, 2006",
                 "time": 227.16,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -199,9 +199,9 @@
                 "answer": "To study outside of lectures for a good grade, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve published assignments for exercises in addition to lectures.\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications.\n4. Use the internet as a resource for learning.",
                 "time": 56.73,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -209,9 +209,9 @@
                 "answer": "To study effectively outside of lectures, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve published assignments for exercises in addition to lectures (published at the same time as lectures).\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.\n4. Engage in independent work, including:\n   a. Learning: slides from lectures, your own notes, reading other literature (see chapter Recommended reading), and using the internet.\n   b. Solving tasks: solve a large number of tasks on your own computer to acquire necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).",
                 "time": 60.53,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -219,9 +219,9 @@
                 "answer": "To study outside of lectures, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve tasks on your own computer to acquire necessary skills such as algorithm design, code writing, translation, error detection, and testing.\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, and notice the effects of modifications. You can copy the program code of examples from lectures from PDF versions of published lectures.",
                 "time": 66.87,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -229,9 +229,9 @@
                 "answer": "To achieve a good grade outside of lectures, you should practice programming tasks in the C language, solve problems related to the course material, participate in group discussions or study with classmates, and consult with the teacher during scheduled consultation times if you have any questions or need clarification on certain topics.",
                 "time": 101.87,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -239,9 +239,9 @@
                 "answer": "To get a good grade, you should study by solving published assignments for exercises in addition to lectures, test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications, and read other literature (see chapter Other materials - Recommended reading).",
                 "time": 34.09,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -249,9 +249,9 @@
                 "answer": "To achieve a good grade, you should spend at least 140 hours on independent work. This includes learning from slides during lectures, taking your own notes, reading other literature (see chapter Recommended reading), solving tasks, testing examples of programs and excerpts from lectures, modifying these examples yourself, noticing the effects of modifications. You should also attend laboratory exercises and exams, and spend 50 hours on attending classes. It is important to work continuously every week, as a layered approach in processing materials is used.",
                 "time": 116.43,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -259,9 +259,9 @@
                 "answer": "To achieve a good grade, it is necessary to spend at least 140 hours on independent work. This includes learning, solving tasks, reading other literature, browsing content on the Internet for additional explanations and examples. It is important to work continuously, every week, due to the layered approach in processing materials.\n\n5\tRecommended literature\nThe recommended literature is published through the IPRO2023 team on the Microsoft Teams platform.\n    The recommended literature includes:\n        \"Introduction to Programming\" by Y. Demchenko and A. Kovalev, 2nd edition, 2019\n        \"C Programming Absolute Beginner's Guide\" by Greg Perry, 2018\n        \"C Primer Plus\" by Stephen Prata, 6th edition, 2015\n        \"The C Programming Language\" by Brian W. Kernighan and Dennis M. Ritchie, 2nd edition, 1988\n    It is recommended to read these books in addition to attending lectures and solving tasks.\n\n6\tExam period\nDuring the exam period, students who did not pass the course during",
                 "time": 219.33,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -269,9 +269,9 @@
                 "answer": "To study outside of lectures for a good grade, you should:\n1. Read other literature (see chapter Recommended reading)\n2. Solve published assignments for exercises in addition to lectures.\n3. Test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications.\n4. Use the internet as a resource for learning.",
                 "time": 79.84,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -279,9 +279,9 @@
                 "answer": "To achieve a good grade, it is essential to engage in independent work outside of lectures. This includes learning from slides and notes taken during lectures, reading recommended literature, solving tasks on your own computer, browsing the internet for additional explanations and examples, and using the official reminder provided by the course. It is crucial to work continuously throughout the semester, spending an average of 10 hours per week on independent work. Additionally, actively participating in lectures by solving tasks and asking for clarifications will contribute to a better understanding of the material.",
                 "time": 118.88,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -289,9 +289,9 @@
                 "answer": "To study effectively outside of lectures, you should:\n1. Review the slides presented during lectures, which are available on Microsoft Teams.\n2. Take your own notes during lectures for better understanding and retention.\n3. Actively participate in lectures by solving tasks assigned during lectures and asking teachers for additional clarifications.\n4. Pay close attention to the content of the Independent work chapter, as just following lectures will not be enough to pass the exam.\n5. Engage in independent work, which includes learning from slides, your own notes, reading other literature (see chapter Recommended reading), solving tasks, and testing examples of programs and excerpts from lectures.",
                 "time": 116.97,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         ]
@@ -306,9 +306,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n1. Ability to understand and apply programming concepts in the C language.\n2. Ability to design algorithms for solving problems.\n3. Ability to code and test programs in the C language.\n4. Ability to analyze and solve problems using knowledge tests.",
                 "time": 78.32,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -316,9 +316,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n1. Ability to understand and apply fundamental programming concepts and techniques.\n2. Skills in problem-solving using a programming language (C).\n3. Knowledge of data structures and algorithms.\n4. Understanding of software engineering principles.\n5. Ability to work independently and manage time effectively for independent work.",
                 "time": 57.02,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -326,9 +326,9 @@
                 "answer": "After completing the subject, students are expected to acquire basic programming concepts and skills in the C programming language, as well as the ability to create less complex programs using this language.",
                 "time": 134.95,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -336,9 +336,9 @@
                 "answer": "After completing the subject, the following competences are expected to be acquired:\n- Algorithm design skills\n- Code writing skills\n- Translation skills\n- Error detection and testing skills",
                 "time": 37.89,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -346,9 +346,9 @@
                 "answer": "After completing the subject, you are expected to have acquired the following competences:\n- Ability to learn from slides, notes, other literature, and the internet\n- Skills in solving tasks through independent work on your own computer\n- Knowledge of editing a program using a text editor, compiling programs from the command line, and running them from the command line.",
                 "time": 32.87,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -356,9 +356,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n1. Understanding of the C programming language syntax and semantics\n2. Ability to design simple algorithms and write code in the C programming language\n3. Ability to compile, execute, and debug programs written in the C programming language\n4. Basic knowledge of operating system commands and character interface (command line)\n5. Ability to work independently and continuously throughout the course duration",
                 "time": 110.3,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -366,9 +366,9 @@
                 "answer": "After completing the subject, you are expected to have acquired the following competences:\n- Learning through slides from lectures, your own notes, reading other literature, and using the internet.\n- Solving tasks on your own computer, acquiring skills such as algorithm design, code writing, translation, error detection, testing, and editing a program by notepad or a similar text editor.\n- Compiling and running programs in an integrated development environment.",
                 "time": 33.39,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -376,9 +376,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competences:\n1. Ability to learn independently by using slides from lectures, their own notes, reading other literature, and using the internet.\n2. Skills in solving tasks, such as algorithm design, code writing, translation, error detection, testing, and modifying examples of programs.\n3. Knowledge of elementary editing of a program, compiling programs from the command line, and running programs from the command line.",
                 "time": 71.27,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -386,9 +386,9 @@
                 "answer": "After completing the subject, students are expected to acquire basic programming concepts, knowledge of the C programming language, and skills in creating less complex programs in this language.",
                 "time": 276.47,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -396,9 +396,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competences:\n- Ability to understand and apply fundamental programming concepts and principles\n- Skills in designing, implementing, and testing algorithms and data structures\n- Proficiency in using an integrated development environment for writing and compiling programs\n- Knowledge of debugging and error detection techniques\n- Ability to work independently on tasks and projects\n- Ability to perform well in written exams and laboratory exercises\n- Understanding of the C programming language and its applications",
                 "time": 56.52,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -406,9 +406,9 @@
                 "answer": "After completing the subject, the following competencies are expected to be acquired:\n1. Algorithm design skills\n2. Code writing skills\n3. Translation skills\n4. Error detection and testing skills\n5. Problem-solving skills through solving a large number of tasks on your own computer\n6. Ability to work independently, including learning from lectures, notes, other literature, and the Internet\n7. Time management skills for completing tests within the given time frame",
                 "time": 42.27,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -416,9 +416,9 @@
                 "answer": "After completing the subject, students should acquire basic programming concepts, knowledge of the C programming language, skills in algorithm design, coding, testing, error detection and debugging, as well as the ability to create less complex programs in the C programming language.",
                 "time": 91.65,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -426,9 +426,9 @@
                 "answer": "After completing the subject, students are expected to acquire basic programming concepts and skills in the C programming language, as well as the ability to create less complex programs using this language.",
                 "time": 135.6,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -436,9 +436,9 @@
                 "answer": "After completing the subject, it is expected that you will have acquired skills in algorithm design, code writing, translation, error detection, testing, as well as general knowledge on the topic covered by the course.",
                 "time": 45.54,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -446,9 +446,9 @@
                 "answer": "After completing the subject, the following competences are expected to be acquired:\n1. Algorithm design skills\n2. Code writing skills\n3. Translation skills\n4. Error detection and testing skills\n5. Problem-solving skills\n6. Time management skills (due to the layered approach in processing materials)",
                 "time": 43.3,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -456,9 +456,9 @@
                 "answer": "After completing the subject, students are expected to acquire basic programming concepts and skills in the C programming language, as well as the ability to create less complex programs.",
                 "time": 103.42,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -466,9 +466,9 @@
                 "answer": "After completing the subject, it is expected that students will have acquired the following competences:\n- Ability to understand and apply fundamental concepts in computer science\n- Skills in algorithm design, code writing, translation, error detection, and testing\n- Proficiency in using various programming languages and tools\n- Critical thinking and problem-solving skills\n- Time management and self-study abilities for independent work",
                 "time": 38.2,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -476,9 +476,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n1. Ability to understand and apply fundamental programming concepts and techniques in the C programming language.\n2. Skills in problem-solving, algorithm design, code writing, translation, error detection, and testing.\n3. Knowledge of data structures and algorithms.\n4. Understanding of computer organization and architecture.\n5. Ability to work independently and manage time effectively for continuous assessment tasks.",
                 "time": 80.65,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -486,9 +486,9 @@
                 "answer": "After completing the subject, students are expected to acquire basic programming concepts, knowledge of the C programming language, and skills in creating less complex programs in this language.",
                 "time": 195.99,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -496,9 +496,9 @@
                 "answer": "After completing the subject, the following competences are expected to be acquired:\n1. Ability to understand and apply basic algorithms and data structures.\n2. Skills in programming languages (e.g., C++, Python).\n3. Problem-solving skills through solving a large number of tasks on your own computer.\n4. Error detection and testing skills.\n5. Time management skills for effective use of the allocated time for independent work.",
                 "time": 53.63,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -506,9 +506,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n1. Ability to understand and apply programming concepts in the C language.\n2. Skills in problem-solving using the C programming language.\n3. Knowledge of data structures and algorithms.\n4. Understanding of software engineering principles.",
                 "time": 42.05,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -516,9 +516,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competences:\n1. Algorithm design\n2. Coding\n3. Testing\n4. Program editing using Notepad/Notepad++ editor\n5. Compiling and running programs from the command line\n6. Using VSCode development environment\n7. Knowledge of elementary program editing with the Notepad/Notepad++ editor\n8. Ability to compile and run a program from the command line",
                 "time": 59.39,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -526,9 +526,9 @@
                 "answer": "After completing the subject, students are expected to acquire basic programming concepts and skills in the C programming language, as well as the ability to create less complex programs.",
                 "time": 101.27,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -536,9 +536,9 @@
                 "answer": "After completing the subject, you are expected to acquire competencies in algorithm design, code writing, translation, error detection, testing, as well as problem-solving skills through independent work involving learning from lectures, notes, recommended readings, and the internet.",
                 "time": 24.99,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -546,9 +546,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competences:\n- Algorithm design\n- Code writing\n- Translation\n- Error detection\n- Testing\n- Program editing with Notepad/Notepad++ editor\n- Compiling programs from the command line\n- Running programs from the command line",
                 "time": 62.85,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -556,9 +556,9 @@
                 "answer": "After completing the subject, students should have acquired basic programming skills in the C language, as well as the ability to create less complex programs. They should also be able to understand and apply fundamental algorithms and data structures, and be familiar with debugging techniques.",
                 "time": 191.83,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -566,9 +566,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n- Algorithm design skills\n- Coding skills\n- Translation skills\n- Error detection and testing skills\n- Problem-solving skills",
                 "time": 70.93,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -576,9 +576,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n1. Understanding of basic programming concepts and principles\n2. Ability to design, implement, and test algorithms in a specific programming language (C)\n3. Problem-solving skills using computational thinking\n4. Ability to work independently and manage their own time effectively",
                 "time": 130.68,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -586,9 +586,9 @@
                 "answer": "After completing the subject, students are expected to acquire the following competencies:\n1. Understanding of basic data structures and algorithms\n2. Ability to design, implement, and test simple algorithms in the C programming language\n3. Knowledge of problem-solving strategies and techniques\n4. Ability to work with various input/output formats and file handling\n5. Familiarity with debugging and error detection and handling\n6. Understanding of time complexity and space complexity analysis of algorithms\n7. Basic knowledge of data encryption and decryption methods",
                 "time": 138.19,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         ]

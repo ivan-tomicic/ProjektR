@@ -9,9 +9,9 @@
                 "answer": "A Universal Makefile is not possible, as it would require knowledge of all source code files, their dependencies, and the specific compiler and options used for each project. Instead, you should write a Makefile that is tailored to your specific project's needs, including the necessary rules and dependencies for compiling and linking your source code.",
                 "time": 123.95,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -19,9 +19,9 @@
                 "answer": "A Universal Makefile is not possible, as it would require knowledge of all source code files, their dependencies, and the specific compiler and options used for each project. Instead, you should write a Makefile that is tailored to your specific project's needs, including the necessary rules and dependencies for compiling and linking your source code.",
                 "time": 134.79,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -29,9 +29,9 @@
                 "answer": "A Universal Makefile can be created by following these steps:\n1. Define compiler name and options in variables CC and CFLAGS. For example, CC = gcc and CFLAGS=-c -g -std=c11 -pedantic-errors -Wall.\n2. Use wildcards to find all source files (SRCS=$(wildcard *.c)) and include files (INCLUDES=$(wildcard *.h)).\n3. Create object files from source files using the compiler with options CFLAGS (-c) and the source file as input (-<). For example, $(CC) $(CFLAGS) -c $<.\n4. Define the main executable file and its dependencies on object files (main.exe: $(OBJS)).\n5. Compile the program using the compiler with options CFLAGS and object files as input (-o $@ $(OBJS)). For example, $(CC) -o $@ $(OBJS).\n6. Create a rule to clean all object and executable code files (clean: del *.o *.exe).\n7. Properly format the source code for readability.\n8. Add dependencies on header files (.h) included",
                 "time": 190.08,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -39,9 +39,9 @@
                 "answer": "A universal Makefile is one that can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies. To achieve this, you need to understand advanced functionalities of the program make and use them in your Makefile. This will allow you to define rules for different source files and their dependencies, making it possible to compile a program with multiple modules and headers.",
                 "time": 41.14,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -49,9 +49,9 @@
                 "answer": "A universal Makefile can be created by defining variables for the compiler name (CC) and options (CFLAGS), using wildcards to find source files (SRCS) and include files (INCLUDES), and creating rules that describe the dependencies between source code, object code, and executable code. The Makefile should be located in the same folder as the source code files.\n\nExample:\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<\n\nIn this example, the Makefile can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies.",
                 "time": 103.37,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -59,9 +59,9 @@
                 "answer": "A Universal Makefile is not possible, as it would require knowledge of all possible source code files, their dependencies, and the specific compiler and options used for each project. Instead, you should create a Makefile that is tailored to your specific project's needs, including the necessary rules and dependencies for your particular program.",
                 "time": 126.14,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -69,9 +69,9 @@
                 "answer": "A universal Makefile is not possible, as it depends on the specific files and their dependencies in each project. However, you can create a generic Makefile that can be customized for different projects by using variables and macros to define common rules and settings. This allows you to reuse the same Makefile structure across multiple projects while still accommodating their unique requirements.",
                 "time": 41.59,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -79,9 +79,9 @@
                 "answer": "A universal Makefile is a single Makefile that can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies. To create a universal Makefile, you should define variables for the compiler name (CC) and options (CFLAGS), and use wildcards to match source files with the extension .c and header files with the extension .h. You can also define rules in the Makefile file that describe the compilation process and dependencies between source code files and object code files.\n\nRemember, if you don't know the answer, just say that you don't know, don't try to make up an answer.",
                 "time": 135.43,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "3",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -89,9 +89,9 @@
                 "answer": "A Universal Makefile can be created by using advanced functionalities of the make program. This involves defining rules for compiling programs of any complexity without explicitly specifying individual components and their dependencies. The file should contain variables for compiler name and options, wildcards to find source and header files, and rules that describe how object code is derived from source code and how executable code is created from object code.\n\nFor example:\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<\n\nclean:\n\tdel *.o *.exe",
                 "time": 341.82,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -99,9 +99,9 @@
                 "answer": "A universal Makefile is not possible, as it depends on the specific project structure and dependencies of each individual program. However, you can create a generic Makefile that can be adapted to different projects by defining rules for common tasks like compiling source files and linking object files into an executable. This generic Makefile can then be customized for each specific project by adding or modifying the rules as needed.",
                 "time": 72.25,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -109,9 +109,9 @@
                 "answer": "A Universal Makefile is a single Makefile that can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies. To create a Universal Makefile, you can follow these steps:\n1. Define variables for the compiler name (CC) and options (CFLAGS). For example:\n   CC = gcc\n   CFLAGS=-c -g -std=c11 -pedantic-errors -Wall\n2. Create a list of source files (SRCS) using wildcards, e.g., SRCS=$(wildcard *.c).\n3. Create a list of include files (INCLUDES) using wildcards, e.g., INCLUDES=$(wildcard *.h).\n4. Define object code files (OBJS) based on source files and include files: OBJS=$(SRCS:.c=.o).\n5. Create a rule for the main executable file, e.g., main.exe: $(OBJS), where $(CC) -o $@ $(OBJS) is used to compile the program.\n6. Create rules for object code files based on source files and include files, e.g., %.o:",
                 "time": 116.12,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -119,9 +119,9 @@
                 "answer": "A universal Makefile is a single Makefile that can be used to compile programs of any complexity, without explicitly specifying individual components and their dependencies. This can be achieved by using variables for compiler name (CC) and options (CFLAGS), as well as wildcards for source files (SRCS) and include files (INCLUDES). The object code files are created from the source code files with the same base name but different extension (.c to .o).\n",
                 "time": 208.12,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -129,9 +129,9 @@
                 "answer": "A Universal Makefile is not possible because it depends on the specifics of each project. However, you can write a generic Makefile that can be used for any program by following these steps:\n1. Define compiler name and options in CC and CFLAGS variables.\n2. Use wildcards to find source files (SRCS) and include files (INCLUDES).\n3. Create object files (OBJS) from source files.\n4. Specify the main executable file (main.exe) as a target, linking all object files.\n5. Include rules for cleaning up object and executable code files.\n6. Properly format the code to ensure readability.",
                 "time": 150.92,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -139,9 +139,9 @@
                 "answer": "To create a universal Makefile, you can use the following JSON format:\n{\n    \"version\": \"2.0.0\",\n    \"tasks\": [\n        {\n            \"label\": \"Build with gcc\",\n            \"type\": \"shell\",\n            \"command\": \"gcc\",\n            \"args\": [\"-g\", \"-std=c11\", \"-pedantic-errors\",\n                \"-Wall\", \"-o\", \"program.exe\", \"${file}\"\n            ]\n        },\n        {\n            \"label\": \"Build with make\",\n            \"type\": \"shell\",\n            \"command\": \"make\"\n        }\n    ]\n}\nThis Makefile will allow you to build the program using either gcc or make.",
                 "time": 75.1,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "3",
+                    "accuracy_and_relevance": "2",
+                    "overall_quality_and_engagement": "2"
                 }
             },
             {
@@ -149,9 +149,9 @@
                 "answer": "A universal Makefile can be created by defining variables for the compiler name (CC) and options (CFLAGS), using wildcards to find source files (SRCS) and include files (INCLUDES), and creating rules that describe the dependencies between source code, object code, and executable code. The Makefile should be located in the same folder as the source code files.\n\nExample:\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<\n\nIn this example, the Makefile can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies.",
                 "time": 94.46,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -159,9 +159,9 @@
                 "answer": "A Universal Makefile is not possible, as it would require knowledge of all possible source code files, their dependencies, and the specific compiler and options used for each project. Instead, you should create a Makefile that is tailored to your specific project's needs, including the necessary rules and dependencies for your particular program.",
                 "time": 128.52,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -169,9 +169,9 @@
                 "answer": "A universal Makefile is not possible, as it depends on the specific files, directories, and dependencies of each individual program. However, you can create a generic Makefile that can be easily customized for different programs by using variables to represent paths, filenames, and other details. This allows you to reuse the same Makefile structure for multiple projects while still accommodating their unique requirements.",
                 "time": 44.19,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -179,9 +179,9 @@
                 "answer": "A universal Makefile is a single Makefile that can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies. To create a universal Makefile, you should define variables for the compiler name (CC) and options (CFLAGS), and use wildcards to match source files with the extension .c and header files with the extension .h. You can also define rules in the Makefile file that describe the compilation process and dependencies between source code files and object code files.\n\nRemember, if you don't know the answer, just say that you don't know, don't try to make up an answer.",
                 "time": 139.23,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -189,9 +189,9 @@
                 "answer": "A Universal Makefile is not possible because each programming language has its own specific rules for compiling, linking, and building programs. However, you can create a generic Makefile that can be used with multiple languages by using a combination of predefined variables and conditional constructs. For example, you can define the compiler name and options in a variable like CC and CFLAGS, and then use these variables in the rules for different languages. This way, you can create a single Makefile that can be used to build programs written in various programming languages.",
                 "time": 209.53,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -199,9 +199,9 @@
                 "answer": "A universal Makefile is not possible, as it would require knowledge of all source files and their dependencies in any given project. Instead, you should create a Makefile that is specific to your current project and its requirements.",
                 "time": 46.6,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -219,9 +219,9 @@
                 "answer": "A universal Makefile can be created by defining variables for the compiler name (CC) and options (CFLAGS), using wildcards to find source files (SRCS) and include files (INCLUDES), and creating rules that describe the dependencies between source code, object code, and executable code. The Makefile should be located in the same folder as the source code files.\n\nExample:\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<\n\nIn this example, the Makefile can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies.",
                 "time": 94.79,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -229,9 +229,9 @@
                 "answer": "A Universal Makefile is not possible, as it would require knowledge of all possible source code files, their dependencies, and the specific compiler and options used for each project. Instead, you should create a Makefile that is tailored to your specific project's needs, including the necessary rules and dependencies for your particular program.",
                 "time": 129.02,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -239,9 +239,9 @@
                 "answer": "A universal Makefile is not possible, as it depends on the specific files and their dependencies in each project. However, you can create a generic Makefile that can be customized for different projects by using variables and macros to define common rules and settings. This allows you to reuse the same Makefile structure across multiple projects while still accommodating their unique requirements.",
                 "time": 43.3,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -249,9 +249,9 @@
                 "answer": "A Universal Makefile is created by defining rules for compiling source code files into object code files, linking these object code files to create an executable program, and specifying compiler settings in variables. The Makefile should be located in the same folder as the source code files and follow a specific indentation format.",
                 "time": 112.07,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -259,9 +259,9 @@
                 "answer": "A Universal Makefile can be created by using advanced functionalities of the make program. This involves defining rules for compiling source files (with extension .c) into object code files (with extension .o), specifying compiler name and options in variables CC and CFLAGS, and allowing for dependencies on header files (with extension .h). The Makefile should be located in the same folder as the source code files.\nFor example:\nCC = gcc\nCFLAGS=-c -g -std=c11 -pedantic-errors -Wall\nSRCS=$(wildcard *.c)\nINCLUDES=$(wildcard *.h)\nOBJS=$(SRCS:.c=.o)\n\nmain.exe: $(OBJS)\n\t$(CC) -o $@ $(OBJS)\n\n$(OBJS) : %.o: %.c $(INCLUDES)\n\t$(CC) $(CFLAGS) -c $<\n\nclean:\n\tdel *.o *.exe",
                 "time": 238.24,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -269,9 +269,9 @@
                 "answer": "A universal Makefile is one that can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies. To achieve this, you need to define rules in the Makefile file that describe the compilation process for each source code file. These rules should include the source files, header files, and compiler flags needed for each module. By doing so, you can create a single Makefile that can be used for any program, regardless of its complexity or number of modules.",
                 "time": 74.54,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -279,9 +279,9 @@
                 "answer": "A Universal Makefile is created by using wildcards, variables, and rules to handle various source files and their dependencies. For example, you can use a variable like CC to store the compiler name and options, and another variable CFLAGS for storing the compiler flags. You can also use wildcards to find all .c files (SRCS) and all .h files (INCLUDES). Then, create rules to compile source files into object code and link object code into an executable. Finally, add a clean rule to remove all object and executable code files.\n",
                 "time": 59.94,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -289,9 +289,9 @@
                 "answer": "A universal Makefile can be created by following these steps:\n1. Define the compiler name and options in variables CC and CFLAGS. For example, CC = gcc and CFLAGS=-c -g -std=c11 -pedantic-errors -Wall.\n2. Create a list of source files (SRCS) using wildcard expansion, e.g., SRCS=$(wildcard *.c).\n3. Create a list of include files (INCLUDES) using wildcard expansion, e.g., INCLUDES=$(wildcard *.h).\n4. Define the object files (OBJS) as a list of source files with .o extension, e.g., OBJS=$(SRCS:.c=.o).\n5. Specify the target executable file and its dependencies in the main rule, e.g., main.exe: $(OBJS), where main.exe is the name of the executable file and $(OBJS) are the object files needed to create it.\n6. Create a rule for each object file, specifying the source file, include files, and compiler options, e.g., %.o: %.c $(INCLU",
                 "time": 91.18,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "3",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         ]
@@ -306,9 +306,9 @@
                 "answer": "You can use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 94.79,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -316,9 +316,9 @@
                 "answer": "You can use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 98.47,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -326,9 +326,9 @@
                 "answer": "You need to use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 125.93,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -336,9 +336,9 @@
                 "answer": "To log in to Edgar, you need a valid username and password provided by your institution.",
                 "time": 26.67,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -346,9 +346,9 @@
                 "answer": "To log in to Edgar, you need to use your AAI-Edu system username and password.",
                 "time": 57.77,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -356,9 +356,9 @@
                 "answer": "You use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 101.21,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -366,9 +366,9 @@
                 "answer": "You need to use your student ID number and password to log in to the Edgar system.",
                 "time": 20.1,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -376,9 +376,9 @@
                 "answer": "You can access the login mode by clicking on \"login here using AAI\". Then you need to enter the AAI username and password in the login fields and click \u201ePRIJAVA\u201c.",
                 "time": 95.71,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -386,9 +386,9 @@
                 "answer": "You can access the Edgar system at: https://edgar.fer.hr/\nThe username and password from the AAI-Edu system are used to log in to the system.",
                 "time": 271.58,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -396,9 +396,9 @@
                 "answer": "To log in to Edgar, you need a username and password provided by your instructor or the course administrator.",
                 "time": 39.5,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -406,9 +406,9 @@
                 "answer": "You can use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 64.93,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -416,9 +416,9 @@
                 "answer": "You can access the Edgar system at: https://edgar.fer.hr/\nThe username and password from the AAI-Edu system are used to log in to the system.",
                 "time": 169.66,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -426,9 +426,9 @@
                 "answer": "You need to use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 129.03,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -436,9 +436,9 @@
                 "answer": "You can access the Edgar system at: https://edgar.fer.hr/",
                 "time": 30.2,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -446,9 +446,9 @@
                 "answer": "To log in to Edgar, you need to use your AAI-Edu system username and password. The username is in the form: your_user_name@your_institution.hr. You can access this login mode by clicking on \"login here using AAI\" and entering the credentials in the login fields.",
                 "time": 57.55,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -456,9 +456,9 @@
                 "answer": "You use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 103.54,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -466,9 +466,9 @@
                 "answer": "You can access the Edgar system at: https://edgar.fer.hr/. To log in, you will need your username and password provided by the administrator.",
                 "time": 24.27,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -476,9 +476,9 @@
                 "answer": "To log in to Edgar, you need to use your AAI-Edu system username and password. You can access this login mode by clicking on \"login here using AAI\". Then you need to enter the AAI username and password in the login fields and click \u201ePRIJAVA\u201c.",
                 "time": 101.52,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -486,9 +486,9 @@
                 "answer": "You can access the Edgar system at: https://edgar.fer.hr/\nThe username and password from the AAI-Edu system are used to log in to the system.",
                 "time": 194.7,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -496,9 +496,9 @@
                 "answer": "To log in to Edgar, you need your username and password provided by your instructor or administrator.",
                 "time": 32.64,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -506,9 +506,9 @@
                 "answer": "To log in to Edgar, you need your username and password for the system.",
                 "time": 26.86,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -516,9 +516,9 @@
                 "answer": "To log in to Edgar, you need to use your AAI-Edu system username and password. The username is in the form: your_user_name@your_institution.hr. You can access this login mode by clicking on \"login here using AAI\" and entering the credentials in the login fields.",
                 "time": 57.95,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -526,9 +526,9 @@
                 "answer": "You use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 99.99,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -536,9 +536,9 @@
                 "answer": "To log in to Edgar, you need to use your username and password provided by the system administrator.",
                 "time": 22.46,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -546,9 +546,9 @@
                 "answer": "You can access the login mode by clicking on \"login here using AAI\". Then you need to enter the AAI username and password in the login fields and click \u201ePRIJAVA\u201c.",
                 "time": 98.66,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -556,9 +556,9 @@
                 "answer": "You can access the Edgar system at: https://edgar.fer.hr/\nThe username and password from the AAI-Edu system are used to log in to the system.",
                 "time": 186.71,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -566,9 +566,9 @@
                 "answer": "To log in to Edgar, you need a username and password provided by your instructor or the course administrator.",
                 "time": 53.32,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -576,9 +576,9 @@
                 "answer": "You use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 62.43,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -586,9 +586,9 @@
                 "answer": "You use your AAI-Edu system username and password to log in to the Edgar system.",
                 "time": 80.81,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         ]

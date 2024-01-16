@@ -9,9 +9,9 @@
                 "answer": "Laboratory exercises include the development of one or more programs (algorithm design, coding, testing) and solving tasks in which the correct answer must be chosen from among several offered answers (\"multiple choice questions\"). Students submit their solutions via Edgar system during laboratory exercises. Knowledge tests are accessed using a password and are available in pre-set time intervals. A demo test is also available for practice at home without needing a password.",
                 "time": 60.13,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -19,9 +19,9 @@
                 "answer": "Laboratory exercises include the development of one or more programs (algorithm design, coding, testing) and solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\"). Students submit their solutions via Edgar system during laboratory exercises. Knowledge tests are accessed using a password and are available in pre-set time intervals. A demo test is also available for practice at home without needing a password.",
                 "time": 93.34,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -29,9 +29,9 @@
                 "answer": "Laboratory exercises in the course Introduction to Programming are performed by students in a FER lab, following precisely prescribed terms. There are four exercises in each of the two cycles (total 8 exercises), with each exercise taking approximately 110 minutes to complete. The laboratory exercise consists of two parts: solving tasks using multiple choice questions and creating one or more programs. Students work independently on the faculty computer under the supervision of teachers on duty. They use the same tools as they do on their own computers, such as Notepad/Notepad++ editors, gcc compiler via command line, and VSCode development environment. The exact schedule, topics, and number of program tasks per exercise will be published on Teams at least a week before the exercises. Students submit solutions to their tasks during laboratory exercises via the Edgar system.",
                 "time": 143.69,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -39,9 +39,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs (algorithm design, coding, testing). Students submit their solutions during lab exercises via the Edgar system. The exact schedule, topics, and points for each exercise will be published on Teams at least a week before the exercises.",
                 "time": 34.84,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -49,9 +49,9 @@
                 "answer": "Laboratory exercises involve developing one or more programs, including algorithm design, coding, and testing. Students submit their solutions during the lab exercises using the Edgar system. An official cheat-sheet may be used in these exercises. Knowledge tests are accessed with a password and are available at specific time intervals. The password for exams is provided by an assistant on duty before starting each exam.",
                 "time": 56.97,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -59,9 +59,9 @@
                 "answer": "Laboratory exercises in FER are performed by students in a prescribed manner, with four exercises in each of the 1st and 2nd cycles. Each exercise lasts approximately 110 minutes and must be completed within that time frame. There is no compensation for absence. The laboratory exercise consists of two parts: solving tasks using multiple choice questions and creating one or more programs (algorithm design, coding, testing). Students work independently on the faculty computer under teacher supervision. They use the same tools as they do on their own computers, such as Notepad/Notepad++ editors, gcc compiler via command line, and VSCode development environment. The exact schedule, topics, and number of program tasks per exercise will be published on Teams at least a week before the exercises. Students submit their solutions to Edgar during laboratory exercises.",
                 "time": 120.73,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -69,9 +69,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs. Students submit their solutions during the laboratory exercises using the Edgar system. The schedule, topics, and points for each exercise will be published on Teams at least a week before the exercises.",
                 "time": 30.82,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -79,9 +79,9 @@
                 "answer": "Laboratory exercises include the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.",
                 "time": 84.44,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -89,9 +89,9 @@
                 "answer": "Laboratory exercises are performed in a FER lab, with four exercises before the midterm exam and another four after it. Each exercise consists of two parts: solving tasks (multiple choice questions) and creating one or more programs. The exact schedule, topics, and number of program tasks per exercise will be published on Teams at least a week before the exercises start. Students submit their solutions to Edgar during laboratory exercises.",
                 "time": 282.36,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -99,9 +99,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs. The schedule, topics, and points for each exercise will be published on Teams beforehand. Students submit their solutions during laboratory exercises via the Edgar system.",
                 "time": 41.25,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -109,9 +109,9 @@
                 "answer": "Laboratory exercises include the development of one or more programs (algorithm design, coding, testing) and solving tasks in which the correct answer must be chosen from among several offered answers (\"multiple choice questions\"). Students submit their solutions via Edgar system during laboratory exercises. Knowledge tests are accessed using a password and are available in pre-set time intervals. A demo test is also available for practice at home without needing a password.",
                 "time": 62.39,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -119,9 +119,9 @@
                 "answer": "Laboratory exercises are performed in a FER lab in precisely prescribed terms: four exercises in the 1st cycle (before the midterm exam) and four exercises in the 2nd cycle. The duration of one laboratory exercise is approximately 110 minutes. There is no compensation for laboratory exercises in case of absence.\nThe laboratory exercise consists of two parts: solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\"). A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points. Creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.",
                 "time": 230.24,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -129,9 +129,9 @@
                 "answer": "Laboratory exercises are performed by students in a FER lab, with four exercises in the 1st cycle and four exercises in the 2nd cycle. Each exercise consists of two parts: solving tasks (multiple choice questions) and creating one or more programs. The exact schedule, topics, and number of program tasks per exercise will be published on Teams at least a week before the exercises. Students submit their solutions during laboratory exercises via the Edgar system.",
                 "time": 165.87,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -139,9 +139,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs (algorithm design, coding, testing). Students submit their solutions during lab exercises via the Edgar system. The exact schedule, topics, and points for each exercise will be published on Teams at least a week before the exercises.",
                 "time": 39.8,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -149,9 +149,9 @@
                 "answer": "Laboratory exercises involve developing one or more programs, including algorithm design, coding, and testing. Students submit their solutions during the lab exercises using the Edgar system. An official cheat-sheet may be used in these exercises. Knowledge tests are accessed with a password and are available at specific time intervals. The password for exams is provided by an assistant on duty before starting each exam.",
                 "time": 49.03,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -159,9 +159,9 @@
                 "answer": "Laboratory exercises in Introduction to Programming consist of two parts: solving multiple choice questions and creating one or more programs. Students work independently on faculty computers under teacher supervision. The exact schedule, topics, and number of program tasks per exercise are published on Teams at least a week before the exercises. Solutions to tasks are submitted via the Edgar system during laboratory exercises.",
                 "time": 109.15,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -169,9 +169,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs. Students submit their solutions during the laboratory exercises using the Edgar system. The schedule, topics, and points for each exercise will be published on Teams at least a week before the exercises.",
                 "time": 31.38,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "2"
                 }
             },
             {
@@ -179,9 +179,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving tasks with multiple choice questions and creating one or more programs (algorithm design, coding, testing). The exact schedule, topics, and number of program tasks per exercise will be published on Teams at least a week before the exercises. Students submit their solutions to the tasks during laboratory exercises via the Edgar system.",
                 "time": 95.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -189,9 +189,9 @@
                 "answer": "Laboratory exercises are performed by students in a FER lab, with four exercises in each of the 1st and 2nd cycles. Each exercise consists of two parts: solving tasks (multiple choice questions) and creating one or more programs. The exercises must be completed within a specified time frame, and there is no compensation for absence. Students work independently on faculty computers under teacher supervision.",
                 "time": 194.25,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -199,9 +199,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs. The schedule, topics, and points for each exercise are published on Teams beforehand. Students submit their solutions during lab exercises using the Edgar system.",
                 "time": 40.07,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -209,9 +209,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs (algorithm design, coding, testing). Students submit their solutions during lab exercises via the Edgar system. The exact schedule, topics, and points for each exercise will be published on Teams at least a week before the exercises.",
                 "time": 35.11,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -219,9 +219,9 @@
                 "answer": "Laboratory exercises involve developing one or more programs, including algorithm design, coding, and testing. Students submit their solutions during the lab exercises using the Edgar system. An official cheat-sheet may be used in these exercises. Knowledge tests are accessed with a password and are available at specific time intervals. The password for exams is provided by an assistant on duty before starting each exam.",
                 "time": 52.79,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -229,9 +229,9 @@
                 "answer": "Laboratory exercises in Introduction to Programming consist of two parts: solving multiple choice questions and creating one or more programs. Students work independently on faculty computers under teacher supervision. The exact schedule, topics, and number of program tasks per exercise are published on Teams before the exercises begin. Students submit their solutions via Edgar system.",
                 "time": 109.54,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -239,9 +239,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs. Students submit their solutions during the laboratory exercises using the Edgar system. The schedule, topics, and points for each exercise will be published on Teams at least a week before the exercises.",
                 "time": 30.72,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -249,9 +249,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving tasks and creating programs. Solving tasks involve choosing the correct answer from multiple choice questions, with positive points for a correct answer, negative points for an incorrect one, and no points for an unanswered question. Program creation involves designing algorithms, coding, and testing. There are no negative points in this part. The exercises are completed within a specified time frame, and there is no compensation for absence. Submission of solutions takes place via the Edgar system.",
                 "time": 96.18,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -259,9 +259,9 @@
                 "answer": "Laboratory exercises in the course Introduction to Programming are performed by students in a FER lab, following precisely prescribed terms. There are four exercises in the 1st cycle (before the midterm exam) and four exercises in the 2nd cycle. Each laboratory exercise lasts approximately 110 minutes and must be completed by the student within the specified time frame. There is no compensation for laboratory exercises in case of absence.\nThe laboratory exercise consists of two parts: solving tasks with multiple choice questions, where a correct answer earns positive points, an incorrect answer earns negative points, and an unanswered question does not earn negative points; and creating one or more programs (algorithm design, coding, testing). In these assignments, there are no negative points.\nStudents work independently on the faculty computer under the supervision of teachers on duty. They have access to the same tools they use to solve tasks on their own computers: Notepad and Notepad++ editors, gcc compiler used via the command line of the operating system, VSCode development environment.\nLaboratory exercises are submitted for assessment using the Edgar system.",
                 "time": 214.3,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -269,9 +269,9 @@
                 "answer": "Laboratory exercises consist of two parts: solving multiple choice questions and creating one or more programs. The exact schedule, topics, and points per exercise will be published on Teams beforehand. Students submit their solutions during laboratory exercises via Edgar system. The system shows the points earned for correct, unanswered, and incorrect answers. A password is required to access the exam, which students learn from the assistant on duty just before starting each exam.",
                 "time": 58.28,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -279,9 +279,9 @@
                 "answer": "Laboratory exercises in FER consist of two parts: solving multiple choice questions and creating one or more programs. Students work independently under teacher supervision, using the same tools they use on their own computers. The exact schedule, topics, and points for each exercise are published on Teams at least a week before the exercises. Submission of solutions is done via the Edgar system during laboratory exercises.",
                 "time": 47.99,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -289,9 +289,9 @@
                 "answer": "Laboratory exercises are performed in a FER lab and consist of two parts: solving tasks with multiple choice questions and creating one or more programs (algorithm design, coding, testing). The exact schedule, topics, and number of program tasks per exercise will be published on Teams at least a week before the exercises. Students submit their solutions to the Edgar system during laboratory exercises using the instructions provided.",
                 "time": 78.15,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         ]
@@ -306,9 +306,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which consists of solving tasks with multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 52.49,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -316,9 +316,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which consists of solving tasks with multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 78.51,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -326,9 +326,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise (solving tasks), but not in the second part (creation of programs).",
                 "time": 97.1,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -336,9 +336,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 24.64,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "3",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -346,9 +346,9 @@
                 "answer": "Yes, there are negative points for incorrect answers to multiple choice questions. There are no negative points for programs.",
                 "time": 57.92,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -356,9 +356,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which consists of solving multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 27.97,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -366,9 +366,9 @@
                 "answer": "Yes, there are negative points on laboratory exercises when solving tasks using multiple choice questions.",
                 "time": 17.64,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -376,9 +376,9 @@
                 "answer": "Yes, there are negative points on laboratory exercises. Incorrect answers in multiple choice questions obtain negative points.",
                 "time": 73.34,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -386,9 +386,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 253.97,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -396,9 +396,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which consists of multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 42.39,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -406,9 +406,9 @@
                 "answer": "Yes, there are negative points for incorrect answers in the solving tasks part of the laboratory exercise.",
                 "time": 61.56,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -416,9 +416,9 @@
                 "answer": "No, there are no negative points in laboratory exercises.",
                 "time": 151.2,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -426,9 +426,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which is solving tasks using multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 106.56,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -436,9 +436,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which consists of multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 28.99,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -446,9 +446,9 @@
                 "answer": "Yes, there are negative points on laboratory exercises. Incorrect answers in the solving tasks part of the exercise obtain negative points.",
                 "time": 46.77,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "3"
                 }
             },
             {
@@ -456,9 +456,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which consists of solving multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 32.39,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -466,9 +466,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which involves solving multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 17.17,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -476,9 +476,9 @@
                 "answer": "Yes, there are negative points for incorrect answers in the multiple choice questions part of the laboratory exercise.",
                 "time": 95.09,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -486,9 +486,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 145.15,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -496,9 +496,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which involves solving multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 39.77,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
@@ -506,9 +506,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 26.09,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -516,9 +516,9 @@
                 "answer": "Yes, there are negative points on laboratory exercises. Incorrect answers in the solving tasks part of the exercise obtain negative points.",
                 "time": 52.37,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -526,9 +526,9 @@
                 "answer": "Yes, there are negative points in the first part of the laboratory exercise, which consists of solving multiple choice questions. An incorrect answer obtains negative points, while an unanswered question does not earn negative points.",
                 "time": 28.31,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -536,9 +536,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 16.54,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -546,9 +546,9 @@
                 "answer": "Yes, there are negative points on laboratory exercises for incorrect answers in the multiple choice questions part of the exercise.",
                 "time": 78.34,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -556,9 +556,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 139.56,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -566,9 +566,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 54.31,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             },
             {
@@ -576,9 +576,9 @@
                 "answer": "Yes, there are negative points on laboratory exercises for incorrect answers in multiple choice questions.",
                 "time": 37.32,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             },
             {
@@ -586,9 +586,9 @@
                 "answer": "No, there are no negative points on laboratory exercises.",
                 "time": 80.28,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             }
         ]

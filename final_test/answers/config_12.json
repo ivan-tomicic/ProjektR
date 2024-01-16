@@ -31,17 +31,17 @@
             "combined_documents": "b)\tLinking to the executable code is done by a program called the linker. This program merges all the required object code files with the pre-programmed libraries and creates executable code that can be run directly from the operating system.\n\na)\tThe translation into object code is done by a program called the compiler. The compiler translates the source file and creates the object code file (usually with the extension .o) that cannot yet be run because it does not yet have links to functions and variables from other object code files and libraries where standard functions (input / output, mathematical functions, etc.) have been prepared.\n\nThis simplest gcc compiler call integrates compiler and linker functions. The program.c file is compiled. Because of the -o (output) option, it creates an executable file named program.exe which can then be executed with the command\nprogram.exe\nor\nprogram\nIf an error occurred while calling the compiler or starting the program, you should look for the solution in the next section.",
             "time": 36.15,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 4.631204137865108e-155,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.1317829457364341,
+                    "recall": 0.22435897435897437,
+                    "f1": 0.16598168577402841
                 },
-                "diversity": -100000,
+                "diversity": 0.975609756097561,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -66,17 +66,17 @@
             "combined_documents": "2\tInstalling MinGW\nThe installer mingw-get-setup.exe will be downloaded automatically from the page http://sourceforge.net/projects/mingw/files/latest/download?source=files.\nThe downloaded program must be executed. On the first form shown, press the Install button. On the next form, press Continue. It will initiate download of MinGW Installation Manager. When downloaded, press Continue to start MinGW Installation Manager.\n\nAn alternative way of installation\nStudents who have problems installing the latest version of MinGW on their Windows computer can try this alternative method:\n1.\tCreate a folder on your computer to place MinGW files (e.g. C:\\MinGW)\n2.\tDownload the archive MinGW.zip from the file repository and extract it into the folder created above\n3.\tSet the system variable Path according to the instructions above\n\nA window will open with all the folders where the operating system looks for executable programs, where you need to click New.\nIn the newly created blank field at the bottom of the list, enter the path to the folder where the MinGW package is installed to (normally C:\\MinGW\\bin), and press OK.\nIn older versions of Windows, a window will open. There, in the Variable value field, the text: \";C:\\MinGW\\bin\\\" should be appended to existing text.",
             "time": 58.49,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 8.883993769509043e-79,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.08108108108108107,
+                    "recall": 0.38451403668794976,
+                    "f1": 0.1338308730754875
                 },
-                "diversity": -100000,
+                "diversity": 0.9578947368421052,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -101,17 +101,17 @@
             "combined_documents": "Setting the system variable Path through a graphical interface\nThe system variable Path can be set in Control Panel:\nControl Panel -> System and Security -> System\nYou need to click the link Advanced system settings in in the left menu.\nIn the newly opened window, select the tab Advanced in top menu and then press the button Environment Variables.\nAfter that, choose Path from the list System variables and click Edit.\n\n2.1.1\tSetting the system variable Path in the command window\nThe system variable Path is easily set in a command window by a command\nsetx Path \"%Path%;C:\\MinGW\\Bin\"\nThe setx command written in this way sets the new value of the variable Path by adding text  ;C:\\MinGW\\Bin to it's old value.\n\nAfter the installation is completed, the system variable Path must be set by adding a path to the folder bin of the MinGW package. This system variable contains a list of folders where the operating system looks for executable programs that the user attempts to run by specifying their name.\nIf MinGW is installed with the default settings, the path to the folder bin will be C:\\MinGW\\bin.\nThis can be done in several ways, but the simplest way to do it is in the command prompt.",
             "time": 43.23,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 1.3964006055989612e-78,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.14814814814814814,
+                    "recall": 0.23188997821350762,
+                    "f1": 0.1806867120820609
                 },
-                "diversity": -100000,
+                "diversity": 0.9464285714285714,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -136,17 +136,17 @@
             "combined_documents": "The command that translates the program with the options listed above looks like this:\n\ngcc -std=c11 -pedantic-errors -Wall program.c -o program.exe\n\nThe program, written in symbolic language and stored in a file with the extension .c, needs to be converted to commands understandable to the processor, or executable machine code (in Windows operating system, files with the extension .exe, in Unix / Linux operating systems, the format of the extension is not prescribed). The conversion process is carried out in two steps (the concept of preprocessing and assembly code creation will be omitted here because it is indivisible as part of\n\n3   Writing programs with a simple editor, compiling and executing programs\nThe whole process of writing and compiling programs will be illustrated in the command prompt, where you first need to create a folder where the program file will be stored, and then make it current e.g.\nmkdir C:\\IPRO\ncd C:\\IPRO\nand start editing program there with a text editor:\nnotepad program.c\n\nThe following code should be entered in this file:\n#include <stdio.h>",
             "time": 59.31,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 3.067745047985984e-155,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.06572769953051644,
+                    "recall": 0.458994708994709,
+                    "f1": 0.11446078431372549
                 },
-                "diversity": -100000,
+                "diversity": 0.9069767441860465,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -171,17 +171,17 @@
             "combined_documents": "Installation of the environment\nVisual Studio Code (VSC) is downloaded from the link\nhttps://code.visualstudio.com/download\nAfter selecting the platform, downloading and running the installer and successfully completing the installation, VSC is ready to launch.\n\ncontain a detailed description of the software installation procedures and how to compile and execute the program. Based on these instructions, students must learn to use some of the simple editors (Notepad or Notepad ++) and compile programs using the operating system command line. In addition, students can use these instructions, if they wish, to install and learn the basics of using the integrated development environment VSCode, which greatly facilitates error detection because it\n\nConfigure the environment for simple programs\nUnfortunately, VSC is not yet configured to compile C programs. Configuration can be done through menus, but the simplest way is to create a .vscode subfolder (note that the name begins with a dot) and in this colder, create two files written in Java Script Object Notation, JSON:\ntasks.json\tdescribes the tasks to be performed as part of the program compilation\nlaunch.json\tdescribes how to run the executable program",
             "time": 45.97,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 9.311610135417173e-156,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.39746835443037976,
+                    "recall": 0.15167222707327654,
+                    "f1": 0.21955548696507177
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -206,17 +206,17 @@
             "combined_documents": "The basics of working with a debugger\nProgram behavior is easily monitored using debugger. To demonstrate how such a program works, we will replace the content of program.c with\n#include<stdio.h>\n\nThis action will print the text Introduction to Programming in a new window, which will then close immediately. To prevent the window from closing immediately, a breakpoint should be placed on the last line of the program by clicking the mouse at the very beginning of the line containing the return command.\nIf a new folder is created for another program or programs, .vscode folder should be copied there and all the preparatory actions are done.\nThe basics of working with a debugger\n\nDebugger\u2019s toolbar responds with a popup window that lets you see the meaning of each icon together with the keyboard shortcut which triggers the corresponding action and contains the following commands (action names and corresponding shortcuts are listed in parentheses):\nContinue running to the end or next breakpoint (Continue, F5)\nExecute the following statement without entering the function code (Step over, F10)\nExecute the following statement entering the function code (Step into, F11)",
             "time": 48.36,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.013197824171052806,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.3700980392156863,
+                    "recall": 0.11159092850555316,
+                    "f1": 0.17146309820288844
                 },
-                "diversity": -100000,
+                "diversity": 0.9595959595959596,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -241,17 +241,17 @@
             "combined_documents": "In the previous examples, only the basic functionality of the program make was shown. With knowledge of more advanced functionalities, the details of which we will not dwell into here, it is possible to write Makefile which can be used to compile programs of any complexity, without explicitly specifying individual components and their dependencies. Very superficially explained, all the files with the extension .c are source files for the program, and all the files with the extension .o are\n\nIf, for example, a program consists of two modules, p1.c i p2.c where the first includes h1.h i h2.h, and the second includes h3.h, this will be defined in the following Makefile:\nprogram.exe: p1.o p2.o\n\tgcc -o program.exe program.o\np1.o: p1.c h1.h h2.h\n\tgcc -c -g -std=c11 -pedantic-errors -Wall p1.c\np2.o: p2.c h3.h\n\tgcc -c -g -std=c11 -pedantic-errors -Wall p2.c\n\n4.1.1\tOptional: Universal Makefile",
             "time": 41.14,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.09202230417328658,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.3786764705882353,
+                    "recall": 0.192065710191323,
+                    "f1": 0.254843370315645
                 },
-                "diversity": -100000,
+                "diversity": 0.9701492537313433,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             }
         },
@@ -276,17 +276,17 @@
             "combined_documents": "The labs contain program tasks that are solved and tested in the Notepad editor (++) or the VSC development environment, and the final solution is transferred (copy-paste) to the Edgar system.\nYou can access the Edgar system at:   https://edgar.fer.hr/\n\n1\tEdgar system \nThe Edgar system is used for automatic assessment of tests of theoretical and practical knowledge of the course Introduction to Programming. In this course, you will encounter programming tasks, where for a given problem it is necessary to write a program solution in the C programming language.\n\n1.2\tUsing Edgar for Introduction to Programming \nIn order to get access to the tasks and tests in the course Introduction to Programming for the current academic year in Edgar, it is necessary to select the appropriate course and academic year from the drop-down menus on the right side of the main menu.",
             "time": 26.67,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 4.940966573996927e-78,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.3375,
+                    "recall": 0.22535669586983728,
+                    "f1": 0.25761186535050073
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -311,17 +311,17 @@
             "combined_documents": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\n1\tEdgar system \nThe Edgar system is used for automatic assessment of tests of theoretical and practical knowledge of the course Introduction to Programming. In this course, you will encounter programming tasks, where for a given problem it is necessary to write a program solution in the C programming language.\n\nNote: The layout of the graphical user interface elements on the current version of the system Edgar may differ in part from the appearance of the user interface shown in the illustrations later in this document. In case of any ambiguities and/or difficulties when using the system, contact the assistant on duty.",
             "time": 32.1,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.02386002061563314,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.39,
+                    "recall": 0.1053921208666696,
+                    "f1": 0.16586994777642503
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -346,17 +346,17 @@
             "combined_documents": "3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\nAfter the the problem has been addresses, a message saying \"Ticket resolved\" appears on the student's screen.\n\t4. The student can then return to the appropriate question and check for the answer. The answer can be viewed by clicking on the \"green cloud\" icon. Remark: Only after the teaching staff answers the question related to the task, the student can ask the next question about the same task if necessary.\n\n3.1\tView own tickets \nOpen and resolved tickets can be viewed the menu option My tickets. \nThis option is useful when the question asked by the student cannot be answered quickly (in time\nduration of the check) because it provides the possibility of subsequent review of the answers of the teaching staff. For example, there is a (fatal) mistake on the part of the teaching staff, and because of that, it is subsequent to all students answer recognized as correct.",
             "time": 29.96,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 1.7359794777311626e-78,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.14500000000000002,
+                    "recall": 0.49904115492350787,
+                    "f1": 0.22437013649700216
                 },
-                "diversity": -100000,
+                "diversity": 0.9795918367346939,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             }
         },
@@ -381,17 +381,17 @@
             "combined_documents": "lectures in the 2nd cycle, December 4th, 2023 - January 24th, 2024.\nDuring the lectures, the planned material is presented with the help of Powerpoint slides, solve tasks, discuss, conduct ad hoc surveys and knowledge tests which can be used by students to determine knowledge and self-assessment\n    slides that will be presented at lectures are available through the IPRO2023 team on the Microsoft Teams platform\n\n2\tForms of teaching\n2.1\tLectures\nThe lectured present theoretical assumptions and explains concepts that are supported by numerous explanations and examples. There will be short tests given during most lectures which will count towards the final grade.\nLectures take place in two cycles. After the first cycle, midterm exams are held, and after the second\ncycle final exams.\n    lectures in the 1st cycle, October 2nd - November 15th, 2023.\n\n2.3\tLaboratory exercises with knowledge tests\nAll students perform laboratory exercises in a FER lab, in precisely prescribed terms:\n    four exercises in the 1st cycle (i.e., before the midterm exam) and four exercises in the 2nd cycle\n    the duration of one laboratory exercise is approximately 110 minutes\n    laboratory exercises must be completed by the student in the specified time\n    there is no compensation for laboratory exercises in case of absence",
             "time": 34.58,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.7506238537503395,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.5555555555555556,
+                    "recall": 0.5242424242424242,
+                    "f1": 0.5385964912280702
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -416,17 +416,17 @@
             "combined_documents": "It should be noted that 140 hours, when distributed on all teaching weeks, equal to an average of approximately 10 hours of independent work per week. Due to the layered approach in the processing of materials, it is very important to work continuously, every week. Campaign work (e.g. \"I won\u2019t do anything for three weeks and then I\u2019ll make up for it all at once\") on this subject will almost certainly end in very poor results.\nIndependent work includes:\n    Learning\n\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.\n\nExit the current function (Step out, Shift-F11)\nRestart the program with recompilation (Restart, Ctrl-Shift-F5)\nStop the program (Stop, Shift-F5)\nIf the following statement is executed with the Step over action, the program stops after executing the command, and hovering over the variable name indicates that the content has changed.",
             "time": 36.21,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.08049023583968958,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.33088235294117646,
+                    "recall": 0.18000312019969278,
+                    "f1": 0.23313362277352265
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -451,17 +451,17 @@
             "combined_documents": "It is therefore of the utmost importance:\n        solve published assignments for exercises in addition to lectures (published at the same time as lectures)\n        test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications (you can copy the program code of examples from lectures from PDF versions of published lectures)\n    Reading other literature (see chapter Other materials - Recommended reading)\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\n2\tForms of teaching\n2.1\tLectures\nThe lectured present theoretical assumptions and explains concepts that are supported by numerous explanations and examples. There will be short tests given during most lectures which will count towards the final grade.\nLectures take place in two cycles. After the first cycle, midterm exams are held, and after the second\ncycle final exams.\n    lectures in the 1st cycle, October 2nd - November 15th, 2023.",
             "time": 40.82,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.11786002764451622,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.22159090909090912,
+                    "recall": 0.17554945054945054,
+                    "f1": 0.18658001656267154
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -486,17 +486,17 @@
             "combined_documents": "Independent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes\n        Reading other literature (see chapter Recommended reading)\n        Internet\n    Solving tasks\n        solving a large number of tasks on your own computer acquires the necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).\n\n2.2\tIndependent work\nThe course is performed with a load of 7 ECTS credits, which means that the total student engagement required to successfully master the material is estimated at approximately 7 x 30 = 210 hours. It is envisaged that:\n    50 hours will be spent on attending classes,\n    20 hours will be spent participating in laboratory exercises and attending exams,\n    the remaining time, i.e. at least 140 hours, must be spent on independent work.\n\n2.5\tKnowledge tests\nDuring the continuous assessment process, two written exams are taken: midterm exam and final exam.\n    exact time is TBD\n    part of the tasks can be in the form of questions, part of the tasks can be based on choosing the correct answer, but most of the tasks are related to solving a given problem in the programming language C.\n    tasks are solved on a computer at FER",
             "time": 37.89,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 2.7067717854342863e-78,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.23000000000000004,
+                    "recall": 0.13387445887445887,
+                    "f1": 0.16781609195402297
                 },
-                "diversity": -100000,
+                "diversity": 0.9285714285714286,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -521,17 +521,17 @@
             "combined_documents": "the laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.\n\nLaboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.\n\nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.",
             "time": 34.84,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 2.4012084427101413e-155,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.2884615384615385,
+                    "recall": 0.12726057318400041,
+                    "f1": 0.17642668405339557
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -556,17 +556,17 @@
             "combined_documents": "the laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\nLaboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.",
             "time": 24.64,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.020596389662105096,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.6944444444444444,
+                    "recall": 0.12962336338124758,
+                    "f1": 0.2181182795698925
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "3",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             }
         },
@@ -591,17 +591,17 @@
             "combined_documents": "Important: The program task must first be prepared and tested outside Edgar. This means that before submitting a solution to the Edgar system, the program needs to be written (eg with the Notepad/++ editor or in the VSC), compiled (by calling the gcc compiler), all errors and warnings must be resolved, and the program should be thoroughly tested by executing against different test data. Only when you consider your solution to be entirely correct, you should copy-paste the code into Edgar.\n\nIn tasks that require writing of a program, in the Edgar system, below the text of the task, there is a field to which the solution (program code) should be pasted. \nThe program code transferred to the Edgar system can be run in the following ways:\n\u2022\tby selecting the option \u201eRun\u201c\n\u2022\twhile the program code field is in focus (the mouse pointer is in the field), by a key combination Ctrl + Enter\n\nThe process of writing tasks in the Edgar system will be illustrated by one of the tasks from the demo test, which reads:\nWrite a program that prints the message as in the examples that follow, reads integers a and b, prints them separated by a single space, and below that, prints their sum in a new line.",
             "time": 44.8,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.2870497861225088,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.4365853658536585,
+                    "recall": 0.5453058349857647,
+                    "f1": 0.47930154258270613
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -626,17 +626,17 @@
             "combined_documents": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.\n\n2.3\tLaboratory exercises with knowledge tests\nAll students perform laboratory exercises in a FER lab, in precisely prescribed terms:\n    four exercises in the 1st cycle (i.e., before the midterm exam) and four exercises in the 2nd cycle\n    the duration of one laboratory exercise is approximately 110 minutes\n    laboratory exercises must be completed by the student in the specified time\n    there is no compensation for laboratory exercises in case of absence\n\nthe laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.",
             "time": 37.69,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.3759507698223106,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.5789473684210527,
+                    "recall": 0.46550464197076935,
+                    "f1": 0.5147728045380813
                 },
-                "diversity": -100000,
+                "diversity": 0.972972972972973,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -661,17 +661,17 @@
             "combined_documents": "the laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\nConditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50\n\n\n4\tScoring thresholds for determining final grades\nStudents who meet the requirements for obtaining a passing grade based on continuous assessment or on the exam period receive a grade based on the following table:\n[87.5, 100]\tExcellent - 5\n[75, 87.5)\tVery good- 4\n[62.5, 75)\tGood - 3\n[50, 62.5)\tSufficient - 2",
             "time": 37.49,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.25,
+                    "recall": 0.004629629629629629,
+                    "f1": 0.00909090909090909
                 },
-                "diversity": -100000,
+                "diversity": 0.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "2"
                 }
             }
         },
@@ -696,17 +696,17 @@
             "combined_documents": "2.4\tConsultations\nStudents have the opportunity to consult with the teacher. Consultations will take place through the MS Teams platform, at times agreed with the teacher.\n    the teacher will be happy to additionally explain the material to you during the consultation, but will not teach it again\n\nconsultation should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam or exam - at that point it will most likely be too late.\n\n3.1\tView own tickets \nOpen and resolved tickets can be viewed the menu option My tickets. \nThis option is useful when the question asked by the student cannot be answered quickly (in time\nduration of the check) because it provides the possibility of subsequent review of the answers of the teaching staff. For example, there is a (fatal) mistake on the part of the teaching staff, and because of that, it is subsequent to all students answer recognized as correct.",
             "time": 37.81,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 5.758758711753961e-155,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.13851351351351351,
+                    "recall": 0.3522171945701358,
+                    "f1": 0.1981682206682207
                 },
-                "diversity": -100000,
+                "diversity": 0.9863013698630136,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -731,17 +731,17 @@
             "combined_documents": "tasks are solved on a computer at FER\n    exams are graded by Edgar, but these points do not have to be final; final points are assigned by teachers after reviewing student solutions\n    there is no compensation for midterm exams and final exams in case of absence\nStudents who fail to pass the course during the continuous monitoring of classes, can take one or more classical exams.\n    exact time is TBD\n\nIf an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.\n\nThe student is obliged to submit the test for assessment by the end of the countdown, but it will be possible to submit the test for assessment in a reasonable time after the expiration. This timeout, however, will be recorded in the system, so the test can be canceled later.\nIn the upper left corner (next to the test name) there is a button for selecting the layout of the screen.",
             "time": 31.92,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.27205151458423316,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.488095238095238,
+                    "recall": 0.26715686274509803,
+                    "f1": 0.3448553329909262
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "3"
                 }
             }
         },
@@ -766,17 +766,17 @@
             "combined_documents": "If an interrupt occurs, the test can later be re-accessed. By selecting the option \"Start exam (or continue ongoing exam)\" from the main menu, the system will display all tests that you have started but have not submitted, as well as the due time for the completion of the test (Available until). By entering the appropriate password, work on the interrupted test continues.\n\nThe student is obliged to submit the test for assessment by the end of the countdown, but it will be possible to submit the test for assessment in a reasonable time after the expiration. This timeout, however, will be recorded in the system, so the test can be canceled later.\nIn the upper left corner (next to the test name) there is a button for selecting the layout of the screen.\n\nWith each task, information is shown regarding the points that the student earns for correct, unanswered and incorrect answer.\n\nIn the upper right corner there is a clock that counts down the time until the end of writing the test, a picture of the student and the \"Submit\" button which is used to submit the entire test for the final assessment (not individual tasks!).",
             "time": 32.95,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.46396870098951953,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.38125000000000003,
+                    "recall": 0.45187499999999997,
+                    "f1": 0.3922313797313797
                 },
-                "diversity": -100000,
+                "diversity": 0.9487179487179487,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "5"
                 }
             }
         },
@@ -801,17 +801,17 @@
             "combined_documents": "consultation should be requested as soon as ambiguities arise that you are unable to resolve on your own or with the help of colleagues. Do not postpone the consultation until just before the midterm exam, final exam or exam - at that point it will most likely be too late.\n\n3\tTicketing system\nIn order to facilitate communication between students and teaching staff during the writing of tests, Edgar offers a support system called Ticketing system. In case of doubt about the accuracy of the solution or something else, the student can ask a question related to a specific task.\nUsing the system while writing the test is described below.\n\t1. Click on the \"yellow tools\" icon  in the upper right corner of the question page\n\nThe system then asks the user to enter a password to access the exam. In the lab exercises, you will learn the passwords for the exams from the assistant on duty just before you start writing each exam.",
             "time": 32.08,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.08013992490936363,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.15862068965517243,
+                    "recall": 0.3599814986123959,
+                    "f1": 0.2056264739826384
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -836,17 +836,17 @@
             "combined_documents": "3\tConditions for obtaining a passing grade\n3.1\tDuring the continuous assessment\nThe total number of points gained during the continuous assessment is obtained by adding the points gained at lectures, points gained in laboratory exercises and points gained in the midterm exam and the final exam:\n    total number of points = number of points at lectures + number of lab points + number of points on intermediate exam + number of points on final exam\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\nthe laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.",
             "time": 35.93,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0
                 },
-                "diversity": -100000,
+                "diversity": 0.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "3",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             }
         },
@@ -871,17 +871,17 @@
             "combined_documents": "K. N. King, C Programming: A Modern Approach, Second Edition, W. W. Norton & Company\n        An extensive work (805 pages) that has been accepted as a textbook at hundreds of universities around the world.\n    B. W. Kernighan, D. M. Ritchie: The C Programming Language, Second Edition, Englewood Cliffs, NJ: Prentice Hall\n        A basic book whose authors are the creators of the C programming language from which many generations of programmers have learned the language.\n5.2\tInstructions\n\nIndependent work includes:\n    Learning\n        Slides from the lectures\n        Your own notes\n        Reading other literature (see chapter Recommended reading)\n        Internet\n    Solving tasks\n        solving a large number of tasks on your own computer acquires the necessary skills (simple algorithm design, code writing, translation, error detection, testing) which are tested in laboratory exercises and written tests (midterm, final exam, exam).\n\n5\tOther materials\n5.1\tRecommended reading\n    V. Mornar: Introduction to programming, working version of the textbook\n        The textbook covers the complete material of the subject, and even more than that. The textbook will be available on MS Teams as pdf. An integral part of the textbook is the folder Examples with about ninety programs that can be independently translated and run in the command line or in the development environment VSCode.",
             "time": 57.47,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 0.33287108369807955,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.7,
+                    "recall": 0.1450789433181216,
+                    "f1": 0.22704668328336283
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             }
         },
@@ -906,17 +906,17 @@
             "combined_documents": "5.4\tLecturers\nLecturer\nProf. dr. sc. Vedran Mornar, vedran.mornar@fer.hr\n\nAssistant: Melita Fertalj, mag. Ing., melita.fertalj@fer.hr\nIf communicating via email, please start subject with [IPRO2023].\n\nAlso, in case of need, students will receive the notification by e-mail, therefore you should check your email inbox @fer.hr.\n\na very useful tool with information that teachers feel as unnecessary to memorize. It is recommended to use the official reminder both in lectures and during independent work, in order to get acquainted with where some information can be found, which facilitates the use of reminders in knowledge tests.\n        on a copy of the official reminder nothing should be added\n        this reminder will be available in digital form (pdf file) at the laboratory exercises in the Edgar system",
             "time": 38.15,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 5.427199556442839e-155,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.12432432432432435,
+                    "recall": 0.18282925084927587,
+                    "f1": 0.13893256355773392
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "3",
+                    "accuracy_and_relevance": "3",
+                    "overall_quality_and_engagement": "3"
                 }
             }
         },
@@ -941,17 +941,17 @@
             "combined_documents": "Also, in case of need, students will receive the notification by e-mail, therefore you should check your email inbox @fer.hr.\n\nIntroduction to programming: A guide for students\n1\tIntroduction\nThe aim of the course is to adopt the basic concepts of programming and gain the ability to create less complex programs in the programming language C.\nLecture slides, instructions, recommended literature, official reminders, and other materials are published through the IPRO2023 team on the Microsoft Teams platform.\n\n1.1\tLogin to the system \nThe username and password from the AAI-Edu system are used to log in to the system. You can access this login mode by clicking on \"login here using AAI\".\nThen you need to enter the AAI username and password in the login fields and click \u201ePRIJAVA\u201c.\nNote: The username from the AAI-Edu system is in the form:\nyour_user_name@your_institution.hr",
             "time": 29.15,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 4.4594254026474685e-155,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.20833333333333331,
+                    "recall": 0.18880534670008353,
+                    "f1": 0.191034771679933
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "2"
                 }
             }
         },
@@ -976,17 +976,17 @@
             "combined_documents": "Laboratory exercise includes the development of one or more programs (algorithm design, coding, testing). The exact schedule by dates, topics and number of program tasks per exercise, and the maximum number of points that can be obtained in each exercise will be published on time, at least a week before the exercises, on Teams. Students will submit solutions to their tasks during laboratory exercises via the Edgar system. Instructions for that will be available on time.\n\n2.3\tLaboratory exercises with knowledge tests\nAll students perform laboratory exercises in a FER lab, in precisely prescribed terms:\n    four exercises in the 1st cycle (i.e., before the midterm exam) and four exercises in the 2nd cycle\n    the duration of one laboratory exercise is approximately 110 minutes\n    laboratory exercises must be completed by the student in the specified time\n    there is no compensation for laboratory exercises in case of absence\n\nthe laboratory exercise consists of two parts:\n        solving tasks in which the correct one must be chosen from among several offered answers (\"multiple choice questions\").  A correct answer obtains positive points, an incorrect answer obtains negative points. An unanswered question does not earn negative points.\n        creation of one or more programs (algorithm design, coding, testing). In these assignments there are no negative points.",
             "time": 36.39,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 5.791739854583281e-155,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.10256410256410257,
+                    "recall": 0.1431013431013431,
+                    "f1": 0.11655268482118215
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "2"
                 }
             }
         },
@@ -1011,17 +1011,17 @@
             "combined_documents": "Introduction to programming: A guide for students\n1\tIntroduction\nThe aim of the course is to adopt the basic concepts of programming and gain the ability to create less complex programs in the programming language C.\nLecture slides, instructions, recommended literature, official reminders, and other materials are published through the IPRO2023 team on the Microsoft Teams platform.\n\n1\tIntroduction\nElectronic computer programs are prepared in a symbolic, human-understandable programming language. In the course Introduction to programming, for this purpose will use the C programming language.\n\nAdditional compiler options to use in the Introduction to Programming course are:\n-std=c11 \u2013 a parameter that ensures compilation compliant to ISO/IEC 9899:2011 standard (there is a newer ISO/IEC 9899:2018 standard, option -c++17, but gcc currently only applies it to C++.\n-pedantic-errors \u2013 a parameter that ensures generation of errors if the code is not strictly compliant to the standard\n-Wall \u2013 a parameter that requires printing of detailed warnings",
             "time": 38.7,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 8.669612184277444e-232,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.034188034188034185,
+                    "recall": 0.11770451770451772,
+                    "f1": 0.05252012249758026
                 },
-                "diversity": -100000,
+                "diversity": 1.0,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "4",
+                    "accuracy_and_relevance": "5",
+                    "overall_quality_and_engagement": "4"
                 }
             }
         },
@@ -1046,17 +1046,17 @@
             "combined_documents": "Conditions for obtaining a passing grade in the exam period:\n    achieved a threshold of at least 35 (out of 70 possible) points on the written exam and\n    total points \uf0b3 50\n\n\n4\tScoring thresholds for determining final grades\nStudents who meet the requirements for obtaining a passing grade based on continuous assessment or on the exam period receive a grade based on the following table:\n[87.5, 100]\tExcellent - 5\n[75, 87.5)\tVery good- 4\n[62.5, 75)\tGood - 3\n[50, 62.5)\tSufficient - 2\n\nLectures    10 points   there is no threshold\nLaboratory exercises\t30 points\tthere is no threshold\nMidterm exam\t25 points\tthere is no threshold\nFinal exam\t35 points\ttreshold is 14 points\n\nConditions for obtaining a passing grade based on continuous assessment:\n    achieved a threshold of at least 14 (out of 35 possible) points on the final exam and\n    total points >= 50\n\nIt is therefore of the utmost importance:\n        solve published assignments for exercises in addition to lectures (published at the same time as lectures)\n        test examples of programs and excerpts from lectures, modify these examples yourself, notice the effects of modifications (you can copy the program code of examples from lectures from PDF versions of published lectures)\n    Reading other literature (see chapter Other materials - Recommended reading)",
             "time": 53.13,
             "evaluation": {
-                "bleu_score": -100000,
+                "bleu_score": 9.81744316285085e-79,
                 "rouge_score": {
-                    "precision": -100000,
-                    "recall": -100000,
-                    "f1": -100000
+                    "precision": 0.059701492537313425,
+                    "recall": 0.4722222222222222,
+                    "f1": 0.10552873426847856
                 },
-                "diversity": -100000,
+                "diversity": 0.9696969696969697,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "2",
+                    "accuracy_and_relevance": "1",
+                    "overall_quality_and_engagement": "1"
                 }
             }
         }
