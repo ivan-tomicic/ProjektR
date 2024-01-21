@@ -9,13 +9,14 @@ from langchain.chains import RetrievalQA
 from langchain.llms import CTransformers
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import LlamaCppEmbeddings
-from  langchain.schema.language_model import BaseLanguageModel
+from langchain.schema.language_model import BaseLanguageModel
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
+
 import torch
 
 print(torch.cuda.is_available())
 print(torch.cuda.device_count())
 torch.cuda.empty_cache()
-
 
 list_of_models = [
     {
@@ -23,9 +24,6 @@ list_of_models = [
         "model_file": "mistral-7b-openorca.Q4_0.gguf"
     }
 ]
-
-
-
 
 template = """Use the following pieces of information to answer the user's question.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
@@ -35,9 +33,7 @@ Only return the helpful answer below and nothing else.
 Helpful answer:
 """
 
-
 prompt = PromptTemplate(template=template, input_variables=["context", "question"])
-
 
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2",
@@ -47,6 +43,7 @@ db = FAISS.load_local("faiss", embeddings)
 
 # prepare a version of the llm pre-loaded with the local content
 retriever = db.as_retriever(search_kwargs={'k': 2})
+
 
 def get_human_eval_metric(reviewer_from, reviewer_to):
     human_eval_metrics = {
@@ -69,6 +66,26 @@ def get_human_eval_metric(reviewer_from, reviewer_to):
     return human_eval_metrics
 
 
+def create_qa_instance():
+    config = {'max_new_tokens': 256, 'repetition_penalty': 1.1, 'context_length': 4000, 'temperature': 0.01,
+              'gpu_layers': 25}
+    llm = CTransformers(
+        model=list_of_models[0]['model'],
+        model_file=list_of_models[0]['model_file'],
+        model_type="llama",
+        gpu_layers=25,
+        config=config    )
+    llm, config = accelerator.prepare(llm, config)
+    qa = RetrievalQA.from_chain_type(
+        llm=llm,
+        chain_type="stuff",
+        retriever=retriever,
+        chain_type_kwargs={'prompt': prompt},
+        return_source_documents=True
+    )
+    return qa
+
+
 eval_dict = {
     "bleu_score": -100_000,
     "rouge_score": {
@@ -84,7 +101,7 @@ accelerator = Accelerator()
 with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
     questions = json.load(f)
 
-for i, model in enumerate(list_of_models):
+"""for i, model in enumerate(list_of_models):
     print("Starting model: ", model["model_file"])
     # create a file where we will store models answers
     #answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
@@ -95,7 +112,7 @@ for i, model in enumerate(list_of_models):
         model_file=model['model_file'],
         model_type="llama",
         gpu_layers=25,
-        config=config,
+        config=config
     )
     llm, config = accelerator.prepare(llm, config)
     qa = RetrievalQA.from_chain_type(
@@ -136,5 +153,4 @@ for i, model in enumerate(list_of_models):
         }
         answers.append(answer_dict)
         print("Number of input tokens: " + str(llm.get_num_tokens(answer_dict['combined_documents'])))
-    #answer_file.write(json.dumps(answers, indent=4))
-
+    #answer_file.write(json.dumps(answers, indent=4))"""

@@ -1,29 +1,24 @@
 import gradio as gr
 import string
-import time
 from typing import Generator
-
-
-models = ["llama", "palm", "bloom"]
-
+from main import create_qa_instance
 
 allowedText = string.digits + string.ascii_letters + string.punctuation + " "
 
 
-def chat(
-    model: str, message: str, history: list[tuple[str, str]]
+qa = create_qa_instance()
+
+
+def chat(message: str, history: list[tuple[str, str]]
 ) -> Generator[str, None, None]:
-    response = ""
-    for s in "Hello, how are you?".split(" "):
-        response += s + " "
-        yield response
-        time.sleep(0.3)
+    output = qa(message)
+    response = output['result']
+    yield response
 
 
-def process_chat(
-    model: str, message: str, history: list[tuple[str, str]]
+def process_chat(message: str, history: list[tuple[str, str]]
 ) -> Generator[tuple[str, list[tuple[str, str]]], None, None]:
-    for response in chat(model, message, history):
+    for response in chat(message, history):
         yield "", history + [(message, response)]
 
 
@@ -43,11 +38,10 @@ def clear_chat() -> list[tuple[str, str]]:
     return []
 
 
-def repeat_chat(
-    model: str, history: list[tuple[str, str]]
+def repeat_chat(history: list[tuple[str, str]]
 ) -> Generator[list[tuple[str, str]], None, None]:
     message = history[-1][0]
-    for response in chat(model, message, history[:-1]):
+    for response in chat(message, history[:-1]):
         yield history + [(message, response)]
 
 
@@ -58,15 +52,9 @@ def undo_chat(history: list[tuple[str, str]]) -> list[tuple[str, str]]:
 
 if __name__ == "__main__":
     with gr.Blocks() as app:
-        modelsDropdown = gr.Dropdown(
-            models, value=models[0], label="Model", container=False
-        )
         chatbot = gr.Chatbot(bubble_full_width=False)
         with gr.Row():
             textInput = gr.Textbox(show_label=False, container=False, scale=5)
-            uploadButton = gr.UploadButton(
-                "Upload", file_count="single", file_types=["text"]
-            )
         with gr.Row():
             repeatButton = gr.Button("Repeat")
             undoButton = gr.Button("Undo")
@@ -74,12 +62,11 @@ if __name__ == "__main__":
 
         textInput.submit(
             process_chat,
-            inputs=[modelsDropdown, textInput, chatbot],
+            inputs=[textInput, chatbot],
             outputs=[textInput, chatbot],
         )
-        uploadButton.upload(process_file, inputs=[uploadButton], outputs=[textInput])
         repeatButton.click(
-            repeat_chat, inputs=[modelsDropdown, chatbot], outputs=[chatbot]
+            repeat_chat, inputs=[chatbot], outputs=[chatbot]
         )
         undoButton.click(undo_chat, inputs=[chatbot], outputs=[chatbot])
         clearButton.click(clear_chat, outputs=chatbot)
