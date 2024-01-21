@@ -74,7 +74,8 @@ def create_qa_instance():
         model_file=list_of_models[0]['model_file'],
         model_type="llama",
         gpu_layers=25,
-        config=config    )
+        config=config
+    )
     llm, config = accelerator.prepare(llm, config)
     qa = RetrievalQA.from_chain_type(
         llm=llm,

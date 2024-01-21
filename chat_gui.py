@@ -16,12 +16,14 @@ def chat(message: str, history: list[tuple[str, str]]
     yield response
 
 
-def process_chat(message: str, history: list[tuple[str, str]]
-) -> Generator[tuple[str, list[tuple[str, str]]], None, None]:
+def process_chat(message: str, history: list[tuple[str, str]]) -> Generator[tuple[str, list[tuple[str, str]]], None, None]:
+    # First, add the user's message to the history and yield it immediately
+    updated_history = history + [(message, "")]
+    yield "", updated_history
+
+    # Then, process the chat as before and yield the response
     for response in chat(message, history):
-        yield "", history + [(message, response)]
-
-
+        yield "", updated_history[:-1] + [(message, response)]
 def process_file(filePath: str) -> str:
     with open(filePath, "r", encoding="utf-8") as file:
         text = " ".join(
