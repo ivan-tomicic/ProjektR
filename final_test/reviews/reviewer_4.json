@@ -209,9 +209,9 @@
                 "answer": "A universal Makefile is one that can be used to compile programs of any complexity without explicitly specifying individual components and their dependencies. To achieve this, you need to understand advanced functionalities of the program make and use them in your Makefile. This will allow you to define rules for different source files and their dependencies, making it possible to compile a program with multiple modules and headers.",
                 "time": 43.6,
                 "human_eval": {
-                    "expression_and_logic": "_",
-                    "accuracy_and_relevance": "_",
-                    "overall_quality_and_engagement": "_"
+                    "expression_and_logic": "5",
+                    "accuracy_and_relevance": "4",
+                    "overall_quality_and_engagement": "5"
                 }
             },
             {
