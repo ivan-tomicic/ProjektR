@@ -45,12 +45,9 @@ eval_dict = {
         "overall_quality_and_engagement": "_",
     },
 }
-i = 0
+
 for config_name, config in configurations.items():
-    i += 1
-    print(f"Processing configuration: {config_name}")
-    if i < 19:
-        continue
+    print(config_name)
 
     retriever = process_configuration(config, documents)
     
@@ -64,7 +61,7 @@ for config_name, config in configurations.items():
     results = {}
     answers = []
     cnt_ = 1
-    answer_file = open(f"final_test/answers/{config_name}.json", "w+", encoding='utf-8')
+    #answer_file = open(f"final_test/answers/{config_name}.json", "w+", encoding='utf-8')
     results['config'] = convert_functions_to_names(config)
     for question_dict in questions:
         print(f"Question {cnt_} out of {len(questions)}")
@@ -94,4 +91,4 @@ for config_name, config in configurations.items():
         print("Number of input tokens: " + str(llm.get_num_tokens(answer_dict['combined_documents'])))
 
     results['answers'] = answers
-    answer_file.write(json.dumps(results, indent=4))
+    #answer_file.write(json.dumps(results, indent=4))

@@ -1,0 +1,90 @@
+Na temelju analize podataka, možemo izvući sljedeće zaključke o najboljim konfiguracijama:
+
+### Najbolje konfiguracije za vrijeme izvršavanja (file.time):
+1. **config_6:** 29.96
+2. **config_15:** 30.72
+3. **config_24:** 30.72
+4. **config_12:** 39.13
+5. **config_3:** 39.73
+
+### Najbolje konfiguracije za BLEU ocjenu (file.evaluation.bleu_score):
+1. **config_16:** 0.18
+2. **config_17:** 0.17
+3. **config_10:** 0.15
+4. **config_7:** 0.15
+5. **config_8:** 0.15
+
+### Najbolje konfiguracije za F1 mjeru (f1):
+1. **config_14:** 0.28
+2. **config_16:** 0.27
+3. **config_8:** 0.27
+4. **config_parent1:** 0.27
+5. **config_17:** 0.27
+
+### Najbolje konfiguracije za izraz i logiku (expression_and_logic):
+1. **config_1:** 4.77
+2. **config_13:** 4.70
+3. **config_18:** 4.70
+4. **config_7:** 4.70
+5. **config_9:** 4.70
+
+### Najbolje konfiguracije za točnost i relevantnost (accuracy_and_relevance):
+1. **config_13:** 4.23
+2. **config_10:** 4.20
+3. **config_11:** 4.17
+4. **config_14:** 4.13
+5. **config_1:** 4.10
+
+### Najbolje konfiguracije za opću kvalitetu i angažman (overall_quality_and_engagement):
+1. **config_1:** 4.13
+2. **config_10:** 4.10
+3. **config_14:** 4.07
+4. **config_13:** 4.03
+5. **config_5:** 3.93
+
+Ove konfiguracije pokazuju najbolje performanse u različitim kategorijama, što ih čini izvrsnim kandidatima za daljnje testiranje i implementaciju.
+
+
+Na temelju analize medijana podataka, donosimo sljedeće zaključke o najboljim konfiguracijama:
+
+### Najbolje konfiguracije za vrijeme izvršavanja (file.time):
+1. **config_6:** 28.33
+2. **config_15:** 29.22
+3. **config_24:** 29.96
+4. **config_12:** 37.59
+5. **config_3:** 39.13
+
+### Najbolje konfiguracije za BLEU ocjenu (file.evaluation.bleu_score):
+1. **config_20:** 0.10
+2. **config_16:** 0.08
+3. **config_14:** 0.07
+4. **config_23:** 0.07
+5. **config_2:** 0.06
+
+### Najbolje konfiguracije za F1 mjeru (f1):
+1. **config_20:** 0.25
+2. **config_parent1:** 0.25
+3. **config_14:** 0.25
+4. **config_11:** 0.24
+5. **config_23:** 0.23
+
+### Najbolje konfiguracije za izraz i logiku (expression_and_logic):
+1. **config_1:** 5.00
+2. **config_10:** 5.00
+3. **config_11:** 5.00
+4. **config_12:** 5.00
+5. **config_13:** 5.00
+
+### Najbolje konfiguracije za točnost i relevantnost (accuracy_and_relevance):
+1. **config_1:** 5.00
+2. **config_10:** 5.00
+3. **config_11:** 5.00
+4. **config_13:** 5.00
+5. **config_14:** 5.00
+
+### Najbolje konfiguracije za opću kvalitetu i angažman (overall_quality_and_engagement):
+1. **config_1:** 5.00
+2. **config_10:** 5.00
+3. **config_3:** 4.50
+4. **config_parent1:** 4.50
+5. **config_11:** 4.00

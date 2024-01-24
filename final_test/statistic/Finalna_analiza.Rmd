@@ -1,0 +1,185 @@
+---
+title: "Analiza finalnih odgovora"
+author: "Merlin Andrija, Lisica Ivan"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(jsonlite)
+library(base)
+```
+
+Radimo analizu finalnih odgovora na 30 pitanja. Iz 29 konfiguracija, svaki od 30 odgovora sadrzi sljedece podatke koji su bitni za analizu:
+- time
+- blue score
+- rouge score: precision, recall, f1
+- human evaluation: expression and logic, accuracy and relevance, overall quality and engagement
+
+Učitamo podatke
+
+```{r}
+#ucitvamo sve podatke u listu podatkovnih okvira
+file_list <- list.files(path = ".", pattern = "*.json", full.names = TRUE)
+config_list <- list()
+#file_list
+for (i in 1:length(file_list)) {
+  file <- fromJSON(file_list[i])$answers
+  file <- data.frame(file$question_number, file$time, file$evaluation$bleu_score, file$evaluation$rouge_score, file$evaluation$diversity, file$evaluation$human_eval)
+  config_list[[i]] <- file
+}
+```
+
+Ispisujemo srednju vrijednost svih kategorija:
+```{r}
+
+#ispisujemo srednju vrijednost svih kategorija
+ocekivanje <- lapply(config_list, function(x) {
+  sapply(x[,-1], function(y) {
+    mean(as.numeric(y))
+  })
+})
+ocekivanje <- as.data.frame(ocekivanje)
+colnames(ocekivanje) <- c("config_1","config_10","config_11","config_12","config_13",
+                          "config_14","config_15","config_16","config_17","config_18","config_19",
+                          "config_2","config_20","config_21","config_22","config_23","config_24",
+                          "config_25","config_26","config_27","config_3",
+                          "config_4","config_5","config_6","config_7","config_8","config_9", "config_parent1",
+                          "config_parent2")
+
+ocekivanje
+```
+# Najmanje vrijeme:
+Nalazimo top 5 kandidata u bitnim kategorijama:
+```{r}
+time_row <- ocekivanje['file.time', , drop = FALSE]
+time_df <- as.data.frame(t(time_row))
+colnames(time_df) <- "file.time"
+ordered_df <- time_df[order(time_df$file.time), , drop = FALSE]
+top_five_configs <- head(ordered_df, 5)
+print(top_five_configs)
+
+get_top_configurations <- function(metric) {
+  metric_row <- ocekivanje[metric, , drop = FALSE]
+  metric_df <- as.data.frame(t(metric_row))
+  colnames(metric_df) <- metric
+  ordered_df <- metric_df[order(-metric_df[[metric]]), , drop = FALSE]
+  top_five_configs <- head(ordered_df, 5)
+  print(top_five_configs)
+}
+
+get_top_configurations("file.evaluation.bleu_score")
+get_top_configurations("f1")
+get_top_configurations("expression_and_logic")
+get_top_configurations("accuracy_and_relevance")
+get_top_configurations("overall_quality_and_engagement")
+```
+
+
+Ispisujemo medijane svih kategorija:
+```{r}
+#trazenje medijana
+medijan <- lapply(config_list, function(x) {
+  sapply(x[,-1], function(y) median(as.numeric(y)))
+})
+
+medijan <- as.data.frame(medijan)
+colnames(medijan) <- c("config_1","config_10","config_11","config_12","config_13",
+                          "config_14","config_15","config_16","config_17","config_18","config_19",
+                          "config_2","config_20","config_21","config_22","config_23","config_24",
+                          "config_25","config_26","config_27","config_3",
+                          "config_4","config_5","config_6","config_7","config_8","config_9", "config_parent1",
+                          "config_parent2")
+medijan
+
+get_top_configurations <- function(metric) {
+  metric_row <- medijan[metric, , drop = FALSE]
+  metric_df <- as.data.frame(t(metric_row))
+  colnames(metric_df) <- metric
+  ordered_df <- metric_df[order(-metric_df[[metric]]), , drop = FALSE]
+  top_five_configs <- head(ordered_df, 5)
+  print(top_five_configs)
+}
+get_top_configurations("file.evaluation.bleu_score")
+get_top_configurations("f1")
+get_top_configurations("expression_and_logic")
+get_top_configurations("accuracy_and_relevance")
+get_top_configurations("overall_quality_and_engagement")
+
+```
+Ispisujemo devijaciju svih kategorija:
+```{r}
+
+devijacija <- lapply(config_list, function(x) {
+  sapply(x[,-1], function(y) sd(as.numeric(y)))
+})
+devijacija <- as.data.frame(devijacija)
+colnames(devijacija) <- c("config_1","config_10","config_11","config_12","config_13",
+                          "config_14","config_15","config_16","config_17","config_18","config_19",
+                          "config_2","config_20","config_21","config_22","config_23","config_24",
+                          "config_25","config_26","config_27","config_3",
+                          "config_4","config_5","config_6","config_7","config_8","config_9", "config_parent1",
+                          "config_parent2")
+devijacija
+
+mean_deviation <- apply(devijacija[, -1], 2, mean)
+
+mean_deviation_df <- data.frame(Config = colnames(devijacija)[-1], Mean_Deviation = mean_deviation)
+
+best_config <- mean_deviation_df[which.min(mean_deviation_df$Mean_Deviation), ]
+
+print("Best Configuration:")
+print(best_config)
+```
+Ispisujemo razdiobu svih ocjena ljudske evaluacije:
+
+```{r}
+human_eval <- lapply(config_list, function(x) {
+  df <- data.frame(x$expression_and_logic, x$accuracy_and_relevance,
+                   x$overall_quality_and_engagement)
+  colnames(df) <- c("expression_and_logic", "accuracy_and_relevance", 
+                    "overall_quality_and_engagement")
+  row.names(df) <- 1:30
+  df
+})
+raspodjela <- lapply(human_eval, function(x) {
+  sapply(x, function(raspodjela_ocjena) table(raspodjela_ocjena))
+})
+names(raspodjela) <- c("config_1","config_10","config_11","config_12","config_13",
+                          "config_14","config_15","config_16","config_17","config_18","config_19",
+                          "config_2","config_20","config_21","config_22","config_23","config_24",
+                          "config_25","config_26","config_27","config_3",
+                          "config_4","config_5","config_6","config_7","config_8","config_9", "config_parent1",
+                          "config_parent2")
+raspodjela
+
+```
+
+
+Ispisujemo koleraciju izmedu svake ocjenjene ljudske evaluacije i ukupne ocjene te koleraciju izmed vremena i ukupne ocjene:
+
+```{r}
+koleracije <- lapply(config_list, function(x) {
+  c(cor(as.numeric(x$expression_and_logic), as.numeric(x$overall_quality_and_engagement), method = "spearman"),
+    cor(as.numeric(x$accuracy_and_relevance), as.numeric(x$overall_quality_and_engagement), method ="spearman"),
+    cor(as.numeric(x$file.time), as.numeric(x$overall_quality_and_engagement), method = "spearman"))
+})
+koleracije <- as.data.frame(koleracije)
+colnames(koleracije) <- c("config_1","config_10","config_11","config_12","config_13",
+                          "config_14","config_15","config_16","config_17","config_18","config_19",
+                          "config_2","config_20","config_21","config_22","config_23","config_24",
+                          "config_25","config_26","config_27","config_3",
+                          "config_4","config_5","config_6","config_7","config_8","config_9", "config_parent1",
+                          "config_parent2")
+rownames(koleracije) <- c("expression_and_logic", "accuracy_and_relevance", "time")
+koleracije
+
+correlation_sums <- colSums(abs(koleracije), na.rm = TRUE)
+
+top_configs <- names(sort(correlation_sums, decreasing = TRUE)[1:5])
+
+print(top_configs)
+
+```
+                   
