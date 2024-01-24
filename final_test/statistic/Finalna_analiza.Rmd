@@ -2,7 +2,10 @@
 title: "Analiza finalnih odgovora"
 author: "Merlin Andrija, Lisica Ivan"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  pdf_document: default
+  html_document:
+    fig_width: 20
 ---
 
 ```{r setup, include=FALSE}
@@ -21,7 +24,7 @@ Učitamo podatke
 
 ```{r}
 #ucitvamo sve podatke u listu podatkovnih okvira
-file_list <- list.files(path = ".", pattern = "*.json", full.names = TRUE)
+file_list <- list.files(path = "../answers", pattern = "*.json", full.names = TRUE)
 config_list <- list()
 #file_list
 for (i in 1:length(file_list)) {
@@ -49,6 +52,47 @@ colnames(ocekivanje) <- c("config_1","config_10","config_11","config_12","config
                           "config_parent2")
 
 ocekivanje
+```
+
+```{r}
+library(ggplot2)
+
+time_data <- data.frame(config = colnames(ocekivanje), value = as.numeric(ocekivanje["file.time", ]))
+
+# Create a bar plot for time
+ggplot(time_data, aes(x = config, y = value, fill = config)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Time for Each Configuration",
+       x = "Configuration", y = "File Time") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ocekivanje_last_three <- tail(ocekivanje, 3)
+
+
+transposed_ocekivanje <- t(ocekivanje_last_three)
+plot_data <- as.data.frame(transposed_ocekivanje)
+plot_data$config <- rownames(plot_data)
+
+melted_data <- reshape2::melt(plot_data, id.vars = "config")
+
+# Create a bar plot
+ggplot(melted_data, aes(x = config, y = value, fill = variable)) +
+  geom_bar(stat = "identity",position = "dodge") +
+  labs(title = "Metric Values for Each Configuration",
+       x = "Configuration", y = "Metric Value") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Create a bar plot
+ggplot(melted_data, aes(x = config, y = value, fill = variable)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Metric Values for Each Configuration",
+       x = "Configuration", y = "Metric Value") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
 ```
 # Najmanje vrijeme:
 Nalazimo top 5 kandidata u bitnim kategorijama:
