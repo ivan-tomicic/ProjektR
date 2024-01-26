@@ -43,6 +43,7 @@ db = FAISS.load_local("faiss", embeddings)
 
 # prepare a version of the llm pre-loaded with the local content
 retriever = db.as_retriever(search_kwargs={'k': 2})
+accelerator = Accelerator()
 
 
 def get_human_eval_metric(reviewer_from, reviewer_to):
@@ -97,61 +98,62 @@ eval_dict = {
     "diversity": -100_000,
 }
 
-accelerator = Accelerator()
 
-with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
-    questions = json.load(f)
 
-"""for i, model in enumerate(list_of_models):
-    print("Starting model: ", model["model_file"])
-    # create a file where we will store models answers
-    #answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
-    config = {'max_new_tokens': 256, 'repetition_penalty': 1.1, 'context_length': 4000, 'temperature': 0.01,
-              'gpu_layers': 25}
-    llm = CTransformers(
-        model=model['model'],
-        model_file=model['model_file'],
-        model_type="llama",
-        gpu_layers=25,
-        config=config
-    )
-    llm, config = accelerator.prepare(llm, config)
-    qa = RetrievalQA.from_chain_type(
-        llm=llm,
-        chain_type="stuff",
-        retriever=retriever,
-        chain_type_kwargs={'prompt': prompt},
-        return_source_documents=True
-    )
+def generate_answers():
 
-    answers = []
-    cnt_ = 1
-    for question_dict in questions:
-        print(f"Question {cnt_} out of {len(questions)}")
-        cnt_ += 1
-        question_number = list(question_dict.keys())[0]
-        question = question_dict[question_number]
-        time_start = time.time()
-        output = qa(question)
-        time_end = time.time()
-        print("Took ", round(time_end - time_start, 2), " seconds")
-        print("Answer: ", output['result'])
-        print("Number of output tokens: " + str(llm.get_num_tokens(output['result'])))
-        eval_dict["human_eval"] = get_human_eval_metric((i*3) + 1, (i+1)*3)
-        answer_dict = {
-            "question_number": question_number,
-            "question": question,
-            "query": output['query'],
-            "answer": output['result'],
-            "source_documents": [{
-                "page_content": doc.page_content,
-                "source_file": doc.metadata['source']
-            } for doc in output['source_documents']
-            ],
-            "combined_documents": qa.combine_documents_chain._get_inputs(output['source_documents'])['context'],
-            "time": round(time_end - time_start, 2),
-            "evaluation": eval_dict,
-        }
-        answers.append(answer_dict)
-        print("Number of input tokens: " + str(llm.get_num_tokens(answer_dict['combined_documents'])))
-    #answer_file.write(json.dumps(answers, indent=4))"""
+
+    with open("test_results_new/questions.json", "r", encoding='utf-8') as f:
+        questions = json.load(f)
+    for i, model in enumerate(list_of_models):
+        print("Starting model: ", model["model_file"])
+        answer_file = open(f"test_results_new/answers/{model['model_file']}.json", "w+", encoding='utf-8')
+        config = {'max_new_tokens': 256, 'repetition_penalty': 1.1, 'context_length': 4000, 'temperature': 0.01,
+                  'gpu_layers': 25}
+        llm = CTransformers(
+            model=model['model'],
+            model_file=model['model_file'],
+            model_type="llama",
+            gpu_layers=25,
+            config=config
+        )
+        llm, config = accelerator.prepare(llm, config)
+        qa = RetrievalQA.from_chain_type(
+            llm=llm,
+            chain_type="stuff",
+            retriever=retriever,
+            chain_type_kwargs={'prompt': prompt},
+            return_source_documents=True
+        )
+
+        answers = []
+        cnt_ = 1
+        for question_dict in questions:
+            print(f"Question {cnt_} out of {len(questions)}")
+            cnt_ += 1
+            question_number = list(question_dict.keys())[0]
+            question = question_dict[question_number]
+            time_start = time.time()
+            output = qa(question)
+            time_end = time.time()
+            print("Took ", round(time_end - time_start, 2), " seconds")
+            print("Answer: ", output['result'])
+            print("Number of output tokens: " + str(llm.get_num_tokens(output['result'])))
+            eval_dict["human_eval"] = get_human_eval_metric((i * 3) + 1, (i + 1) * 3)
+            answer_dict = {
+                "question_number": question_number,
+                "question": question,
+                "query": output['query'],
+                "answer": output['result'],
+                "source_documents": [{
+                    "page_content": doc.page_content,
+                    "source_file": doc.metadata['source']
+                } for doc in output['source_documents']
+                ],
+                "combined_documents": qa.combine_documents_chain._get_inputs(output['source_documents'])['context'],
+                "time": round(time_end - time_start, 2),
+                "evaluation": eval_dict,
+            }
+            answers.append(answer_dict)
+            print("Number of input tokens: " + str(llm.get_num_tokens(answer_dict['combined_documents'])))
+        answer_file.write(json.dumps(answers, indent=4))
