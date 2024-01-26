@@ -21,7 +21,8 @@ list_of_models = [
     {
         "model": "TheBloke/Mistral-7B-OpenOrca-GGUF",
         "model_file": "mistral-7b-openorca.Q4_0.gguf"
-    }
+    },
+    # and 4 more
 ]
 
 
